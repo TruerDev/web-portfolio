@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Tektur';
+    src: url('Tektur-VariableFont.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* { /* сброс отступов по умолчанию */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* учитываем отступы и границы при расчете их размеров */
+}
+
+body {
+    font-family: 'Tektur', sans-serif; /* шрифт текста по умолчанию для всего документа */
+    color: #ffffff; /* цвет текста по умолчанию для всего документа */
+    min-height: 740px;
+}
+
+/*------------------------------------*/
+
+.header {
+    min-width: 360px;
+    width: 100%;
+    min-height: 740px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    padding: 10px 0;
+}
+
+.container {
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Стили для верхней части header */
+.header-top {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Стили для списка элементов */
+.header-labels-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-labels-item {
+    flex-grow: 1; /* Каждый элемент растягивается на доступную ширину */
+    text-align: center; /* Центрируем текст внутри каждого элемента */
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact-btn {
+    font-family: 'Tektur', sans-serif;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    background-color: #007bff00;
+    color: #fff;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+/* Стили для заголовка и имени */
+.header-title {
+    position: absolute;
+    top: 40%; /* Отступ сверху на 50% высоты родительского блока */
+    left: 10%;
+    text-align:left;
+}
+
+.header-title h1 {
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-size: 200% auto;
+    color: #ffffff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 10s linear infinite;
+    font-size: 92px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.header-person {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*------------------------------------*/
+
+.main {
+    min-width: 360px;
+    width: 100%;
+    min-height: 740px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+/*------------------------------------*/
+
+.footer {
+    min-width: 360px;
+    width: 100%;
+    min-height: 740px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    padding: 10px 0;
+}
