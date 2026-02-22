@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "experience": "Erfahrung",
+    "projects": "Projekte",
+    "skills": "Fähigkeiten",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "greeting": "Hallo, ich bin",
+    "name": "Klim Sarakeev",
+    "title": "F&E-Ingenieur",
+    "subtitle": "Ich entwickle Browser-Automatisierungssysteme, Anti-Betrugs-Tools und KI-gestützte Anwendungen bei CTS Anti-Fraud.",
+    "cta_cv": "Lebenslauf herunterladen",
+    "cta_contact": "Kontakt aufnehmen"
+  },
+  "about": {
+    "label": "Über mich",
+    "p1": "Ich bin ein 21-jähriger F&E-Ingenieur bei CTS Anti-Fraud, wohnhaft in Moskau mit Umzug nach Tiflis. Ich spezialisiere mich auf Browser-Automatisierungssysteme, Chrome-Erweiterungen und Full-Stack-Anwendungen.",
+    "p2": "Mein Weg in die Technik begann an einem unerwarteten Ort — im Digital Marketing Operations. Die Verwaltung von über 100 Google Ads-Konten in mehr als 20 Ländern lehrte mich, in großem Maßstab zu denken und alles zu automatisieren. Diese Erfahrung führte mich natürlich dazu, die Tools selbst zu entwickeln.",
+    "p3": "Heute arbeite ich mit Node.js, React, TypeScript und PostgreSQL im Frontend und Backend und integriere KI-Modelle wie Claude und Mistral in Produktions-Workflows. Ich löse leidenschaftlich gern komplexe Probleme mit sauberem, wartbarem Code."
+  },
+  "experience": {
+    "label": "Erfahrung",
+    "roles": [
+      {
+        "title": "F&E-Ingenieur",
+        "company": "CTS Anti-Fraud",
+        "period": "2024 — Heute",
+        "description": "Entwicklung von Browser-Automatisierungssystemen, Chrome-Erweiterungen für Anti-Betrugs-Analysen und Full-Stack-Monitoring-Dashboards. Arbeit mit Node.js, React, PostgreSQL und KI-Integrationen.",
+        "highlights": ["Browser-Automatisierungsarchitektur", "Chrome-Erweiterungsentwicklung", "KI-gestützte Analyse-Pipelines", "Full-Stack-Dashboard-Systeme"]
+      },
+      {
+        "title": "Digital Marketing Operations",
+        "company": "Performance Marketing Agentur",
+        "period": "2022 — 2024",
+        "description": "Verwaltung von über 100 Google Ads-Konten in mehr als 20 Ländern. Erstellung interner Automatisierungstools, die zum Übergang in eine Ingenieurrolle führten.",
+        "highlights": ["100+ Google Ads-Konten verwaltet", "20+ Länder-Operationen", "Interne Automatisierungstools erstellt", "Prozessoptimierung im großen Maßstab"]
+      }
+    ]
+  },
+  "projects": {
+    "label": "Projekte",
+    "view_code": "Quellcode",
+    "view_live": "Live",
+    "items": [
+      {
+        "title": "GAM-Pro",
+        "description": "Google Account Management Platform. Produktionsreifes Fullstack-Monorepo mit Cloud-Deployment, Windows-VPS-Agenten, WebSocket-Gateway und AdsPower-Integration.",
+        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "JWT", "AES-256", "Railway"],
+        "featured": true
+      },
+      {
+        "title": "CTS Anti-Fraud Analytics",
+        "description": "Chrome-Erweiterung + Fastify-Backend + React-Dashboard zur Vorhersage von Google Ads-Kontosperrungen. Enthält einen zukünftigen ML-Service.",
+        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "ML"],
+        "featured": true
+      },
+      {
+        "title": "Financial Telegram Bot",
+        "description": "Persönlicher Finanzmanager für Paare. Ausgaben-/Einnahmen-/Schuldenverfolgung mit Kategorienlimits, GPT-4o-mini-Integration und CSV-Export.",
+        "tags": ["Python", "Telegram API", "GPT-4o-mini", "Railway"],
+        "featured": true
+      },
+      {
+        "title": "AdsPower Bot v2.1",
+        "description": "Modularer Automatisierungsbot für YouTube-Farming, Google-Suche-Farming und Google-Kontoerstellung über die AdsPower-API. 13 Auto-Tests mit Retry-Mechanismus.",
+        "tags": ["Node.js", "AdsPower API", "Automation", "Testing"],
+        "featured": true
+      },
+      {
+        "title": "T-Report",
+        "description": "Investment-Analysetool mit Markt-Screener, Strategie-Backtesting, ML-Signalen und Benchmark-Vergleich. 126 Commits über mehrere Branches.",
+        "tags": ["Python", "ML", "Data Analytics", "Web Dashboard"],
+        "featured": true
+      },
+      {
+        "title": "Spotify Clone",
+        "description": "Vollständiger Spotify-Klon mit Flutter/Dart. Öffentliches Lernprojekt zur Demonstration mobiler Entwicklungsfähigkeiten.",
+        "tags": ["Flutter", "Dart", "Mobile", "UI/UX"],
+        "featured": false
+      }
+    ]
+  },
+  "skills": {
+    "label": "Fähigkeiten",
+    "categories": {
+      "languages": "Sprachen",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools & Plattformen",
+      "ai": "KI & ML"
+    }
+  },
+  "contact": {
+    "label": "Kontakt aufnehmen",
+    "description": "Haben Sie ein Projekt im Sinn oder möchten Sie sich einfach vernetzen? Schreiben Sie mir gerne.",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "send": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Nachricht gesendet! Ich melde mich bald bei Ihnen.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+    }
+  },
+  "footer": {
+    "designed": "Entworfen & entwickelt von Klim Sarakeev",
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

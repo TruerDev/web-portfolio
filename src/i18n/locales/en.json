@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Klim Sarakeev",
+    "title": "R&D Engineer",
+    "subtitle": "Building browser automation systems, anti-fraud tools, and AI-powered applications at CTS Anti-Fraud.",
+    "cta_cv": "Download CV",
+    "cta_contact": "Get in Touch"
+  },
+  "about": {
+    "label": "About Me",
+    "p1": "I'm a 21-year-old R&D Engineer at CTS Anti-Fraud, based in Moscow and relocating to Tbilisi. I specialize in building browser automation systems, Chrome extensions, and full-stack applications.",
+    "p2": "My journey into engineering started from an unexpected place — Digital Marketing Operations. Managing 100+ Google Ads accounts across 20+ countries taught me to think at scale and automate everything. That experience naturally evolved into building the tools themselves.",
+    "p3": "Today I work with Node.js, React, TypeScript, and PostgreSQL on the frontend and backend, while integrating AI models like Claude and Mistral into production workflows. I'm passionate about solving complex problems with clean, maintainable code."
+  },
+  "experience": {
+    "label": "Experience",
+    "roles": [
+      {
+        "title": "R&D Engineer",
+        "company": "CTS Anti-Fraud",
+        "period": "2024 — Present",
+        "description": "Building browser automation systems, Chrome extensions for anti-fraud analytics, and full-stack monitoring dashboards. Working with Node.js, React, PostgreSQL, and AI integrations (Claude API, Mistral).",
+        "highlights": ["Browser automation architecture", "Chrome extension development", "AI-powered analytics pipelines", "Full-stack dashboard systems"]
+      },
+      {
+        "title": "Digital Marketing Operations",
+        "company": "Performance Marketing Agency",
+        "period": "2022 — 2024",
+        "description": "Managed 100+ Google Ads accounts across 20+ countries. Built internal automation tools that led to transitioning into a full engineering role.",
+        "highlights": ["100+ Google Ads accounts managed", "20+ country operations", "Built internal automation tools", "Process optimization at scale"]
+      }
+    ]
+  },
+  "projects": {
+    "label": "Projects",
+    "view_code": "Source",
+    "view_live": "Live",
+    "items": [
+      {
+        "title": "GAM-Pro",
+        "description": "Google Account Management Platform. Production-grade fullstack monorepo with cloud deployment, Windows VPS agents, WebSocket gateway, and AdsPower integration.",
+        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "JWT", "AES-256", "Railway"],
+        "featured": true
+      },
+      {
+        "title": "CTS Anti-Fraud Analytics",
+        "description": "Chrome Extension + Fastify backend + React dashboard for predicting Google Ads account bans. Includes a future ML service. Actively in development.",
+        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "ML"],
+        "featured": true
+      },
+      {
+        "title": "Financial Telegram Bot",
+        "description": "Personal finance manager for couples. Expense/income/debt tracking with category limits, GPT-4o-mini integration, and CSV export.",
+        "tags": ["Python", "Telegram API", "GPT-4o-mini", "Railway"],
+        "featured": true
+      },
+      {
+        "title": "AdsPower Bot v2.1",
+        "description": "Modular automation bot for YouTube farming, Google Search farming, and Google account creation via AdsPower API. 13 auto-tests with retry mechanism.",
+        "tags": ["Node.js", "AdsPower API", "Automation", "Testing"],
+        "featured": true
+      },
+      {
+        "title": "T-Report",
+        "description": "Investment analytics tool with market screener, strategy backtesting, ML signals, and benchmark comparison. 126 commits across multiple branches.",
+        "tags": ["Python", "ML", "Data Analytics", "Web Dashboard"],
+        "featured": true
+      },
+      {
+        "title": "Spotify Clone",
+        "description": "Full Spotify clone built with Flutter/Dart. Public learning project demonstrating mobile development skills.",
+        "tags": ["Flutter", "Dart", "Mobile", "UI/UX"],
+        "featured": false
+      }
+    ]
+  },
+  "skills": {
+    "label": "Skills",
+    "categories": {
+      "languages": "Languages",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools & Platforms",
+      "ai": "AI & ML"
+    }
+  },
+  "contact": {
+    "label": "Get in Touch",
+    "description": "Have a project in mind or just want to connect? Feel free to reach out.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent! I'll get back to you soon.",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "footer": {
+    "designed": "Designed & built by Klim Sarakeev",
+    "rights": "All rights reserved."
+  }
+}
