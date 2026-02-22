@@ -10,14 +10,14 @@
     "greeting": "Hi, I'm",
     "name": "Klim Sarakeev",
     "title": "R&D Engineer",
-    "subtitle": "Building browser automation systems, anti-fraud tools, and AI-powered applications at CTS Anti-Fraud.",
+    "subtitle": "Building browser automation systems, anti-fraud tools, and AI-powered applications at MST.",
     "cta_cv": "Download CV",
     "cta_contact": "Get in Touch"
   },
   "about": {
     "label": "About Me",
-    "p1": "I'm a 21-year-old R&D Engineer at CTS Anti-Fraud, based in Moscow and relocating to Tbilisi. I specialize in building browser automation systems, Chrome extensions, and full-stack applications.",
-    "p2": "My journey into engineering started from an unexpected place — Digital Marketing Operations. Managing 100+ Google Ads accounts across 20+ countries taught me to think at scale and automate everything. That experience naturally evolved into building the tools themselves.",
+    "p1": "I'm a 21-year-old R&D Engineer at MST, based in Moscow and relocating to Tbilisi. I specialize in building browser automation systems, Chrome extensions, and full-stack applications.",
+    "p2": "My path to engineering has been anything but linear. Starting with a game development internship at Sinaptik, then diving into Digital Marketing Operations — managing 100+ Google Ads accounts across 20+ countries — taught me to think at scale and automate everything. That experience naturally evolved into building the tools themselves.",
     "p3": "Today I work with Node.js, React, TypeScript, and PostgreSQL on the frontend and backend, while integrating AI models like Claude and Mistral into production workflows. I'm passionate about solving complex problems with clean, maintainable code."
   },
   "experience": {
@@ -25,17 +25,24 @@
     "roles": [
       {
         "title": "R&D Engineer",
-        "company": "CTS Anti-Fraud",
-        "period": "2024 — Present",
-        "description": "Building browser automation systems, Chrome extensions for anti-fraud analytics, and full-stack monitoring dashboards. Working with Node.js, React, PostgreSQL, and AI integrations (Claude API, Mistral).",
+        "company": "MST",
+        "period": "Nov 2025 — Present",
+        "description": "Transferred from the marketing department to R&D. Building browser automation systems, Chrome extensions for CTS Anti-Fraud analytics, and full-stack monitoring dashboards. Working with Node.js, React, PostgreSQL, and AI integrations (Claude API, Mistral).",
         "highlights": ["Browser automation architecture", "Chrome extension development", "AI-powered analytics pipelines", "Full-stack dashboard systems"]
       },
       {
         "title": "Digital Marketing Operations",
-        "company": "Performance Marketing Agency",
-        "period": "2022 — 2024",
-        "description": "Managed 100+ Google Ads accounts across 20+ countries. Built internal automation tools that led to transitioning into a full engineering role.",
+        "company": "MST",
+        "period": "2025 — Nov 2025",
+        "description": "Managed 100+ Google Ads accounts across 20+ countries. Built internal automation tools that led to transitioning into the R&D engineering department.",
         "highlights": ["100+ Google Ads accounts managed", "20+ country operations", "Built internal automation tools", "Process optimization at scale"]
+      },
+      {
+        "title": "Game Developer Intern",
+        "company": "Sinaptik, Kirov",
+        "period": "2024 — 2025",
+        "description": "Production internship focused on game development using the Godot engine. Gained hands-on experience with game architecture, scripting, and interactive systems.",
+        "highlights": ["Godot engine", "Game architecture", "Production internship", "Interactive systems"]
       }
     ]
   },
@@ -108,5 +115,11 @@
   "footer": {
     "designed": "Designed & built by Klim Sarakeev",
     "rights": "All rights reserved."
+  },
+  "stats": {
+    "ads_accounts": "Google Ads Accounts Managed",
+    "countries": "Countries Operated In",
+    "systems": "Production Systems Built",
+    "commits": "Total Commits"
   }
 }

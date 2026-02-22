@@ -49,6 +49,7 @@ export const skillCategories: SkillCategory[] = [
       { name: 'Railway' },
       { name: 'Netlify' },
       { name: 'AdsPower' },
+      { name: 'Godot' },
       { name: 'Linux' },
     ],
   },

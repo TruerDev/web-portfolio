@@ -1,8 +1,9 @@
 import { useState, type FormEvent } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
-import { Github, Send, Mail } from 'lucide-react'
+import { Github, Send, Mail, Terminal } from 'lucide-react'
 import { SectionHeading } from '@/components/ui/SectionHeading'
+import { ScrollReveal } from '@/components/effects/ScrollReveal'
 
 type FormStatus = 'idle' | 'sending' | 'success' | 'error'
 
@@ -39,144 +40,173 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="px-6 py-24">
+    <section id="contact" className="relative px-6 py-32">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading>{t('contact.label')}</SectionHeading>
+        <SectionHeading number="05.">{t('contact.label')}</SectionHeading>
 
-        <div className="grid gap-12 md:grid-cols-[1fr_300px]">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
-            transition={{ duration: 0.5 }}
-          >
-            <p className="mb-8 text-zinc-400 light:text-zinc-600">
-              {t('contact.description')}
-            </p>
-
-            <form
-              name="contact"
-              method="POST"
-              data-netlify="true"
-              onSubmit={handleSubmit}
-              className="space-y-4"
-            >
-              <input type="hidden" name="form-name" value="contact" />
-
-              <div className="grid gap-4 sm:grid-cols-2">
-                <div>
-                  <label
-                    htmlFor="name"
-                    className="mb-1.5 block text-sm text-zinc-400 light:text-zinc-600"
-                  >
-                    {t('contact.form.name')}
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    required
-                    className="w-full rounded-lg border border-zinc-800 bg-zinc-900 px-4 py-2.5 text-sm text-zinc-100 outline-none transition-colors placeholder:text-zinc-600 focus:border-purple-500 light:border-zinc-300 light:bg-white light:text-zinc-900 light:focus:border-purple-500"
-                  />
+        <div className="grid gap-12 lg:grid-cols-[1fr_320px]">
+          {/* Terminal-style form */}
+          <ScrollReveal type="fade-up">
+            <div className="overflow-hidden rounded-xl border border-slate-800 bg-[#0d0b14]">
+              {/* Terminal header */}
+              <div className="flex items-center gap-3 border-b border-slate-800 bg-[#13111f] px-4 py-3">
+                <div className="flex gap-1.5">
+                  <div className="h-3 w-3 rounded-full bg-red-500/60" />
+                  <div className="h-3 w-3 rounded-full bg-yellow-500/60" />
+                  <div className="h-3 w-3 rounded-full bg-green-500/60" />
                 </div>
-                <div>
-                  <label
-                    htmlFor="email"
-                    className="mb-1.5 block text-sm text-zinc-400 light:text-zinc-600"
-                  >
-                    {t('contact.form.email')}
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    className="w-full rounded-lg border border-zinc-800 bg-zinc-900 px-4 py-2.5 text-sm text-zinc-100 outline-none transition-colors placeholder:text-zinc-600 focus:border-purple-500 light:border-zinc-300 light:bg-white light:text-zinc-900 light:focus:border-purple-500"
-                  />
+                <div className="flex items-center gap-2 text-slate-500">
+                  <Terminal size={12} />
+                  <span className="font-mono text-xs">contact@klim-sarakeev</span>
                 </div>
               </div>
 
-              <div>
-                <label
-                  htmlFor="message"
-                  className="mb-1.5 block text-sm text-zinc-400 light:text-zinc-600"
+              {/* Form body */}
+              <div className="p-6">
+                <p className="mb-6 text-slate-400">
+                  <span className="font-mono text-purple-400">$</span>{' '}
+                  {t('contact.description')}
+                </p>
+
+                <form
+                  name="contact"
+                  method="POST"
+                  data-netlify="true"
+                  onSubmit={handleSubmit}
+                  className="space-y-4"
                 >
-                  {t('contact.form.message')}
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows={5}
-                  required
-                  className="w-full resize-none rounded-lg border border-zinc-800 bg-zinc-900 px-4 py-2.5 text-sm text-zinc-100 outline-none transition-colors placeholder:text-zinc-600 focus:border-purple-500 light:border-zinc-300 light:bg-white light:text-zinc-900 light:focus:border-purple-500"
-                />
+                  <input type="hidden" name="form-name" value="contact" />
+
+                  <div className="grid gap-4 sm:grid-cols-2">
+                    <div>
+                      <label
+                        htmlFor="name"
+                        className="mb-1.5 block font-mono text-xs text-slate-500"
+                      >
+                        <span className="text-purple-400">const</span> {t('contact.form.name').toLowerCase()}
+                      </label>
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                        className="w-full rounded-lg border border-slate-800 bg-[#13111f] px-4 py-2.5 font-mono text-sm text-slate-100 outline-none transition-all duration-300 placeholder:text-slate-700 focus:border-purple-500/50 focus:shadow-[0_0_20px_rgba(139,92,246,0.1)]"
+                      />
+                    </div>
+                    <div>
+                      <label
+                        htmlFor="email"
+                        className="mb-1.5 block font-mono text-xs text-slate-500"
+                      >
+                        <span className="text-purple-400">const</span> {t('contact.form.email').toLowerCase()}
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        className="w-full rounded-lg border border-slate-800 bg-[#13111f] px-4 py-2.5 font-mono text-sm text-slate-100 outline-none transition-all duration-300 placeholder:text-slate-700 focus:border-purple-500/50 focus:shadow-[0_0_20px_rgba(139,92,246,0.1)]"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label
+                      htmlFor="message"
+                      className="mb-1.5 block font-mono text-xs text-slate-500"
+                    >
+                      <span className="text-purple-400">const</span> {t('contact.form.message').toLowerCase()}
+                    </label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows={5}
+                      required
+                      className="w-full resize-none rounded-lg border border-slate-800 bg-[#13111f] px-4 py-2.5 font-mono text-sm text-slate-100 outline-none transition-all duration-300 placeholder:text-slate-700 focus:border-purple-500/50 focus:shadow-[0_0_20px_rgba(139,92,246,0.1)]"
+                    />
+                  </div>
+
+                  <motion.button
+                    type="submit"
+                    disabled={status === 'sending'}
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                    className="group relative inline-flex items-center gap-2 overflow-hidden rounded-lg bg-purple-600 px-6 py-2.5 font-mono text-sm font-medium text-white transition-all duration-300 hover:bg-purple-500 hover:shadow-[0_0_30px_rgba(139,92,246,0.3)] disabled:opacity-50"
+                  >
+                    <Send size={14} />
+                    {status === 'sending'
+                      ? t('contact.form.sending')
+                      : t('contact.form.send')}
+                    {/* Pulse ring on hover */}
+                    <span className="absolute inset-0 rounded-lg border border-purple-400/0 transition-all duration-500 group-hover:border-purple-400/30 group-hover:scale-105" />
+                  </motion.button>
+
+                  {status === 'success' && (
+                    <motion.p
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      className="font-mono text-sm text-emerald-400"
+                    >
+                      {`> ${t('contact.form.success')}`}
+                    </motion.p>
+                  )}
+                  {status === 'error' && (
+                    <motion.p
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      className="font-mono text-sm text-red-400"
+                    >
+                      {`> ${t('contact.form.error')}`}
+                    </motion.p>
+                  )}
+                </form>
               </div>
-
-              <button
-                type="submit"
-                disabled={status === 'sending'}
-                className="inline-flex items-center gap-2 rounded-lg bg-purple-600 px-6 py-2.5 text-sm font-medium text-white transition-colors hover:bg-purple-700 disabled:opacity-50"
-              >
-                <Send size={14} />
-                {status === 'sending'
-                  ? t('contact.form.sending')
-                  : t('contact.form.send')}
-              </button>
-
-              {status === 'success' && (
-                <p className="text-sm text-green-400">{t('contact.form.success')}</p>
-              )}
-              {status === 'error' && (
-                <p className="text-sm text-red-400">{t('contact.form.error')}</p>
-              )}
-            </form>
-          </motion.div>
+            </div>
+          </ScrollReveal>
 
           {/* Social links sidebar */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
-            transition={{ duration: 0.5, delay: 0.15 }}
-            className="space-y-4"
-          >
-            <a
-              href="https://github.com/TruerDev"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 rounded-lg border border-zinc-800 p-4 transition-colors hover:border-purple-500/30 light:border-zinc-200 light:hover:border-purple-400/40"
-            >
-              <Github size={20} className="text-purple-400" />
-              <div>
-                <p className="text-sm font-medium text-zinc-200 light:text-zinc-800">GitHub</p>
-                <p className="text-xs text-zinc-500">@TruerDev</p>
-              </div>
-            </a>
-
-            <a
-              href="https://t.me/truer_xD"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 rounded-lg border border-zinc-800 p-4 transition-colors hover:border-purple-500/30 light:border-zinc-200 light:hover:border-purple-400/40"
-            >
-              <Send size={20} className="text-purple-400" />
-              <div>
-                <p className="text-sm font-medium text-zinc-200 light:text-zinc-800">Telegram</p>
-                <p className="text-xs text-zinc-500">@truer_xD</p>
-              </div>
-            </a>
-
-            <a
-              href="mailto:truuuuer@gmail.com"
-              className="flex items-center gap-3 rounded-lg border border-zinc-800 p-4 transition-colors hover:border-purple-500/30 light:border-zinc-200 light:hover:border-purple-400/40"
-            >
-              <Mail size={20} className="text-purple-400" />
-              <div>
-                <p className="text-sm font-medium text-zinc-200 light:text-zinc-800">Email</p>
-                <p className="text-xs text-zinc-500">truuuuer@gmail.com</p>
-              </div>
-            </a>
-          </motion.div>
+          <div className="space-y-4">
+            {[
+              {
+                href: 'https://github.com/TruerDev',
+                icon: Github,
+                label: 'GitHub',
+                handle: '@TruerDev',
+                accent: 'hover:border-purple-500/30 hover:shadow-[0_0_20px_rgba(139,92,246,0.08)]',
+              },
+              {
+                href: 'https://t.me/truer_xD',
+                icon: Send,
+                label: 'Telegram',
+                handle: '@truer_xD',
+                accent: 'hover:border-cyan-500/30 hover:shadow-[0_0_20px_rgba(6,182,212,0.08)]',
+              },
+              {
+                href: 'mailto:truuuuer@gmail.com',
+                icon: Mail,
+                label: 'Email',
+                handle: 'truuuuer@gmail.com',
+                accent: 'hover:border-pink-500/30 hover:shadow-[0_0_20px_rgba(236,72,153,0.08)]',
+              },
+            ].map((link, i) => (
+              <ScrollReveal key={link.label} type="fade-right" delay={i * 0.1}>
+                <a
+                  href={link.href}
+                  target={link.href.startsWith('mailto') ? undefined : '_blank'}
+                  rel={link.href.startsWith('mailto') ? undefined : 'noopener noreferrer'}
+                  className={`flex items-center gap-4 rounded-xl border border-slate-800 bg-[#13111f]/50 p-5 backdrop-blur-sm transition-all duration-300 ${link.accent}`}
+                >
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-slate-800/50">
+                    <link.icon size={18} className="text-purple-400" />
+                  </div>
+                  <div>
+                    <p className="text-sm font-medium text-slate-200">{link.label}</p>
+                    <p className="font-mono text-xs text-slate-500">{link.handle}</p>
+                  </div>
+                </a>
+              </ScrollReveal>
+            ))}
+          </div>
         </div>
       </div>
     </section>
