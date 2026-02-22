@@ -10,14 +10,14 @@
     "greeting": "Bonjour, je suis",
     "name": "Klim Sarakeev",
     "title": "Ingénieur R&D",
-    "subtitle": "Je construis des systèmes d'automatisation de navigateur, des outils anti-fraude et des applications alimentées par l'IA chez CTS Anti-Fraud.",
+    "subtitle": "Je construis des systèmes d'automatisation de navigateur, des outils anti-fraude et des applications alimentées par l'IA chez MST.",
     "cta_cv": "Télécharger CV",
     "cta_contact": "Me contacter"
   },
   "about": {
     "label": "À propos",
-    "p1": "Je suis un Ingénieur R&D de 21 ans chez CTS Anti-Fraud, basé à Moscou et en cours de déménagement à Tbilissi. Je me spécialise dans la création de systèmes d'automatisation de navigateur, d'extensions Chrome et d'applications full-stack.",
-    "p2": "Mon parcours dans l'ingénierie a commencé dans un endroit inattendu — les opérations de marketing digital. La gestion de plus de 100 comptes Google Ads dans plus de 20 pays m'a appris à penser à grande échelle et à tout automatiser. Cette expérience a naturellement évolué vers la construction des outils eux-mêmes.",
+    "p1": "Je suis un Ingénieur R&D de 21 ans chez MST, basé à Moscou et en cours de déménagement à Tbilissi. Je me spécialise dans la création de systèmes d'automatisation de navigateur, d'extensions Chrome et d'applications full-stack.",
+    "p2": "Mon parcours dans l'ingénierie a été tout sauf linéaire. En commençant par un stage en développement de jeux vidéo chez Sinaptik, puis en plongeant dans les opérations de marketing digital — gérant plus de 100 comptes Google Ads dans plus de 20 pays — j'ai appris à penser à grande échelle et à tout automatiser. Cette expérience a naturellement évolué vers la construction des outils eux-mêmes.",
     "p3": "Aujourd'hui, je travaille avec Node.js, React, TypeScript et PostgreSQL côté frontend et backend, tout en intégrant des modèles d'IA comme Claude et Mistral dans les flux de production. Je suis passionné par la résolution de problèmes complexes avec du code propre et maintenable."
   },
   "experience": {
@@ -25,17 +25,24 @@
     "roles": [
       {
         "title": "Ingénieur R&D",
-        "company": "CTS Anti-Fraud",
-        "period": "2024 — Présent",
-        "description": "Développement de systèmes d'automatisation de navigateur, d'extensions Chrome pour l'analyse anti-fraude et de tableaux de bord de monitoring full-stack. Travail avec Node.js, React, PostgreSQL et intégrations IA.",
+        "company": "MST",
+        "period": "Nov 2025 — Présent",
+        "description": "Transféré du département marketing vers la R&D. Développement de systèmes d'automatisation de navigateur, d'extensions Chrome pour l'analyse CTS Anti-Fraud et de tableaux de bord de monitoring full-stack. Travail avec Node.js, React, PostgreSQL et intégrations IA.",
         "highlights": ["Architecture d'automatisation navigateur", "Développement d'extensions Chrome", "Pipelines d'analyse alimentés par l'IA", "Systèmes de tableaux de bord full-stack"]
       },
       {
         "title": "Opérations Marketing Digital",
-        "company": "Agence de Marketing à la Performance",
-        "period": "2022 — 2024",
-        "description": "Gestion de plus de 100 comptes Google Ads dans plus de 20 pays. Création d'outils d'automatisation internes menant à la transition vers un rôle d'ingénieur.",
+        "company": "MST",
+        "period": "2025 — Nov 2025",
+        "description": "Gestion de plus de 100 comptes Google Ads dans plus de 20 pays. Création d'outils d'automatisation internes menant au transfert vers le département R&D.",
         "highlights": ["100+ comptes Google Ads gérés", "Opérations dans 20+ pays", "Création d'outils d'automatisation internes", "Optimisation des processus à grande échelle"]
+      },
+      {
+        "title": "Stagiaire Développeur de Jeux",
+        "company": "Sinaptik, Kirov",
+        "period": "2024 — 2025",
+        "description": "Stage de production axé sur le développement de jeux vidéo avec le moteur Godot. Expérience pratique en architecture de jeu, scripting et systèmes interactifs.",
+        "highlights": ["Moteur Godot", "Architecture de jeu", "Stage de production", "Systèmes interactifs"]
       }
     ]
   },

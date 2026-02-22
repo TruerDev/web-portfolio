@@ -10,14 +10,14 @@
     "greeting": "Hallo, ich bin",
     "name": "Klim Sarakeev",
     "title": "F&E-Ingenieur",
-    "subtitle": "Ich entwickle Browser-Automatisierungssysteme, Anti-Betrugs-Tools und KI-gestützte Anwendungen bei CTS Anti-Fraud.",
+    "subtitle": "Ich entwickle Browser-Automatisierungssysteme, Anti-Betrugs-Tools und KI-gestützte Anwendungen bei MST.",
     "cta_cv": "Lebenslauf herunterladen",
     "cta_contact": "Kontakt aufnehmen"
   },
   "about": {
     "label": "Über mich",
-    "p1": "Ich bin ein 21-jähriger F&E-Ingenieur bei CTS Anti-Fraud, wohnhaft in Moskau mit Umzug nach Tiflis. Ich spezialisiere mich auf Browser-Automatisierungssysteme, Chrome-Erweiterungen und Full-Stack-Anwendungen.",
-    "p2": "Mein Weg in die Technik begann an einem unerwarteten Ort — im Digital Marketing Operations. Die Verwaltung von über 100 Google Ads-Konten in mehr als 20 Ländern lehrte mich, in großem Maßstab zu denken und alles zu automatisieren. Diese Erfahrung führte mich natürlich dazu, die Tools selbst zu entwickeln.",
+    "p1": "Ich bin ein 21-jähriger F&E-Ingenieur bei MST, wohnhaft in Moskau mit Umzug nach Tiflis. Ich spezialisiere mich auf Browser-Automatisierungssysteme, Chrome-Erweiterungen und Full-Stack-Anwendungen.",
+    "p2": "Mein Weg in die Technik war alles andere als geradlinig. Angefangen mit einem Praktikum in der Spieleentwicklung bei Sinaptik, dann ein Einstieg ins Digital Marketing — die Verwaltung von über 100 Google Ads-Konten in mehr als 20 Ländern lehrte mich, in großem Maßstab zu denken und alles zu automatisieren. Diese Erfahrung führte mich natürlich dazu, die Tools selbst zu entwickeln.",
     "p3": "Heute arbeite ich mit Node.js, React, TypeScript und PostgreSQL im Frontend und Backend und integriere KI-Modelle wie Claude und Mistral in Produktions-Workflows. Ich löse leidenschaftlich gern komplexe Probleme mit sauberem, wartbarem Code."
   },
   "experience": {
@@ -25,17 +25,24 @@
     "roles": [
       {
         "title": "F&E-Ingenieur",
-        "company": "CTS Anti-Fraud",
-        "period": "2024 — Heute",
-        "description": "Entwicklung von Browser-Automatisierungssystemen, Chrome-Erweiterungen für Anti-Betrugs-Analysen und Full-Stack-Monitoring-Dashboards. Arbeit mit Node.js, React, PostgreSQL und KI-Integrationen.",
+        "company": "MST",
+        "period": "Nov 2025 — Heute",
+        "description": "Versetzung von der Marketingabteilung in die F&E. Entwicklung von Browser-Automatisierungssystemen, Chrome-Erweiterungen für CTS Anti-Fraud-Analysen und Full-Stack-Monitoring-Dashboards. Arbeit mit Node.js, React, PostgreSQL und KI-Integrationen.",
         "highlights": ["Browser-Automatisierungsarchitektur", "Chrome-Erweiterungsentwicklung", "KI-gestützte Analyse-Pipelines", "Full-Stack-Dashboard-Systeme"]
       },
       {
         "title": "Digital Marketing Operations",
-        "company": "Performance Marketing Agentur",
-        "period": "2022 — 2024",
-        "description": "Verwaltung von über 100 Google Ads-Konten in mehr als 20 Ländern. Erstellung interner Automatisierungstools, die zum Übergang in eine Ingenieurrolle führten.",
+        "company": "MST",
+        "period": "2025 — Nov 2025",
+        "description": "Verwaltung von über 100 Google Ads-Konten in mehr als 20 Ländern. Erstellung interner Automatisierungstools, die zum Übergang in die F&E-Abteilung führten.",
         "highlights": ["100+ Google Ads-Konten verwaltet", "20+ Länder-Operationen", "Interne Automatisierungstools erstellt", "Prozessoptimierung im großen Maßstab"]
+      },
+      {
+        "title": "Spieleentwickler-Praktikant",
+        "company": "Sinaptik, Kirow",
+        "period": "2024 — 2025",
+        "description": "Produktionspraktikum mit Schwerpunkt Spieleentwicklung mit der Godot-Engine. Praktische Erfahrung mit Spielarchitektur, Scripting und interaktiven Systemen.",
+        "highlights": ["Godot-Engine", "Spielarchitektur", "Produktionspraktikum", "Interaktive Systeme"]
       }
     ]
   },
