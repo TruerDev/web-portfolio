@@ -115,5 +115,11 @@
   "footer": {
     "designed": "Conçu et développé par Klim Sarakeev",
     "rights": "Tous droits réservés."
+  },
+  "stats": {
+    "ads_accounts": "Comptes Google Ads gérés",
+    "countries": "Pays opérés",
+    "systems": "Systèmes en production construits",
+    "commits": "Commits au total"
   }
 }

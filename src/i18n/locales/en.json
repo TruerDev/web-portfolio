@@ -115,5 +115,11 @@
   "footer": {
     "designed": "Designed & built by Klim Sarakeev",
     "rights": "All rights reserved."
+  },
+  "stats": {
+    "ads_accounts": "Google Ads Accounts Managed",
+    "countries": "Countries Operated In",
+    "systems": "Production Systems Built",
+    "commits": "Total Commits"
   }
 }

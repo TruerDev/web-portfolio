@@ -1,7 +1,5 @@
 @import "tailwindcss";
 
-@custom-variant light (.light &);
-
 @theme {
   --font-sans: "Inter", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", monospace;
@@ -25,6 +23,8 @@ html {
 
 body {
   font-family: var(--font-sans);
+  background-color: #0a0a12;
+  color: #e2e8f0;
 }
 
 ::selection {
@@ -33,35 +33,18 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #09090b;
+  background: #0a0a12;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3f3f46;
-  border-radius: 4px;
+  background: #1e1b2e;
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #52525b;
-}
-
-.light body {
-  color: #18181b;
-  background-color: #fafafa;
-}
-
-.light ::selection {
-  background-color: var(--color-purple-500);
-}
-
-.light ::-webkit-scrollbar-track {
-  background: #fafafa;
-}
-
-.light ::-webkit-scrollbar-thumb {
-  background: #d4d4d8;
+  background: #2d2a3e;
 }

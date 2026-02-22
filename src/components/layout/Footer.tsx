@@ -5,9 +5,9 @@ export function Footer() {
   const { t } = useTranslation()
 
   return (
-    <footer className="border-t border-zinc-800/50 light:border-zinc-200/50">
+    <footer className="border-t border-slate-800/30">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-8 sm:flex-row">
-        <p className="text-sm text-zinc-500">
+        <p className="text-sm text-slate-600">
           {t('footer.designed')} &middot; {t('footer.rights')}
         </p>
 
@@ -16,26 +16,26 @@ export function Footer() {
             href="https://github.com/TruerDev"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-zinc-500 transition-colors hover:text-purple-400"
+            className="text-slate-600 transition-colors hover:text-purple-400"
             aria-label="GitHub"
           >
-            <Github size={18} />
+            <Github size={16} />
           </a>
           <a
             href="https://t.me/truer_xD"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-zinc-500 transition-colors hover:text-purple-400"
+            className="text-slate-600 transition-colors hover:text-purple-400"
             aria-label="Telegram"
           >
-            <Send size={18} />
+            <Send size={16} />
           </a>
           <a
             href="mailto:truuuuer@gmail.com"
-            className="text-zinc-500 transition-colors hover:text-purple-400"
+            className="text-slate-600 transition-colors hover:text-purple-400"
             aria-label="Email"
           >
-            <Mail size={18} />
+            <Mail size={16} />
           </a>
         </div>
       </div>
