@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "about": "À propos",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis",
+    "name": "Klim Sarakeev",
+    "title": "Ingénieur R&D",
+    "subtitle": "Je construis des systèmes d'automatisation de navigateur, des outils anti-fraude et des applications alimentées par l'IA chez CTS Anti-Fraud.",
+    "cta_cv": "Télécharger CV",
+    "cta_contact": "Me contacter"
+  },
+  "about": {
+    "label": "À propos",
+    "p1": "Je suis un Ingénieur R&D de 21 ans chez CTS Anti-Fraud, basé à Moscou et en cours de déménagement à Tbilissi. Je me spécialise dans la création de systèmes d'automatisation de navigateur, d'extensions Chrome et d'applications full-stack.",
+    "p2": "Mon parcours dans l'ingénierie a commencé dans un endroit inattendu — les opérations de marketing digital. La gestion de plus de 100 comptes Google Ads dans plus de 20 pays m'a appris à penser à grande échelle et à tout automatiser. Cette expérience a naturellement évolué vers la construction des outils eux-mêmes.",
+    "p3": "Aujourd'hui, je travaille avec Node.js, React, TypeScript et PostgreSQL côté frontend et backend, tout en intégrant des modèles d'IA comme Claude et Mistral dans les flux de production. Je suis passionné par la résolution de problèmes complexes avec du code propre et maintenable."
+  },
+  "experience": {
+    "label": "Expérience",
+    "roles": [
+      {
+        "title": "Ingénieur R&D",
+        "company": "CTS Anti-Fraud",
+        "period": "2024 — Présent",
+        "description": "Développement de systèmes d'automatisation de navigateur, d'extensions Chrome pour l'analyse anti-fraude et de tableaux de bord de monitoring full-stack. Travail avec Node.js, React, PostgreSQL et intégrations IA.",
+        "highlights": ["Architecture d'automatisation navigateur", "Développement d'extensions Chrome", "Pipelines d'analyse alimentés par l'IA", "Systèmes de tableaux de bord full-stack"]
+      },
+      {
+        "title": "Opérations Marketing Digital",
+        "company": "Agence de Marketing à la Performance",
+        "period": "2022 — 2024",
+        "description": "Gestion de plus de 100 comptes Google Ads dans plus de 20 pays. Création d'outils d'automatisation internes menant à la transition vers un rôle d'ingénieur.",
+        "highlights": ["100+ comptes Google Ads gérés", "Opérations dans 20+ pays", "Création d'outils d'automatisation internes", "Optimisation des processus à grande échelle"]
+      }
+    ]
+  },
+  "projects": {
+    "label": "Projets",
+    "view_code": "Code",
+    "view_live": "Live",
+    "items": [
+      {
+        "title": "GAM-Pro",
+        "description": "Plateforme de gestion de comptes Google. Monorepo fullstack de niveau production avec déploiement cloud, agents Windows VPS, passerelle WebSocket et intégration AdsPower.",
+        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "JWT", "AES-256", "Railway"],
+        "featured": true
+      },
+      {
+        "title": "CTS Anti-Fraud Analytics",
+        "description": "Extension Chrome + backend Fastify + tableau de bord React pour prédire les suspensions de comptes Google Ads. Inclut un futur service ML.",
+        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "ML"],
+        "featured": true
+      },
+      {
+        "title": "Financial Telegram Bot",
+        "description": "Gestionnaire financier personnel pour couples. Suivi des dépenses/revenus/dettes avec limites par catégorie, intégration GPT-4o-mini et export CSV.",
+        "tags": ["Python", "Telegram API", "GPT-4o-mini", "Railway"],
+        "featured": true
+      },
+      {
+        "title": "AdsPower Bot v2.1",
+        "description": "Bot d'automatisation modulaire pour le farming YouTube, le farming de recherche Google et la création de comptes Google via l'API AdsPower. 13 auto-tests avec mécanisme de retry.",
+        "tags": ["Node.js", "AdsPower API", "Automation", "Testing"],
+        "featured": true
+      },
+      {
+        "title": "T-Report",
+        "description": "Outil d'analyse d'investissement avec screener de marché, backtesting de stratégies, signaux ML et comparaison de benchmarks. 126 commits sur plusieurs branches.",
+        "tags": ["Python", "ML", "Data Analytics", "Web Dashboard"],
+        "featured": true
+      },
+      {
+        "title": "Spotify Clone",
+        "description": "Clone complet de Spotify construit avec Flutter/Dart. Projet d'apprentissage public démontrant les compétences en développement mobile.",
+        "tags": ["Flutter", "Dart", "Mobile", "UI/UX"],
+        "featured": false
+      }
+    ]
+  },
+  "skills": {
+    "label": "Compétences",
+    "categories": {
+      "languages": "Langages",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Outils & Plateformes",
+      "ai": "IA & ML"
+    }
+  },
+  "contact": {
+    "label": "Me contacter",
+    "description": "Vous avez un projet en tête ou vous souhaitez simplement vous connecter ? N'hésitez pas à me contacter.",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "send": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé ! Je vous répondrai bientôt.",
+      "error": "Quelque chose s'est mal passé. Veuillez réessayer."
+    }
+  },
+  "footer": {
+    "designed": "Conçu et développé par Klim Sarakeev",
+    "rights": "Tous droits réservés."
+  }
+}
