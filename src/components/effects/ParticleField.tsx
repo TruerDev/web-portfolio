@@ -7,7 +7,6 @@ interface Particle {
   vy: number
   size: number
   opacity: number
-  hue: number
 }
 
 export function ParticleField() {
@@ -26,19 +25,17 @@ export function ParticleField() {
     canvas.width = width
     canvas.height = height
 
-    const particleCount = Math.min(Math.floor((width * height) / 12000), 120)
+    const count = Math.min(Math.floor((width * height) / 18000), 80)
     const particles: Particle[] = []
-    const connectionDistance = 150
 
-    for (let i = 0; i < particleCount; i++) {
+    for (let i = 0; i < count; i++) {
       particles.push({
         x: Math.random() * width,
         y: Math.random() * height,
-        vx: (Math.random() - 0.5) * 0.4,
-        vy: (Math.random() - 0.5) * 0.4,
-        size: Math.random() * 1.5 + 0.5,
-        opacity: Math.random() * 0.5 + 0.2,
-        hue: Math.random() > 0.7 ? 200 : Math.random() > 0.5 ? 280 : 260,
+        vx: (Math.random() - 0.5) * 0.3,
+        vy: (Math.random() - 0.5) * 0.3,
+        size: Math.random() * 1.2 + 0.3,
+        opacity: Math.random() * 0.3 + 0.1,
       })
     }
 
@@ -50,8 +47,7 @@ export function ParticleField() {
     }
 
     const onMouseMove = (e: MouseEvent) => {
-      mouseRef.current.x = e.clientX
-      mouseRef.current.y = e.clientY
+      mouseRef.current = { x: e.clientX, y: e.clientY }
     }
 
     window.addEventListener('resize', onResize)
@@ -64,54 +60,44 @@ export function ParticleField() {
         const p = particles[i]
         p.x += p.vx
         p.y += p.vy
-
         if (p.x < 0) p.x = width
         if (p.x > width) p.x = 0
         if (p.y < 0) p.y = height
         if (p.y > height) p.y = 0
 
-        // Mouse repulsion
         const dx = mouseRef.current.x - p.x
         const dy = mouseRef.current.y - p.y
         const dist = Math.sqrt(dx * dx + dy * dy)
-        if (dist < 200) {
-          const force = (200 - dist) / 200
-          p.vx -= (dx / dist) * force * 0.02
-          p.vy -= (dy / dist) * force * 0.02
+        if (dist < 150) {
+          const force = (150 - dist) / 150
+          p.vx -= (dx / dist) * force * 0.015
+          p.vy -= (dy / dist) * force * 0.015
         }
-
-        // Dampen velocity
         p.vx *= 0.999
         p.vy *= 0.999
 
-        // Draw particle
         ctx!.beginPath()
         ctx!.arc(p.x, p.y, p.size, 0, Math.PI * 2)
-        ctx!.fillStyle = `hsla(${p.hue}, 70%, 65%, ${p.opacity})`
+        ctx!.fillStyle = `rgba(139, 92, 246, ${p.opacity})`
         ctx!.fill()
 
-        // Draw connections
         for (let j = i + 1; j < particles.length; j++) {
           const p2 = particles[j]
           const cdx = p.x - p2.x
           const cdy = p.y - p2.y
           const cdist = Math.sqrt(cdx * cdx + cdy * cdy)
-
-          if (cdist < connectionDistance) {
-            const alpha = (1 - cdist / connectionDistance) * 0.15
+          if (cdist < 120) {
             ctx!.beginPath()
             ctx!.moveTo(p.x, p.y)
             ctx!.lineTo(p2.x, p2.y)
-            ctx!.strokeStyle = `hsla(270, 60%, 60%, ${alpha})`
+            ctx!.strokeStyle = `rgba(139, 92, 246, ${(1 - cdist / 120) * 0.08})`
             ctx!.lineWidth = 0.5
             ctx!.stroke()
           }
         }
       }
-
       animRef.current = requestAnimationFrame(animate)
     }
-
     animate()
 
     return () => {
@@ -121,11 +107,5 @@ export function ParticleField() {
     }
   }, [])
 
-  return (
-    <canvas
-      ref={canvasRef}
-      className="pointer-events-none absolute inset-0 z-0"
-      style={{ opacity: 0.6 }}
-    />
-  )
+  return <canvas ref={canvasRef} className="pointer-events-none absolute inset-0 z-0 opacity-50" />
 }

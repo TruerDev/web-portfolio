@@ -5,38 +5,28 @@ export function Footer() {
   const { t } = useTranslation()
 
   return (
-    <footer className="border-t border-slate-800/30">
-      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-8 sm:flex-row">
-        <p className="text-sm text-slate-600">
+    <footer className="border-t border-white/5">
+      <div className="mx-auto flex max-w-3xl flex-col items-center justify-between gap-4 px-5 py-8 sm:flex-row">
+        <p className="font-mono text-[10px] text-white/15">
           {t('footer.designed')} &middot; {t('footer.rights')}
         </p>
-
         <div className="flex items-center gap-4">
-          <a
-            href="https://github.com/TruerDev"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-slate-600 transition-colors hover:text-purple-400"
-            aria-label="GitHub"
-          >
-            <Github size={16} />
-          </a>
-          <a
-            href="https://t.me/truer_xD"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-slate-600 transition-colors hover:text-purple-400"
-            aria-label="Telegram"
-          >
-            <Send size={16} />
-          </a>
-          <a
-            href="mailto:truuuuer@gmail.com"
-            className="text-slate-600 transition-colors hover:text-purple-400"
-            aria-label="Email"
-          >
-            <Mail size={16} />
-          </a>
+          {[
+            { href: 'https://github.com/TruerDev', icon: Github, label: 'GitHub' },
+            { href: 'https://t.me/truer_xD', icon: Send, label: 'Telegram' },
+            { href: 'mailto:truuuuer@gmail.com', icon: Mail, label: 'Email' },
+          ].map(link => (
+            <a
+              key={link.label}
+              href={link.href}
+              target={link.href.startsWith('mailto') ? undefined : '_blank'}
+              rel={link.href.startsWith('mailto') ? undefined : 'noopener noreferrer'}
+              className="text-white/15 transition-colors hover:text-purple-400"
+              aria-label={link.label}
+            >
+              <link.icon size={14} />
+            </a>
+          ))}
         </div>
       </div>
     </footer>
