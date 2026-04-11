@@ -1,16 +1,18 @@
+import { lazy, Suspense } from 'react'
 import { Navbar } from '@/components/layout/Navbar'
-import { Footer } from '@/components/layout/Footer'
 import { Hero } from '@/components/sections/Hero'
-import { About } from '@/components/sections/About'
-import { Experience } from '@/components/sections/Experience'
-import { Projects } from '@/components/sections/Projects'
-import { Skills } from '@/components/sections/Skills'
-import { Stats } from '@/components/sections/Stats'
-import { Contact } from '@/components/sections/Contact'
 import { Scanline } from '@/components/effects/Scanline'
 import { GridBg } from '@/components/effects/GridBg'
 import { FloatingOrbs } from '@/components/effects/FloatingOrbs'
 import { CustomCursor } from '@/components/effects/CustomCursor'
+
+const About = lazy(() => import('@/components/sections/About').then(m => ({ default: m.About })))
+const Experience = lazy(() => import('@/components/sections/Experience').then(m => ({ default: m.Experience })))
+const Stats = lazy(() => import('@/components/sections/Stats').then(m => ({ default: m.Stats })))
+const Projects = lazy(() => import('@/components/sections/Projects').then(m => ({ default: m.Projects })))
+const Skills = lazy(() => import('@/components/sections/Skills').then(m => ({ default: m.Skills })))
+const Contact = lazy(() => import('@/components/sections/Contact').then(m => ({ default: m.Contact })))
+const Footer = lazy(() => import('@/components/layout/Footer').then(m => ({ default: m.Footer })))
 
 export default function App() {
   return (
@@ -20,18 +22,29 @@ export default function App() {
       <FloatingOrbs />
       <CustomCursor />
 
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[200] focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:text-white"
+      >
+        Skip to content
+      </a>
+
       <div className="relative z-[1]">
         <Navbar />
-        <main>
+        <main id="main-content">
           <Hero />
-          <About />
-          <Experience />
-          <Stats />
-          <Projects />
-          <Skills />
-          <Contact />
+          <Suspense fallback={null}>
+            <About />
+            <Experience />
+            <Stats />
+            <Projects />
+            <Skills />
+            <Contact />
+          </Suspense>
         </main>
-        <Footer />
+        <Suspense fallback={null}>
+          <Footer />
+        </Suspense>
       </div>
     </div>
   )

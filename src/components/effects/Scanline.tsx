@@ -1,4 +1,10 @@
 export function Scanline() {
+  const prefersReducedMotion =
+    typeof window !== 'undefined' &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
+  if (prefersReducedMotion) return null
+
   return (
     <div className="pointer-events-none fixed inset-0 z-[100] overflow-hidden">
       {/* Moving scanline */}

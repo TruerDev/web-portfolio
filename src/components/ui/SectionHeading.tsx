@@ -12,7 +12,7 @@ export function SectionHeading({ children, number }: Props) {
         {number && (
           <span
             className="font-mono text-[10px] tracking-[4px] uppercase"
-            style={{ color: '#8b5cf6', filter: 'drop-shadow(0 0 6px rgba(139,92,246,0.5))' }}
+            style={{ color: 'var(--color-accent)', filter: 'drop-shadow(0 0 6px rgba(139,92,246,0.5))' }}
           >
             {number}
           </span>

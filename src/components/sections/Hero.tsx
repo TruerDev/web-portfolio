@@ -26,7 +26,7 @@ export function Hero() {
         <div
           className="mb-8 font-mono text-[10px] uppercase tracking-[5px]"
           style={{
-            color: '#8b5cf6',
+            color: 'var(--color-accent)',
             filter: 'drop-shadow(0 0 8px rgba(139,92,246,0.6))',
             animation: 'fadeUp 0.6s ease both',
           }}
@@ -51,7 +51,7 @@ export function Hero() {
         <div
           className="mt-4 font-display text-3xl tracking-[6px] sm:text-4xl"
           style={{
-            color: '#8b5cf6',
+            color: 'var(--color-accent)',
             filter: 'drop-shadow(0 0 20px rgba(139,92,246,0.6))',
             animation: 'fadeUp 0.6s 0.25s ease both',
             opacity: 0,
@@ -78,7 +78,7 @@ export function Hero() {
             download
             className="group relative inline-flex items-center gap-2 overflow-hidden rounded-lg px-7 py-4 font-mono text-[11px] font-bold uppercase tracking-[3px] text-white"
             style={{
-              background: 'linear-gradient(135deg, #8b5cf6, #6d28d9)',
+              background: 'linear-gradient(135deg, var(--color-accent), var(--color-accent-dark))',
               boxShadow: '0 4px 30px rgba(139,92,246,0.35)',
               animation: 'pulse-accent 3s infinite',
             }}

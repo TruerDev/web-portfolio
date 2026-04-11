@@ -15,11 +15,13 @@ export function Contact() {
     setStatus('sending')
     const form = e.currentTarget
     const data = new FormData(form)
+    const params = new URLSearchParams()
+    data.forEach((value, key) => params.append(key, value.toString()))
     try {
       const res = await fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(data as unknown as Record<string, string>).toString(),
+        body: params.toString(),
       })
       if (res.ok) { setStatus('success'); form.reset(); setTimeout(() => setStatus('idle'), 4000) }
       else { setStatus('error'); setTimeout(() => setStatus('idle'), 4000) }
@@ -38,7 +40,7 @@ export function Contact() {
           <ScrollReveal>
             <div
               className="overflow-hidden rounded-xl border border-white/10"
-              style={{ background: '#0a0a0a', boxShadow: '0 0 60px rgba(139,92,246,0.06), inset 0 1px 0 rgba(255,255,255,0.04)' }}
+              style={{ background: 'var(--color-bg-card)', boxShadow: '0 0 60px rgba(139,92,246,0.06), inset 0 1px 0 rgba(255,255,255,0.04)' }}
             >
               <div className="flex items-center gap-2 border-b border-white/5 px-4 py-3" style={{ background: 'rgba(255,255,255,0.02)' }}>
                 <div className="flex gap-[6px]">
@@ -51,7 +53,7 @@ export function Contact() {
 
               <div className="p-6">
                 <p className="mb-6 font-mono text-[12px] text-white/30">
-                  <span style={{ color: '#8b5cf6' }}>$</span> {t('contact.description')}
+                  <span className="text-accent">$</span> {t('contact.description')}
                 </p>
 
                 <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit} className="flex flex-col gap-4">
@@ -59,20 +61,20 @@ export function Contact() {
                   <div className="grid gap-4 sm:grid-cols-2">
                     <div>
                       <label className="mb-1.5 block font-mono text-[10px] text-white/20">
-                        <span style={{ color: '#8b5cf6' }}>const</span> {t('contact.form.name').toLowerCase()}
+                        <span className="text-accent">const</span> {t('contact.form.name').toLowerCase()}
                       </label>
                       <input type="text" name="name" required className={inputClass} />
                     </div>
                     <div>
                       <label className="mb-1.5 block font-mono text-[10px] text-white/20">
-                        <span style={{ color: '#8b5cf6' }}>const</span> {t('contact.form.email').toLowerCase()}
+                        <span className="text-accent">const</span> {t('contact.form.email').toLowerCase()}
                       </label>
                       <input type="email" name="email" required className={inputClass} />
                     </div>
                   </div>
                   <div>
                     <label className="mb-1.5 block font-mono text-[10px] text-white/20">
-                      <span style={{ color: '#8b5cf6' }}>const</span> {t('contact.form.message').toLowerCase()}
+                      <span className="text-accent">const</span> {t('contact.form.message').toLowerCase()}
                     </label>
                     <textarea name="message" rows={5} required className={`${inputClass} resize-none`} />
                   </div>
@@ -80,7 +82,7 @@ export function Contact() {
                     type="submit"
                     disabled={status === 'sending'}
                     className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-lg px-6 py-3 font-mono text-[11px] font-bold uppercase tracking-[3px] text-white transition-all duration-200 disabled:opacity-50"
-                    style={{ background: 'linear-gradient(135deg, #8b5cf6, #6d28d9)', boxShadow: '0 4px 20px rgba(139,92,246,0.3)' }}
+                    style={{ background: 'linear-gradient(135deg, var(--color-accent), var(--color-accent-dark))', boxShadow: '0 4px 20px rgba(139,92,246,0.3)' }}
                   >
                     <Send size={12} />
                     {status === 'sending' ? t('contact.form.sending') : t('contact.form.send')}

@@ -60,6 +60,8 @@ export function Navbar() {
               <button
                 key={lang.code}
                 onClick={() => i18n.changeLanguage(lang.code)}
+                aria-label={`Switch language to ${lang.label}`}
+                aria-current={i18n.language === lang.code ? 'true' : undefined}
                 className={`px-2.5 py-1.5 font-mono text-[11px] transition-all duration-200 ${
                   i18n.language === lang.code
                     ? 'bg-purple-600/20 text-purple-400'

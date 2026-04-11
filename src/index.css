@@ -4,6 +4,11 @@
   --font-display: "Bebas Neue", sans-serif;
   --font-mono: "Space Mono", monospace;
   --font-serif: Georgia, "Times New Roman", serif;
+  --color-accent: #8b5cf6;
+  --color-accent-dark: #6d28d9;
+  --color-bg: #0d0d0d;
+  --color-bg-card: #0a0a12;
+  --color-cyan-glow: #00ffff;
 }
 
 /* ─── Keyframes ─── */
@@ -56,7 +61,7 @@ html {
 
 body {
   font-family: var(--font-mono);
-  background: #0d0d0d;
+  background: var(--color-bg);
   color: rgba(255,255,255,0.7);
 }
 
@@ -66,7 +71,7 @@ body {
 }
 
 ::-webkit-scrollbar { width: 4px; }
-::-webkit-scrollbar-track { background: #0d0d0d; }
+::-webkit-scrollbar-track { background: var(--color-bg); }
 ::-webkit-scrollbar-thumb { background: rgba(139,92,246,0.3); border-radius: 2px; }
 
 /* ─── Glitch title ─── */
@@ -86,13 +91,13 @@ body {
   line-height: inherit;
 }
 .title-glitch::before {
-  color: #00ffff;
+  color: var(--color-cyan-glow);
   animation: glitch 3s infinite;
   animation-delay: 0.5s;
   opacity: 0.4;
 }
 .title-glitch::after {
-  color: #8b5cf6;
+  color: var(--color-accent);
   animation: glitch 3s infinite;
   animation-delay: 1s;
   opacity: 0.4;
@@ -105,4 +110,21 @@ body {
 .accent-card:hover {
   border-color: rgba(139,92,246,0.4);
   box-shadow: 0 0 24px rgba(139,92,246,0.12);
+}
+
+/* ─── Reduced motion ─── */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .title-glitch {
+    animation: none;
+  }
+
+  .title-glitch::before,
+  .title-glitch::after {
+    animation: none;
+    display: none;
+  }
 }

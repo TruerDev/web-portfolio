@@ -19,7 +19,7 @@ export function About() {
               >
                 <span
                   className="font-display text-5xl"
-                  style={{ color: '#8b5cf6', filter: 'drop-shadow(0 0 12px rgba(139,92,246,0.5))' }}
+                  style={{ color: 'var(--color-accent)', filter: 'drop-shadow(0 0 12px rgba(139,92,246,0.5))' }}
                 >
                   KS
                 </span>
