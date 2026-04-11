@@ -98,12 +98,6 @@
         "description": "Investment analytics tool with market screener, strategy backtesting, ML signals, and benchmark comparison. 126 commits across multiple branches.",
         "tags": ["Python", "ML", "Data Analytics", "Web Dashboard"],
         "category": "personal"
-      },
-      {
-        "title": "AdsPower Bot v2.1",
-        "description": "Modular automation bot for YouTube farming, Google Search farming, and Google account creation via AdsPower API. 13 auto-tests with retry mechanism.",
-        "tags": ["Node.js", "AdsPower API", "Automation", "Testing"],
-        "category": "personal"
       }
     ]
   },
@@ -135,11 +129,9 @@
     "rights": "All rights reserved."
   },
   "stats": {
-    "ads_accounts": "Google Ads Accounts Managed",
+    "accounts": "Accounts Managed at Scale",
     "countries": "Countries Operated In",
-    "visitors": "First-Week Visitors",
-    "pet_projects": "Pet Projects Shipped",
-    "systems": "Production Systems Built",
-    "commits": "Total Commits"
+    "platforms": "Platforms Supported",
+    "agents": "AI Agents in Production"
   }
 }
