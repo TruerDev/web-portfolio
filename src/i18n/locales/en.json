@@ -125,11 +125,11 @@
   "skills": {
     "label": "Skills",
     "categories": {
-      "languages": "Languages",
-      "frontend": "Frontend",
+      "core": "Core",
       "backend": "Backend",
-      "tools": "Tools & Platforms",
-      "ai": "AI & ML"
+      "frontend": "Frontend",
+      "tools": "Tools & Infra",
+      "ai": "AI & Automation"
     }
   },
   "contact": {

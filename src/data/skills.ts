@@ -9,28 +9,12 @@ export interface SkillCategory {
 
 export const skillCategories: SkillCategory[] = [
   {
-    key: 'languages',
+    key: 'core',
     items: [
       { name: 'TypeScript' },
       { name: 'JavaScript' },
       { name: 'Python' },
       { name: 'SQL' },
-      { name: 'HTML/CSS' },
-      { name: 'Dart' },
-    ],
-  },
-  {
-    key: 'frontend',
-    items: [
-      { name: 'React' },
-      { name: 'Next.js' },
-      { name: 'Tailwind CSS' },
-      { name: 'shadcn/ui' },
-      { name: 'Recharts' },
-      { name: 'next-intl' },
-      { name: 'Framer Motion' },
-      { name: 'Flutter' },
-      { name: 'Chrome Extensions (MV3)' },
     ],
   },
   {
@@ -40,13 +24,21 @@ export const skillCategories: SkillCategory[] = [
       { name: 'Express' },
       { name: 'Fastify' },
       { name: 'PostgreSQL' },
-      { name: 'BullMQ' },
       { name: 'Redis' },
-      { name: 'Puppeteer' },
-      { name: 'Drizzle ORM' },
-      { name: 'Zod' },
+      { name: 'BullMQ' },
       { name: 'WebSocket' },
       { name: 'REST APIs' },
+    ],
+  },
+  {
+    key: 'frontend',
+    items: [
+      { name: 'React' },
+      { name: 'Next.js' },
+      { name: 'Tailwind CSS' },
+      { name: 'Recharts' },
+      { name: 'shadcn/ui' },
+      { name: 'Chrome Extensions (MV3)' },
     ],
   },
   {
@@ -54,13 +46,11 @@ export const skillCategories: SkillCategory[] = [
     items: [
       { name: 'Docker' },
       { name: 'Git' },
-      { name: 'Railway' },
-      { name: 'Netlify' },
-      { name: 'Vercel' },
-      { name: 'AdsPower' },
-      { name: 'PyInstaller' },
-      { name: 'Godot' },
       { name: 'Linux' },
+      { name: 'Railway' },
+      { name: 'Vercel' },
+      { name: 'GitHub Actions' },
+      { name: 'PyInstaller' },
     ],
   },
   {
@@ -68,8 +58,9 @@ export const skillCategories: SkillCategory[] = [
     items: [
       { name: 'Claude API' },
       { name: 'GPT-4o' },
-      { name: 'ML Pipelines' },
+      { name: 'Puppeteer' },
       { name: 'Prompt Engineering' },
+      { name: 'BullMQ Orchestration' },
     ],
   },
 ]
