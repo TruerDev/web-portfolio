@@ -16,9 +16,9 @@
   },
   "about": {
     "label": "Chi sono",
-    "p1": "Sono un Ingegnere R&S di 21 anni presso MST, con sede a Mosca e in fase di trasferimento a Tbilisi. Mi specializzo nella creazione di sistemi di automazione browser, estensioni Chrome e applicazioni full-stack.",
+    "p1": "Sono un Ingegnere R&S di 21 anni presso MST, con sede a Dilijan, Armenia. Mi specializzo nella creazione di sistemi di automazione browser, estensioni Chrome e applicazioni full-stack.",
     "p2": "Il mio percorso nell'ingegneria è stato tutt'altro che lineare. Iniziando con uno stage nello sviluppo di videogiochi presso Sinaptik, poi immergendomi nelle Digital Marketing Operations — gestendo oltre 100 account Google Ads in più di 20 paesi — ho imparato a pensare su larga scala e ad automatizzare tutto. Quell'esperienza si è naturalmente evoluta nella costruzione degli strumenti stessi.",
-    "p3": "Oggi lavoro con Node.js, React, TypeScript e PostgreSQL su frontend e backend, integrando modelli di IA come Claude e Mistral nei flussi di lavoro di produzione. Sono appassionato nel risolvere problemi complessi con codice pulito e manutenibile."
+    "p3": "Oggi lavoro con Node.js, React, Next.js, TypeScript e PostgreSQL su frontend e backend, integrando strumenti IA come Claude API nei flussi di lavoro di produzione. Sono appassionato nel risolvere problemi complessi con codice pulito e manutenibile."
   },
   "experience": {
     "label": "Esperienza",
@@ -27,13 +27,13 @@
         "title": "Ingegnere R&S",
         "company": "MST",
         "period": "Nov 2025 — Presente",
-        "description": "Trasferito dal reparto marketing a R&S. Sviluppo di sistemi di automazione browser, estensioni Chrome per analisi CTS Anti-Fraud e dashboard di monitoraggio full-stack. Lavoro con Node.js, React, PostgreSQL e integrazioni IA.",
+        "description": "Trasferito dal reparto marketing a R&S. Sviluppo di sistemi di automazione browser, estensioni Chrome MV3 e dashboard di monitoraggio full-stack. Lavoro con Node.js, React, PostgreSQL e integrazioni IA (Claude API).",
         "highlights": ["Architettura automazione browser", "Sviluppo estensioni Chrome", "Pipeline di analisi basate su IA", "Sistemi dashboard full-stack"]
       },
       {
         "title": "Digital Marketing Operations",
         "company": "MST",
-        "period": "2025 — Nov 2025",
+        "period": "Mar 2025 — Nov 2025",
         "description": "Gestione di oltre 100 account Google Ads in più di 20 paesi. Creazione di strumenti di automazione interni che hanno portato al trasferimento nel reparto R&S.",
         "highlights": ["100+ account Google Ads gestiti", "Operazioni in 20+ paesi", "Creazione strumenti di automazione interni", "Ottimizzazione processi su larga scala"]
       },
@@ -48,44 +48,62 @@
   },
   "projects": {
     "label": "Progetti",
-    "view_code": "Codice",
-    "view_live": "Live",
+    "work_label": "Lavoro",
+    "personal_label": "Personale",
     "items": [
       {
-        "title": "GAM-Pro",
-        "description": "Piattaforma di gestione account Google. Monorepo fullstack di livello produttivo con deploy cloud, agenti Windows VPS, gateway WebSocket e integrazione AdsPower.",
-        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "JWT", "AES-256", "Railway"],
-        "featured": true
+        "title": "Piattaforma di Automazione Browser",
+        "description": "Monorepo fullstack con deploy cloud, agenti Windows VPS, gateway WebSocket e integrazione AdsPower.",
+        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway"],
+        "category": "work"
       },
       {
-        "title": "CTS Anti-Fraud Analytics",
-        "description": "Estensione Chrome + backend Fastify + dashboard React per prevedere i ban degli account Google Ads. Include un futuro servizio ML.",
-        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "ML"],
-        "featured": true
+        "title": "Sistema di Analisi Anti-Frode",
+        "description": "Estensione Chrome MV3 + backend + dashboard per prevedere i ban degli account Google Ads. Pipeline di analisi multi-IA.",
+        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL"],
+        "category": "work"
       },
       {
-        "title": "Financial Telegram Bot",
-        "description": "Gestore finanziario personale per coppie. Tracciamento spese/entrate/debiti con limiti di categoria, integrazione GPT-4o-mini ed esportazione CSV.",
-        "tags": ["Python", "Telegram API", "GPT-4o-mini", "Railway"],
-        "featured": true
+        "title": "Gestore Multi-Agente di Campagne",
+        "description": "Sistema a 7 agenti per automatizzare la gestione delle campagne con code BullMQ e integrazione LLM.",
+        "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API"],
+        "category": "work"
       },
       {
-        "title": "AdsPower Bot v2.1",
-        "description": "Bot di automazione modulare per farming YouTube, farming ricerca Google e creazione account Google tramite API AdsPower. 13 auto-test con meccanismo di retry.",
-        "tags": ["Node.js", "AdsPower API", "Automation", "Testing"],
-        "featured": true
+        "title": "RepoRoast",
+        "description": "Strumento di roasting del codice con IA. 559+ visitatori unici nella prima settimana. Lancio del brand TruerDev.",
+        "tags": ["React", "Claude API", "Vercel"],
+        "category": "personal"
+      },
+      {
+        "title": "FinTrack",
+        "description": "Gestore finanziario personale in produzione. Google OAuth, Drizzle ORM, Vercel Cron, i18n (EN+RU), sicurezza RLS.",
+        "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle", "Zod", "Recharts", "Vercel"],
+        "category": "personal"
+      },
+      {
+        "title": "SnatchVid",
+        "description": "Downloader video per Windows per 1000+ piattaforme. GitHub Actions CI, scansione VirusTotal, checksum SHA-256.",
+        "tags": ["Python", "Flask", "yt-dlp", "PyInstaller"],
+        "category": "personal"
+      },
+      {
+        "title": "HistoryPrint",
+        "description": "Mappa mondiale storica interattiva.",
+        "tags": ["TypeScript", "React"],
+        "category": "personal"
       },
       {
         "title": "T-Report",
         "description": "Strumento di analisi degli investimenti con screener di mercato, backtesting di strategie, segnali ML e confronto benchmark. 126 commit su più branch.",
         "tags": ["Python", "ML", "Data Analytics", "Web Dashboard"],
-        "featured": true
+        "category": "personal"
       },
       {
-        "title": "Spotify Clone",
-        "description": "Clone completo di Spotify costruito con Flutter/Dart. Progetto di apprendimento pubblico che dimostra competenze di sviluppo mobile.",
-        "tags": ["Flutter", "Dart", "Mobile", "UI/UX"],
-        "featured": false
+        "title": "AdsPower Bot v2.1",
+        "description": "Bot di automazione modulare per farming YouTube, farming ricerca Google e creazione account Google tramite API AdsPower. 13 auto-test con meccanismo di retry.",
+        "tags": ["Node.js", "AdsPower API", "Automation", "Testing"],
+        "category": "personal"
       }
     ]
   },
@@ -119,6 +137,8 @@
   "stats": {
     "ads_accounts": "Account Google Ads gestiti",
     "countries": "Paesi operati",
+    "visitors": "Visitatori nella prima settimana",
+    "pet_projects": "Progetti personali pubblicati",
     "systems": "Sistemi in produzione costruiti",
     "commits": "Commit totali"
   }

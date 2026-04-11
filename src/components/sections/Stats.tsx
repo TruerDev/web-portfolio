@@ -5,8 +5,10 @@ import { ScrollReveal } from '@/components/effects/ScrollReveal'
 const stats = [
   { key: 'ads_accounts', end: 100, suffix: '+', color: '#8b5cf6' },
   { key: 'countries', end: 20, suffix: '+', color: '#06b6d4' },
-  { key: 'systems', end: 5, suffix: '+', color: '#f59e0b' },
-  { key: 'commits', end: 500, suffix: '+', color: '#ec4899' },
+  { key: 'visitors', end: 559, suffix: '+', color: '#10b981' },
+  { key: 'pet_projects', end: 6, suffix: '+', color: '#f59e0b' },
+  { key: 'systems', end: 5, suffix: '+', color: '#ec4899' },
+  { key: 'commits', end: 500, suffix: '+', color: '#8b5cf6' },
 ]
 
 export function Stats() {
@@ -18,7 +20,7 @@ export function Stats() {
       <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-purple-500/20 to-transparent" />
 
       <ScrollReveal>
-        <div className="mx-auto grid max-w-3xl grid-cols-2 gap-10 md:grid-cols-4">
+        <div className="mx-auto grid max-w-3xl grid-cols-2 gap-10 md:grid-cols-3">
           {stats.map((stat, i) => (
             <AnimatedCounter
               key={stat.key}
