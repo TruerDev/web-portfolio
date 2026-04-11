@@ -68,44 +68,50 @@
     "items": [
       {
         "title": "Browser Automation Platform",
-        "description": "Fullstack monorepo with cloud deployment, Windows VPS agents, WebSocket gateway, and AdsPower integration.",
-        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway"],
+        "description": "Distributed platform for large-scale browser session management. Production-grade fullstack monorepo with VPS agents, WebSocket gateway, and real-time monitoring dashboard.",
+        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway", "JWT"],
         "category": "work"
       },
       {
-        "title": "Anti-Fraud Analytics System",
-        "description": "Chrome MV3 extension + backend + dashboard for predicting Google Ads account bans. Multi-AI analysis pipeline.",
-        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL"],
+        "title": "Risk Detection System",
+        "description": "Chrome MV3 extension + backend + React dashboard for anomaly detection in account behavior. Multi-model AI analysis pipeline with predictive scoring.",
+        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "Claude API"],
         "category": "work"
       },
       {
         "title": "Multi-Agent Campaign Manager",
-        "description": "7-agent system automating ad campaign management with BullMQ job queues and LLM integration.",
-        "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API"],
+        "description": "7-agent orchestration system automating campaign management workflows. Built on BullMQ job queues with LLM integration and browser automation execution layer.",
+        "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API", "Puppeteer"],
         "category": "work"
       },
       {
         "title": "RepoRoast",
-        "description": "AI code roasting tool. 559+ unique visitors in first week. TruerDev brand launch.",
+        "description": "AI-powered developer tool that roasts your code with personality. 559+ unique visitors in the first week after launch.",
         "tags": ["React", "Claude API", "Vercel"],
         "category": "personal"
       },
       {
         "title": "FinTrack",
-        "description": "Production personal finance manager. Google OAuth, Drizzle ORM, Vercel Cron, i18n (EN+RU), RLS security.",
-        "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle", "Zod", "Recharts", "Vercel"],
+        "description": "Production-ready personal finance manager. Multi-currency support, budget tracking, recurring transactions, analytics dashboard, Google OAuth, i18n (EN/RU).",
+        "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle ORM", "Zod", "Recharts"],
         "category": "personal"
       },
       {
         "title": "SnatchVid",
-        "description": "Windows video downloader for 1000+ platforms. GitHub Actions CI, VirusTotal scanning, SHA-256 checksums.",
-        "tags": ["Python", "Flask", "yt-dlp", "PyInstaller"],
+        "description": "Windows desktop app for downloading video from 1000+ platforms. Automated CI/CD with GitHub Actions, VirusTotal scanning, and SHA-256 checksum verification on every release.",
+        "tags": ["Python", "Flask", "yt-dlp", "PyInstaller", "GitHub Actions"],
         "category": "personal"
       },
       {
         "title": "HistoryPrint",
-        "description": "Interactive historical world map.",
+        "description": "Interactive historical world map. Explore how country borders, civilizations, and empires changed across centuries.",
         "tags": ["TypeScript", "React"],
+        "category": "personal"
+      },
+      {
+        "title": "AdsPower Bot v2.1",
+        "description": "Modular automation bot for YouTube farming, Google Search farming, and Google account creation via AdsPower API. 13 auto-tests with retry mechanism.",
+        "tags": ["Node.js", "AdsPower API", "Automation", "Testing"],
         "category": "personal"
       },
       {

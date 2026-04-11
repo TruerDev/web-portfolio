@@ -13,10 +13,10 @@ interface Project {
 }
 
 const workColors = ['#8b5cf6', '#06b6d4', '#f59e0b']
-const workIcons = ['\u{1F5A5}\u{FE0F}', '\u{1F6E1}\u{FE0F}', '\u{1F916}']
+const workIcons = ['\u{2699}\u{FE0F}', '\u{1F6E1}\u{FE0F}', '\u{1F916}']
 
 const personalColors = ['#ec4899', '#10b981', '#f59e0b', '#06b6d4', '#8b5cf6', '#ec4899']
-const personalIcons = ['\u{1F525}', '\u{1F4B0}', '\u{1F4F9}', '\u{1F5FA}\u{FE0F}', '\u{1F4CA}', '\u{26A1}']
+const personalIcons = ['\u{1F525}', '\u{1F4B0}', '\u{2B07}\u{FE0F}', '\u{1F5FA}\u{FE0F}', '\u{26A1}', '\u{1F4CA}']
 
 function ProjectCard({ project, index, colors, icons }: { project: Project; index: number; colors: string[]; icons: string[] }) {
   const color = colors[index % colors.length]

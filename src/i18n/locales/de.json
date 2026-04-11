@@ -68,44 +68,50 @@
     "items": [
       {
         "title": "Browser-Automatisierungsplattform",
-        "description": "Fullstack-Monorepo mit Cloud-Deployment, Windows-VPS-Agenten, WebSocket-Gateway und AdsPower-Integration.",
-        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway"],
+        "description": "Verteilte Plattform für die Verwaltung von Browser-Sitzungen im großen Maßstab. Produktionsreifes Fullstack-Monorepo mit VPS-Agenten, WebSocket-Gateway und Echtzeit-Monitoring-Dashboard.",
+        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway", "JWT"],
         "category": "work"
       },
       {
-        "title": "Anti-Betrugs-Analysesystem",
-        "description": "Chrome-MV3-Erweiterung + Backend + Dashboard zur Vorhersage von Google Ads-Kontosperrungen. Multi-KI-Analyse-Pipeline.",
-        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL"],
+        "title": "Risikoerkennungssystem",
+        "description": "Chrome-MV3-Erweiterung + Backend + React-Dashboard zur Anomalieerkennung im Kontoverhalten. Multi-Modell-KI-Analyse-Pipeline mit prädiktiver Bewertung.",
+        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "Claude API"],
         "category": "work"
       },
       {
         "title": "Multi-Agenten-Kampagnenmanager",
-        "description": "7-Agenten-System zur Automatisierung des Kampagnenmanagements mit BullMQ-Job-Queues und LLM-Integration.",
-        "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API"],
+        "description": "7-Agenten-Orchestrierungssystem zur Automatisierung von Kampagnenmanagement-Workflows. Aufgebaut auf BullMQ-Job-Queues mit LLM-Integration und Browser-Automatisierungsschicht.",
+        "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API", "Puppeteer"],
         "category": "work"
       },
       {
         "title": "RepoRoast",
-        "description": "KI-Code-Roasting-Tool. 559+ einzigartige Besucher in der ersten Woche. TruerDev-Markenstart.",
+        "description": "KI-gestütztes Entwickler-Tool, das Ihren Code mit Persönlichkeit röstet. 559+ einzigartige Besucher in der ersten Woche nach dem Start.",
         "tags": ["React", "Claude API", "Vercel"],
         "category": "personal"
       },
       {
         "title": "FinTrack",
-        "description": "Produktionsreifer persönlicher Finanzmanager. Google OAuth, Drizzle ORM, Vercel Cron, i18n (EN+RU), RLS-Sicherheit.",
-        "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle", "Zod", "Recharts", "Vercel"],
+        "description": "Produktionsreifer persönlicher Finanzmanager. Multi-Währungs-Unterstützung, Budget-Tracking, wiederkehrende Transaktionen, Analytics-Dashboard, Google OAuth, i18n (EN/RU).",
+        "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle ORM", "Zod", "Recharts"],
         "category": "personal"
       },
       {
         "title": "SnatchVid",
-        "description": "Windows-Video-Downloader für 1000+ Plattformen. GitHub Actions CI, VirusTotal-Scanning, SHA-256-Prüfsummen.",
-        "tags": ["Python", "Flask", "yt-dlp", "PyInstaller"],
+        "description": "Windows-Desktop-App zum Herunterladen von Videos von 1000+ Plattformen. Automatisiertes CI/CD mit GitHub Actions, VirusTotal-Scanning und SHA-256-Prüfsummenverifizierung bei jedem Release.",
+        "tags": ["Python", "Flask", "yt-dlp", "PyInstaller", "GitHub Actions"],
         "category": "personal"
       },
       {
         "title": "HistoryPrint",
-        "description": "Interaktive historische Weltkarte.",
+        "description": "Interaktive historische Weltkarte. Entdecken Sie, wie sich Ländergrenzen, Zivilisationen und Imperien über Jahrhunderte verändert haben.",
         "tags": ["TypeScript", "React"],
+        "category": "personal"
+      },
+      {
+        "title": "AdsPower Bot v2.1",
+        "description": "Modularer Automatisierungsbot für YouTube-Farming, Google-Suche-Farming und Google-Kontoerstellung über die AdsPower-API. 13 Auto-Tests mit Retry-Mechanismus.",
+        "tags": ["Node.js", "AdsPower API", "Automation", "Testing"],
         "category": "personal"
       },
       {

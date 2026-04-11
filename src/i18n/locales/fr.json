@@ -68,44 +68,50 @@
     "items": [
       {
         "title": "Plateforme d'Automatisation de Navigateur",
-        "description": "Monorepo fullstack avec déploiement cloud, agents Windows VPS, passerelle WebSocket et intégration AdsPower.",
-        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway"],
+        "description": "Plateforme distribuée pour la gestion de sessions navigateur à grande échelle. Monorepo fullstack de niveau production avec agents VPS, passerelle WebSocket et tableau de bord de monitoring en temps réel.",
+        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway", "JWT"],
         "category": "work"
       },
       {
-        "title": "Système d'Analyse Anti-Fraude",
-        "description": "Extension Chrome MV3 + backend + tableau de bord pour prédire les suspensions de comptes Google Ads. Pipeline d'analyse multi-IA.",
-        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL"],
+        "title": "Système de Détection de Risques",
+        "description": "Extension Chrome MV3 + backend + tableau de bord React pour la détection d'anomalies dans le comportement des comptes. Pipeline d'analyse IA multi-modèle avec scoring prédictif.",
+        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "Claude API"],
         "category": "work"
       },
       {
         "title": "Gestionnaire Multi-Agent de Campagnes",
-        "description": "Système à 7 agents automatisant la gestion des campagnes avec files BullMQ et intégration LLM.",
-        "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API"],
+        "description": "Système d'orchestration à 7 agents automatisant les workflows de gestion de campagnes. Construit sur les files BullMQ avec intégration LLM et couche d'exécution d'automatisation navigateur.",
+        "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API", "Puppeteer"],
         "category": "work"
       },
       {
         "title": "RepoRoast",
-        "description": "Outil de roasting de code par IA. 559+ visiteurs uniques la première semaine. Lancement de la marque TruerDev.",
+        "description": "Outil développeur alimenté par l'IA qui critique votre code avec personnalité. 559+ visiteurs uniques la première semaine après le lancement.",
         "tags": ["React", "Claude API", "Vercel"],
         "category": "personal"
       },
       {
         "title": "FinTrack",
-        "description": "Gestionnaire de finances personnelles en production. Google OAuth, Drizzle ORM, Vercel Cron, i18n (EN+RU), sécurité RLS.",
-        "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle", "Zod", "Recharts", "Vercel"],
+        "description": "Gestionnaire de finances personnelles prêt pour la production. Support multi-devises, suivi de budget, transactions récurrentes, tableau de bord analytique, Google OAuth, i18n (EN/RU).",
+        "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle ORM", "Zod", "Recharts"],
         "category": "personal"
       },
       {
         "title": "SnatchVid",
-        "description": "Téléchargeur vidéo Windows pour 1000+ plateformes. GitHub Actions CI, scan VirusTotal, checksums SHA-256.",
-        "tags": ["Python", "Flask", "yt-dlp", "PyInstaller"],
+        "description": "Application de bureau Windows pour télécharger des vidéos depuis 1000+ plateformes. CI/CD automatisé avec GitHub Actions, scan VirusTotal et vérification SHA-256 à chaque release.",
+        "tags": ["Python", "Flask", "yt-dlp", "PyInstaller", "GitHub Actions"],
         "category": "personal"
       },
       {
         "title": "HistoryPrint",
-        "description": "Carte du monde historique interactive.",
+        "description": "Carte du monde historique interactive. Explorez comment les frontières, les civilisations et les empires ont évolué au fil des siècles.",
         "tags": ["TypeScript", "React"],
+        "category": "personal"
+      },
+      {
+        "title": "AdsPower Bot v2.1",
+        "description": "Bot d'automatisation modulaire pour le farming YouTube, le farming de recherche Google et la création de comptes Google via l'API AdsPower. 13 auto-tests avec mécanisme de retry.",
+        "tags": ["Node.js", "AdsPower API", "Automation", "Testing"],
         "category": "personal"
       },
       {

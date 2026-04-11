@@ -68,44 +68,50 @@
     "items": [
       {
         "title": "Piattaforma di Automazione Browser",
-        "description": "Monorepo fullstack con deploy cloud, agenti Windows VPS, gateway WebSocket e integrazione AdsPower.",
-        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway"],
+        "description": "Piattaforma distribuita per la gestione di sessioni browser su larga scala. Monorepo fullstack di livello produttivo con agenti VPS, gateway WebSocket e dashboard di monitoraggio in tempo reale.",
+        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway", "JWT"],
         "category": "work"
       },
       {
-        "title": "Sistema di Analisi Anti-Frode",
-        "description": "Estensione Chrome MV3 + backend + dashboard per prevedere i ban degli account Google Ads. Pipeline di analisi multi-IA.",
-        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL"],
+        "title": "Sistema di Rilevamento Rischi",
+        "description": "Estensione Chrome MV3 + backend + dashboard React per il rilevamento di anomalie nel comportamento degli account. Pipeline di analisi IA multi-modello con punteggio predittivo.",
+        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "Claude API"],
         "category": "work"
       },
       {
         "title": "Gestore Multi-Agente di Campagne",
-        "description": "Sistema a 7 agenti per automatizzare la gestione delle campagne con code BullMQ e integrazione LLM.",
-        "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API"],
+        "description": "Sistema di orchestrazione a 7 agenti per automatizzare i flussi di gestione campagne. Costruito su code BullMQ con integrazione LLM e livello di esecuzione automazione browser.",
+        "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API", "Puppeteer"],
         "category": "work"
       },
       {
         "title": "RepoRoast",
-        "description": "Strumento di roasting del codice con IA. 559+ visitatori unici nella prima settimana. Lancio del brand TruerDev.",
+        "description": "Strumento per sviluppatori basato su IA che critica il tuo codice con personalità. 559+ visitatori unici nella prima settimana dal lancio.",
         "tags": ["React", "Claude API", "Vercel"],
         "category": "personal"
       },
       {
         "title": "FinTrack",
-        "description": "Gestore finanziario personale in produzione. Google OAuth, Drizzle ORM, Vercel Cron, i18n (EN+RU), sicurezza RLS.",
-        "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle", "Zod", "Recharts", "Vercel"],
+        "description": "Gestore di finanze personali pronto per la produzione. Supporto multi-valuta, tracciamento budget, transazioni ricorrenti, dashboard analitica, Google OAuth, i18n (EN/RU).",
+        "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle ORM", "Zod", "Recharts"],
         "category": "personal"
       },
       {
         "title": "SnatchVid",
-        "description": "Downloader video per Windows per 1000+ piattaforme. GitHub Actions CI, scansione VirusTotal, checksum SHA-256.",
-        "tags": ["Python", "Flask", "yt-dlp", "PyInstaller"],
+        "description": "App desktop Windows per scaricare video da 1000+ piattaforme. CI/CD automatizzato con GitHub Actions, scansione VirusTotal e verifica checksum SHA-256 ad ogni release.",
+        "tags": ["Python", "Flask", "yt-dlp", "PyInstaller", "GitHub Actions"],
         "category": "personal"
       },
       {
         "title": "HistoryPrint",
-        "description": "Mappa mondiale storica interattiva.",
+        "description": "Mappa mondiale storica interattiva. Esplora come i confini dei paesi, le civiltà e gli imperi sono cambiati nel corso dei secoli.",
         "tags": ["TypeScript", "React"],
+        "category": "personal"
+      },
+      {
+        "title": "AdsPower Bot v2.1",
+        "description": "Bot di automazione modulare per farming YouTube, farming ricerca Google e creazione account Google tramite API AdsPower. 13 auto-test con meccanismo di retry.",
+        "tags": ["Node.js", "AdsPower API", "Automation", "Testing"],
         "category": "personal"
       },
       {
