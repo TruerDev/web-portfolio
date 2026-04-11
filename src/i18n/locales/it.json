@@ -135,6 +135,7 @@
   "contact": {
     "label": "Contattami",
     "description": "Hai un progetto in mente o vuoi semplicemente connetterti? Non esitare a contattarmi.",
+    "relocation": "Aperto al trasferimento — UE",
     "form": {
       "name": "Nome",
       "email": "Email",

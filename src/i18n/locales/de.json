@@ -135,6 +135,7 @@
   "contact": {
     "label": "Kontakt aufnehmen",
     "description": "Haben Sie ein Projekt im Sinn oder möchten Sie sich einfach vernetzen? Schreiben Sie mir gerne.",
+    "relocation": "Offen für Umzug — EU",
     "form": {
       "name": "Name",
       "email": "E-Mail",

@@ -135,6 +135,7 @@
   "contact": {
     "label": "Me contacter",
     "description": "Vous avez un projet en tête ou vous souhaitez simplement vous connecter ? N'hésitez pas à me contacter.",
+    "relocation": "Ouvert à la relocalisation — UE",
     "form": {
       "name": "Nom",
       "email": "Email",

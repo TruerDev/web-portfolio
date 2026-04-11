@@ -135,6 +135,7 @@
   "contact": {
     "label": "Get in Touch",
     "description": "Have a project in mind or just want to connect? Feel free to reach out.",
+    "relocation": "Open to relocation — EU",
     "form": {
       "name": "Name",
       "email": "Email",
