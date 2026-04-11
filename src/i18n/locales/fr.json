@@ -32,15 +32,25 @@
         "title": "Ingénieur R&D",
         "company": "MST",
         "period": "Nov 2025 — Présent",
-        "description": "Transféré du département marketing vers la R&D. Développement de systèmes d'automatisation de navigateur, d'extensions Chrome MV3 et de tableaux de bord de monitoring full-stack. Travail avec Node.js, React, PostgreSQL et intégrations IA (Claude API).",
-        "highlights": ["Architecture d'automatisation navigateur", "Développement d'extensions Chrome", "Pipelines d'analyse alimentés par l'IA", "Systèmes de tableaux de bord full-stack"]
+        "description": "Node.js · TypeScript · React · PostgreSQL · Redis · BullMQ · Puppeteer · Chrome Extensions · Claude API",
+        "highlights": [
+          "Construit une plateforme distribuée d'automatisation de navigateur avec agents VPS, passerelle WebSocket et gestion de sessions en temps réel",
+          "Développé une extension Chrome MV3 pour la détection de risques et l'analyse d'anomalies des comportements de comptes",
+          "Conçu un système de gestion de campagnes à 7 agents avec BullMQ, Redis et intégration LLM (Claude API)",
+          "Intégré des API IA dans les pipelines d'analyse en production avec orchestration multi-modèle",
+          "Implémenté des tableaux de bord de monitoring en temps réel avec WebSocket et React"
+        ]
       },
       {
         "title": "Opérations Marketing Digital",
         "company": "MST",
         "period": "Mar 2025 — Nov 2025",
         "description": "Gestion de plus de 100 comptes Google Ads dans plus de 20 pays. Création d'outils d'automatisation internes menant au transfert vers le département R&D.",
-        "highlights": ["100+ comptes Google Ads gérés", "Opérations dans 20+ pays", "Création d'outils d'automatisation internes", "Optimisation des processus à grande échelle"]
+        "highlights": [
+          "Géré 100+ comptes Google Ads dans 20+ pays",
+          "Créé des outils d'automatisation internes menant au transfert en R&D",
+          "Optimisé les workflows opérationnels publicitaires à grande échelle"
+        ]
       },
       {
         "title": "Stagiaire Développeur de Jeux",

@@ -32,15 +32,25 @@
         "title": "F&E-Ingenieur",
         "company": "MST",
         "period": "Nov 2025 — Heute",
-        "description": "Versetzung von der Marketingabteilung in die F&E. Entwicklung von Browser-Automatisierungssystemen, Chrome-MV3-Erweiterungen und Full-Stack-Monitoring-Dashboards. Arbeit mit Node.js, React, PostgreSQL und KI-Integrationen (Claude API).",
-        "highlights": ["Browser-Automatisierungsarchitektur", "Chrome-Erweiterungsentwicklung", "KI-gestützte Analyse-Pipelines", "Full-Stack-Dashboard-Systeme"]
+        "description": "Node.js · TypeScript · React · PostgreSQL · Redis · BullMQ · Puppeteer · Chrome Extensions · Claude API",
+        "highlights": [
+          "Verteilte Browser-Automatisierungsplattform mit VPS-Agenten, WebSocket-Gateway und Echtzeit-Sitzungsverwaltung aufgebaut",
+          "Chrome-MV3-Erweiterung zur Risikoerkennung und Anomalieanalyse von Kontoverhaltensmustern entwickelt",
+          "7-Agenten-Kampagnenmanagementsystem mit BullMQ, Redis und LLM-Integration (Claude API) entworfen",
+          "KI-APIs in Produktionsanalyse-Pipelines mit Multi-Modell-Orchestrierung integriert",
+          "Echtzeit-Monitoring-Dashboards mit WebSocket und React implementiert"
+        ]
       },
       {
         "title": "Digital Marketing Operations",
         "company": "MST",
         "period": "Mär 2025 — Nov 2025",
         "description": "Verwaltung von über 100 Google Ads-Konten in mehr als 20 Ländern. Erstellung interner Automatisierungstools, die zum Übergang in die F&E-Abteilung führten.",
-        "highlights": ["100+ Google Ads-Konten verwaltet", "20+ Länder-Operationen", "Interne Automatisierungstools erstellt", "Prozessoptimierung im großen Maßstab"]
+        "highlights": [
+          "100+ Google Ads-Konten in 20+ Ländern verwaltet",
+          "Interne Automatisierungstools erstellt, die zur Versetzung in die F&E führten",
+          "Werbe-Workflows im großen Maßstab optimiert"
+        ]
       },
       {
         "title": "Spieleentwickler-Praktikant",

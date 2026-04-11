@@ -32,15 +32,25 @@
         "title": "R&D Engineer",
         "company": "MST",
         "period": "Nov 2025 — Present",
-        "description": "Transferred from the marketing department to R&D. Building browser automation systems, Chrome MV3 extensions, and full-stack monitoring dashboards. Working with Node.js, React, PostgreSQL, and AI integrations (Claude API).",
-        "highlights": ["Browser automation architecture", "Chrome extension development", "AI-powered analytics pipelines", "Full-stack dashboard systems"]
+        "description": "Node.js · TypeScript · React · PostgreSQL · Redis · BullMQ · Puppeteer · Chrome Extensions · Claude API",
+        "highlights": [
+          "Built distributed browser automation platform with VPS agents, WebSocket gateway, and real-time session management",
+          "Developed Chrome MV3 extension for risk detection and anomaly analysis of account behavior patterns",
+          "Designed 7-agent campaign management system with BullMQ, Redis, and LLM integration (Claude API)",
+          "Integrated AI APIs into production analytics pipelines with multi-model orchestration",
+          "Implemented real-time monitoring dashboards with WebSocket and React"
+        ]
       },
       {
         "title": "Digital Marketing Operations",
         "company": "MST",
         "period": "Mar 2025 — Nov 2025",
-        "description": "Managed 100+ Google Ads accounts across 20+ countries. Built internal automation tools that led to transitioning into the R&D engineering department.",
-        "highlights": ["100+ Google Ads accounts managed", "20+ country operations", "Built internal automation tools", "Process optimization at scale"]
+        "description": "Managed 100+ Google Ads accounts across 20+ countries. Built internal automation tools that led to transfer into the R&D engineering department.",
+        "highlights": [
+          "Managed 100+ Google Ads accounts across 20+ countries",
+          "Built internal automation tools that led to transfer into R&D",
+          "Optimized ad operations workflows at scale"
+        ]
       },
       {
         "title": "Game Developer Intern",

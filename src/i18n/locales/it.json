@@ -32,15 +32,25 @@
         "title": "Ingegnere R&S",
         "company": "MST",
         "period": "Nov 2025 — Presente",
-        "description": "Trasferito dal reparto marketing a R&S. Sviluppo di sistemi di automazione browser, estensioni Chrome MV3 e dashboard di monitoraggio full-stack. Lavoro con Node.js, React, PostgreSQL e integrazioni IA (Claude API).",
-        "highlights": ["Architettura automazione browser", "Sviluppo estensioni Chrome", "Pipeline di analisi basate su IA", "Sistemi dashboard full-stack"]
+        "description": "Node.js · TypeScript · React · PostgreSQL · Redis · BullMQ · Puppeteer · Chrome Extensions · Claude API",
+        "highlights": [
+          "Costruita piattaforma distribuita di automazione browser con agenti VPS, gateway WebSocket e gestione sessioni in tempo reale",
+          "Sviluppata estensione Chrome MV3 per il rilevamento rischi e l'analisi di anomalie nei pattern di comportamento degli account",
+          "Progettato sistema di gestione campagne a 7 agenti con BullMQ, Redis e integrazione LLM (Claude API)",
+          "Integrate API IA in pipeline di analisi di produzione con orchestrazione multi-modello",
+          "Implementate dashboard di monitoraggio in tempo reale con WebSocket e React"
+        ]
       },
       {
         "title": "Digital Marketing Operations",
         "company": "MST",
         "period": "Mar 2025 — Nov 2025",
         "description": "Gestione di oltre 100 account Google Ads in più di 20 paesi. Creazione di strumenti di automazione interni che hanno portato al trasferimento nel reparto R&S.",
-        "highlights": ["100+ account Google Ads gestiti", "Operazioni in 20+ paesi", "Creazione strumenti di automazione interni", "Ottimizzazione processi su larga scala"]
+        "highlights": [
+          "Gestiti 100+ account Google Ads in 20+ paesi",
+          "Creati strumenti di automazione interni che hanno portato al trasferimento in R&S",
+          "Ottimizzati i flussi operativi pubblicitari su larga scala"
+        ]
       },
       {
         "title": "Stagista Sviluppatore di Videogiochi",
