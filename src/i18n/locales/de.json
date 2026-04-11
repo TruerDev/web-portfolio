@@ -7,12 +7,13 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "greeting": "Hallo, ich bin",
     "name": "Klim Sarakeev",
-    "title": "F&E-Ingenieur",
-    "subtitle": "Ich entwickle Browser-Automatisierungssysteme, Anti-Betrugs-Tools und KI-gestützte Anwendungen bei MST.",
-    "cta_cv": "Lebenslauf herunterladen",
-    "cta_contact": "Kontakt aufnehmen"
+    "title": "Full-Stack-Ingenieur · Browser-Automatisierung & KI-Systeme",
+    "subtitle": "Ich entwickle skalierbare Automatisierungsinfrastruktur und KI-gestützte Tools für den Produktionseinsatz.",
+    "status_location": "Dilijan, Armenien · Offen für Umzug in die EU",
+    "status_available": "Verfügbar für Arbeit",
+    "cta_github": "GitHub",
+    "cta_email": "E-Mail"
   },
   "about": {
     "label": "Über mich",

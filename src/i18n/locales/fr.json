@@ -7,12 +7,13 @@
     "contact": "Contact"
   },
   "hero": {
-    "greeting": "Bonjour, je suis",
     "name": "Klim Sarakeev",
-    "title": "Ingénieur R&D",
-    "subtitle": "Je construis des systèmes d'automatisation de navigateur, des outils anti-fraude et des applications alimentées par l'IA chez MST.",
-    "cta_cv": "Télécharger CV",
-    "cta_contact": "Me contacter"
+    "title": "Ingénieur Full-Stack · Automatisation & Systèmes IA",
+    "subtitle": "Je construis des infrastructures d'automatisation évolutives et des outils basés sur l'IA utilisés en production.",
+    "status_location": "Dilijan, Arménie · Ouvert à la relocalisation UE",
+    "status_available": "Disponible pour travailler",
+    "cta_github": "GitHub",
+    "cta_email": "Email"
   },
   "about": {
     "label": "À propos",
