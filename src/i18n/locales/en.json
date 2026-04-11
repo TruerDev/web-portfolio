@@ -150,9 +150,9 @@
     "rights": "All rights reserved."
   },
   "stats": {
-    "accounts": "Accounts Managed at Scale",
-    "countries": "Countries Operated In",
-    "platforms": "Platforms Supported",
-    "agents": "AI Agents in Production"
+    "accounts": "Google Ads Accounts",
+    "countries": "Countries Operated",
+    "visitors": "Week-1 Users (RepoRoast)",
+    "pet_projects": "Pet Projects Shipped"
   }
 }
