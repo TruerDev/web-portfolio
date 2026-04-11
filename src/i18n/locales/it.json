@@ -16,10 +16,14 @@
     "cta_email": "Email"
   },
   "about": {
-    "label": "Chi sono",
-    "p1": "Sono un Ingegnere R&S di 21 anni presso MST, con sede a Dilijan, Armenia. Mi specializzo nella creazione di sistemi di automazione browser, estensioni Chrome e applicazioni full-stack.",
-    "p2": "Il mio percorso nell'ingegneria è stato tutt'altro che lineare. Iniziando con uno stage nello sviluppo di videogiochi presso Sinaptik, poi immergendomi nelle Digital Marketing Operations — gestendo oltre 100 account Google Ads in più di 20 paesi — ho imparato a pensare su larga scala e ad automatizzare tutto. Quell'esperienza si è naturalmente evoluta nella costruzione degli strumenti stessi.",
-    "p3": "Oggi lavoro con Node.js, React, Next.js, TypeScript e PostgreSQL su frontend e backend, integrando strumenti IA come Claude API nei flussi di lavoro di produzione. Sono appassionato nel risolvere problemi complessi con codice pulito e manutenibile."
+    "label": "Highlights",
+    "intro": "Ho iniziato nello sviluppo di videogiochi, poi sono passato al digital marketing gestendo oltre 100 account Google Ads in 20+ paesi, e infine ho costruito gli strumenti di automazione. Oggi mi specializzo in sistemi scalabili, automazione browser e integrazione IA.",
+    "bullets": [
+      "Costruita piattaforma distribuita di automazione browser utilizzata in produzione in più ambienti con monitoraggio WebSocket in tempo reale",
+      "Lanciato RepoRoast — strumento per sviluppatori basato su IA, 559+ visitatori unici nella prima settimana",
+      "Sviluppato sistema di rilevamento rischi per il comportamento degli account con pipeline di analisi IA multi-modello",
+      "Progettato sistema di gestione campagne a 7 agenti con BullMQ, Redis e Claude API"
+    ]
   },
   "experience": {
     "label": "Esperienza",

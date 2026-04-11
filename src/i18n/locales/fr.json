@@ -16,10 +16,14 @@
     "cta_email": "Email"
   },
   "about": {
-    "label": "À propos",
-    "p1": "Je suis un Ingénieur R&D de 21 ans chez MST, basé à Dilijan, Arménie. Je me spécialise dans la création de systèmes d'automatisation de navigateur, d'extensions Chrome et d'applications full-stack.",
-    "p2": "Mon parcours dans l'ingénierie a été tout sauf linéaire. En commençant par un stage en développement de jeux vidéo chez Sinaptik, puis en plongeant dans les opérations de marketing digital — gérant plus de 100 comptes Google Ads dans plus de 20 pays — j'ai appris à penser à grande échelle et à tout automatiser. Cette expérience a naturellement évolué vers la construction des outils eux-mêmes.",
-    "p3": "Aujourd'hui, je travaille avec Node.js, React, Next.js, TypeScript et PostgreSQL côté frontend et backend, tout en intégrant des outils IA comme Claude API dans les flux de production. Je suis passionné par la résolution de problèmes complexes avec du code propre et maintenable."
+    "label": "Highlights",
+    "intro": "J'ai commencé dans le développement de jeux vidéo, puis je suis passé au marketing digital en gérant plus de 100 comptes Google Ads dans 20+ pays, avant de construire les outils d'automatisation moi-même. Aujourd'hui, je me spécialise dans les systèmes évolutifs, l'automatisation de navigateur et l'intégration IA.",
+    "bullets": [
+      "Construit une plateforme distribuée d'automatisation de navigateur utilisée en production dans plusieurs environnements avec monitoring WebSocket en temps réel",
+      "Lancé RepoRoast — outil développeur alimenté par l'IA, 559+ visiteurs uniques la première semaine",
+      "Développé un système de détection de risques pour le comportement des comptes avec pipeline d'analyse IA multi-modèle",
+      "Conçu un système de gestion de campagnes à 7 agents utilisant BullMQ, Redis et Claude API"
+    ]
   },
   "experience": {
     "label": "Expérience",

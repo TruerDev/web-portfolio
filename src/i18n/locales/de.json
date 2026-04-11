@@ -16,10 +16,14 @@
     "cta_email": "E-Mail"
   },
   "about": {
-    "label": "Über mich",
-    "p1": "Ich bin ein 21-jähriger F&E-Ingenieur bei MST, wohnhaft in Dilijan, Armenien. Ich spezialisiere mich auf Browser-Automatisierungssysteme, Chrome-Erweiterungen und Full-Stack-Anwendungen.",
-    "p2": "Mein Weg in die Technik war alles andere als geradlinig. Angefangen mit einem Praktikum in der Spieleentwicklung bei Sinaptik, dann ein Einstieg ins Digital Marketing — die Verwaltung von über 100 Google Ads-Konten in mehr als 20 Ländern lehrte mich, in großem Maßstab zu denken und alles zu automatisieren. Diese Erfahrung führte mich natürlich dazu, die Tools selbst zu entwickeln.",
-    "p3": "Heute arbeite ich mit Node.js, React, Next.js, TypeScript und PostgreSQL im Frontend und Backend und integriere KI-Tools wie Claude API in Produktions-Workflows. Ich löse leidenschaftlich gern komplexe Probleme mit sauberem, wartbarem Code."
+    "label": "Highlights",
+    "intro": "Ich begann in der Spieleentwicklung, wechselte ins Digital Marketing mit über 100 Google Ads-Konten in 20+ Ländern und baute dann selbst die Automatisierungstools. Heute spezialisiere ich mich auf skalierbare Systeme, Browser-Automatisierung und KI-Integration.",
+    "bullets": [
+      "Verteilte Browser-Automatisierungsplattform für den Produktionseinsatz in mehreren Umgebungen mit Echtzeit-WebSocket-Monitoring aufgebaut",
+      "RepoRoast gestartet — KI-gestütztes Entwickler-Tool, 559+ einzigartige Besucher in der ersten Woche",
+      "Risikoerkennungssystem für Kontoverhalten mit Multi-Modell-KI-Analyse-Pipeline entwickelt",
+      "7-Agenten-Kampagnenmanagementsystem mit BullMQ, Redis und Claude API entworfen"
+    ]
   },
   "experience": {
     "label": "Erfahrung",
