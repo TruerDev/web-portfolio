@@ -88,37 +88,29 @@
         "title": "RepoRoast",
         "description": "AI-powered developer tool that roasts your code with personality. 559+ unique visitors in the first week after launch.",
         "tags": ["React", "Claude API", "Vercel"],
-        "category": "personal"
+        "category": "personal",
+        "live": "https://truer-repo-roast.vercel.app/"
       },
       {
         "title": "FinTrack",
         "description": "Production-ready personal finance manager. Multi-currency support, budget tracking, recurring transactions, analytics dashboard, Google OAuth, i18n (EN/RU).",
         "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle ORM", "Zod", "Recharts"],
-        "category": "personal"
+        "category": "personal",
+        "live": "https://fintrack-amber-one.vercel.app/"
       },
       {
         "title": "SnatchVid",
         "description": "Windows desktop app for downloading video from 1000+ platforms. Automated CI/CD with GitHub Actions, VirusTotal scanning, and SHA-256 checksum verification on every release.",
         "tags": ["Python", "Flask", "yt-dlp", "PyInstaller", "GitHub Actions"],
-        "category": "personal"
+        "category": "personal",
+        "live": "https://github.com/TruerDev/SnatchVid/releases"
       },
       {
         "title": "HistoryPrint",
         "description": "Interactive historical world map. Explore how country borders, civilizations, and empires changed across centuries.",
         "tags": ["TypeScript", "React"],
-        "category": "personal"
-      },
-      {
-        "title": "AdsPower Bot v2.1",
-        "description": "Modular automation bot for YouTube farming, Google Search farming, and Google account creation via AdsPower API. 13 auto-tests with retry mechanism.",
-        "tags": ["Node.js", "AdsPower API", "Automation", "Testing"],
-        "category": "personal"
-      },
-      {
-        "title": "T-Report",
-        "description": "Investment analytics tool with market screener, strategy backtesting, ML signals, and benchmark comparison. 126 commits across multiple branches.",
-        "tags": ["Python", "ML", "Data Analytics", "Web Dashboard"],
-        "category": "personal"
+        "category": "personal",
+        "live": "https://truer-history-print.vercel.app/"
       }
     ]
   },

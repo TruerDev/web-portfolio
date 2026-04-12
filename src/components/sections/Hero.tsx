@@ -33,6 +33,11 @@ export function Hero() {
               className="text-white"
             />
           </h1>
+          <p
+            className="mt-2 font-mono text-[12px] tracking-[4px] text-white/20"
+          >
+            aka Truer
+          </p>
         </div>
 
         {/* Title */}

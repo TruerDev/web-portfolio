@@ -88,37 +88,29 @@
         "title": "RepoRoast",
         "description": "Strumento per sviluppatori basato su IA che critica il tuo codice con personalità. 559+ visitatori unici nella prima settimana dal lancio.",
         "tags": ["React", "Claude API", "Vercel"],
-        "category": "personal"
+        "category": "personal",
+        "live": "https://truer-repo-roast.vercel.app/"
       },
       {
         "title": "FinTrack",
         "description": "Gestore di finanze personali pronto per la produzione. Supporto multi-valuta, tracciamento budget, transazioni ricorrenti, dashboard analitica, Google OAuth, i18n (EN/RU).",
         "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle ORM", "Zod", "Recharts"],
-        "category": "personal"
+        "category": "personal",
+        "live": "https://fintrack-amber-one.vercel.app/"
       },
       {
         "title": "SnatchVid",
         "description": "App desktop Windows per scaricare video da 1000+ piattaforme. CI/CD automatizzato con GitHub Actions, scansione VirusTotal e verifica checksum SHA-256 ad ogni release.",
         "tags": ["Python", "Flask", "yt-dlp", "PyInstaller", "GitHub Actions"],
-        "category": "personal"
+        "category": "personal",
+        "live": "https://github.com/TruerDev/SnatchVid/releases"
       },
       {
         "title": "HistoryPrint",
         "description": "Mappa mondiale storica interattiva. Esplora come i confini dei paesi, le civiltà e gli imperi sono cambiati nel corso dei secoli.",
         "tags": ["TypeScript", "React"],
-        "category": "personal"
-      },
-      {
-        "title": "AdsPower Bot v2.1",
-        "description": "Bot di automazione modulare per farming YouTube, farming ricerca Google e creazione account Google tramite API AdsPower. 13 auto-test con meccanismo di retry.",
-        "tags": ["Node.js", "AdsPower API", "Automation", "Testing"],
-        "category": "personal"
-      },
-      {
-        "title": "T-Report",
-        "description": "Strumento di analisi degli investimenti con screener di mercato, backtesting di strategie, segnali ML e confronto benchmark. 126 commit su più branch.",
-        "tags": ["Python", "ML", "Data Analytics", "Web Dashboard"],
-        "category": "personal"
+        "category": "personal",
+        "live": "https://truer-history-print.vercel.app/"
       }
     ]
   },
