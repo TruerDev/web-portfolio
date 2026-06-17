@@ -7,18 +7,20 @@
     "contact": "Contact"
   },
   "hero": {
-    "greeting": "Hi, I'm",
     "name": "Klim Sarakeev",
-    "title": "R&D Engineer",
-    "subtitle": "Building browser automation systems, anti-fraud tools, and AI-powered applications at MST.",
+    "title": "Full-Stack Engineer",
+    "subtitle": "I build reliable, scalable systems — from automation infrastructure and risk detection pipelines to AI-powered analytics used in production.",
+    "status_location": "Dilijan, Armenia · Open to relocation EU",
+    "status_available": "Available for work",
     "cta_cv": "Download CV",
-    "cta_contact": "Get in Touch"
+    "cta_github": "GitHub",
+    "cta_email": "Email"
   },
   "about": {
     "label": "About Me",
-    "p1": "I'm a 21-year-old R&D Engineer at MST, based in Dilijan, Armenia. I specialize in building browser automation systems, Chrome extensions, and full-stack applications.",
-    "p2": "My path to engineering has been anything but linear. Starting with a game development internship at Sinaptik, then diving into Digital Marketing Operations — managing 100+ Google Ads accounts across 20+ countries — taught me to think at scale and automate everything. That experience naturally evolved into building the tools themselves.",
-    "p3": "Today I work with Node.js, React, Next.js, TypeScript, and PostgreSQL on the frontend and backend, while integrating AI tools like Claude API into production workflows. I'm passionate about solving complex problems with clean, maintainable code."
+    "p1": "Full-Stack Engineer at MST specializing in reliable automation infrastructure, risk detection systems, and data-driven operations at scale. Based in Dilijan, Armenia.",
+    "p2": "My path to engineering started with game development, moved through managing 100+ Google Ads accounts across 20+ countries, and evolved into building the automation tools myself — reducing an 8-person operations team to 1 through custom infrastructure.",
+    "p3": "Today I work with TypeScript, React, Node.js, and PostgreSQL, building systems that emphasize auditability, fault tolerance, and real-time monitoring — integrating AI where it adds measurable value."
   },
   "experience": {
     "label": "Experience",
@@ -27,22 +29,39 @@
         "title": "R&D Engineer",
         "company": "MST",
         "period": "Nov 2025 — Present",
-        "description": "Transferred from the marketing department to R&D. Building browser automation systems, Chrome MV3 extensions, and full-stack monitoring dashboards. Working with Node.js, React, PostgreSQL, and AI integrations (Claude API).",
-        "highlights": ["Browser automation architecture", "Chrome extension development", "AI-powered analytics pipelines", "Full-stack dashboard systems"]
+        "description": "Node.js · TypeScript · React · PostgreSQL · Redis · BullMQ · Puppeteer · Chrome Extensions · Claude API",
+        "highlights": [
+          "Built browser automation platform — reduced operations team from 8 to 1",
+          "Developed Chrome MV3 risk detection extension with multi-model AI scoring",
+          "Designed 7-agent campaign system with BullMQ, Redis, and Claude API",
+          "Implemented real-time WebSocket monitoring dashboards",
+          "Integrated AI APIs with audit logging and fault-tolerant pipelines"
+        ]
       },
       {
         "title": "Digital Marketing Operations",
         "company": "MST",
         "period": "Mar 2025 — Nov 2025",
-        "description": "Managed 100+ Google Ads accounts across 20+ countries. Built internal automation tools that led to transitioning into the R&D engineering department.",
-        "highlights": ["100+ Google Ads accounts managed", "20+ country operations", "Built internal automation tools", "Process optimization at scale"]
+        "description": "Managed 100+ Google Ads accounts across 20+ countries. Built internal automation tools that led to transfer into the R&D engineering department.",
+        "highlights": [
+          "Managed 100+ accounts across 20+ countries",
+          "Built automation tools that led to R&D department transfer",
+          "Enabled 8→1 team reduction through workflow automation"
+        ]
       },
       {
         "title": "Game Developer Intern",
         "company": "Sinaptik, Kirov",
         "period": "2024 — 2025",
         "description": "Production internship focused on game development using the Godot engine. Gained hands-on experience with game architecture, scripting, and interactive systems.",
-        "highlights": ["Godot engine", "Game architecture", "Production internship", "Interactive systems"]
+        "highlights": ["Godot engine", "Game architecture", "Interactive systems"]
+      },
+      {
+        "title": "Computer Information Systems",
+        "company": "Vyatka State University College",
+        "period": "2021 — 2024",
+        "description": "Studied computer information systems with focus on programming, databases, and system administration.",
+        "highlights": ["Programming", "Databases", "System Administration"]
       }
     ]
   },
@@ -53,67 +72,66 @@
     "items": [
       {
         "title": "Browser Automation Platform",
-        "description": "Fullstack monorepo with cloud deployment, Windows VPS agents, WebSocket gateway, and AdsPower integration.",
+        "description": "Distributed platform for large-scale browser session management. Production-grade fullstack monorepo with VPS agents, WebSocket gateway, and real-time monitoring dashboard.",
         "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway"],
         "category": "work"
       },
       {
-        "title": "Anti-Fraud Analytics System",
-        "description": "Chrome MV3 extension + backend + dashboard for predicting Google Ads account bans. Multi-AI analysis pipeline.",
-        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL"],
+        "title": "Risk Detection System",
+        "description": "Chrome MV3 extension + backend + React dashboard for anomaly detection in account behavior. Multi-model AI analysis pipeline with predictive scoring.",
+        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "Claude API"],
         "category": "work"
       },
       {
         "title": "Multi-Agent Campaign Manager",
-        "description": "7-agent system automating ad campaign management with BullMQ job queues and LLM integration.",
+        "description": "7-agent orchestration system automating campaign management workflows. Built on BullMQ job queues with LLM integration and browser automation execution layer.",
         "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API"],
         "category": "work"
       },
       {
         "title": "RepoRoast",
-        "description": "AI code roasting tool. 559+ unique visitors in first week. TruerDev brand launch.",
+        "description": "AI-powered code review tool that analyzes repositories and provides detailed feedback. 559+ unique visitors in the first week after launch.",
         "tags": ["React", "Claude API", "Vercel"],
-        "category": "personal"
+        "category": "personal",
+        "live": "https://truer-repo-roast.vercel.app/"
       },
       {
         "title": "FinTrack",
-        "description": "Production personal finance manager. Google OAuth, Drizzle ORM, Vercel Cron, i18n (EN+RU), RLS security.",
-        "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle", "Zod", "Recharts", "Vercel"],
-        "category": "personal"
+        "description": "Production-ready personal finance manager. Multi-currency support, budget tracking, recurring transactions, analytics dashboard, Google OAuth, i18n (EN/RU).",
+        "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle ORM", "Zod", "Recharts"],
+        "category": "personal",
+        "live": "https://fintrack-amber-one.vercel.app/"
       },
       {
         "title": "SnatchVid",
-        "description": "Windows video downloader for 1000+ platforms. GitHub Actions CI, VirusTotal scanning, SHA-256 checksums.",
-        "tags": ["Python", "Flask", "yt-dlp", "PyInstaller"],
-        "category": "personal"
+        "description": "Windows desktop app for downloading video from 1000+ platforms. Automated CI/CD with GitHub Actions, VirusTotal scanning, and SHA-256 checksum verification.",
+        "tags": ["Python", "Flask", "yt-dlp", "PyInstaller", "GitHub Actions"],
+        "category": "personal",
+        "live": "https://github.com/TruerDev/SnatchVid/releases"
       },
       {
         "title": "HistoryPrint",
-        "description": "Interactive historical world map.",
+        "description": "Interactive historical world map. Explore how country borders, civilizations, and empires changed across centuries.",
         "tags": ["TypeScript", "React"],
-        "category": "personal"
-      },
-      {
-        "title": "T-Report",
-        "description": "Investment analytics tool with market screener, strategy backtesting, ML signals, and benchmark comparison. 126 commits across multiple branches.",
-        "tags": ["Python", "ML", "Data Analytics", "Web Dashboard"],
-        "category": "personal"
+        "category": "personal",
+        "live": "https://truer-history-print.vercel.app/"
       }
     ]
   },
   "skills": {
     "label": "Skills",
     "categories": {
-      "languages": "Languages",
-      "frontend": "Frontend",
+      "core": "Core",
       "backend": "Backend",
-      "tools": "Tools & Platforms",
-      "ai": "AI & ML"
+      "frontend": "Frontend",
+      "tools": "Tools & Infra",
+      "ai": "AI & Automation"
     }
   },
   "contact": {
     "label": "Get in Touch",
     "description": "Have a project in mind or just want to connect? Feel free to reach out.",
+    "relocation": "Open to relocation — EU",
     "form": {
       "name": "Name",
       "email": "Email",
@@ -129,9 +147,9 @@
     "rights": "All rights reserved."
   },
   "stats": {
-    "accounts": "Accounts Managed at Scale",
-    "countries": "Countries Operated In",
-    "platforms": "Platforms Supported",
+    "team_reduction": "Team Reduced via Automation",
+    "accounts": "Accounts Managed",
+    "countries": "Countries Operated",
     "agents": "AI Agents in Production"
   }
 }

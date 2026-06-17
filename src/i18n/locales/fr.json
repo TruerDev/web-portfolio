@@ -7,18 +7,20 @@
     "contact": "Contact"
   },
   "hero": {
-    "greeting": "Bonjour, je suis",
     "name": "Klim Sarakeev",
-    "title": "Ingénieur R&D",
-    "subtitle": "Je construis des systèmes d'automatisation de navigateur, des outils anti-fraude et des applications alimentées par l'IA chez MST.",
+    "title": "Ingénieur Full-Stack",
+    "subtitle": "Je construis des systèmes fiables et évolutifs — de l'infrastructure d'automatisation et la détection de risques à l'analytique basée sur l'IA en production.",
+    "status_location": "Dilijan, Arménie · Ouvert à la relocalisation UE",
+    "status_available": "Disponible pour travailler",
     "cta_cv": "Télécharger CV",
-    "cta_contact": "Me contacter"
+    "cta_github": "GitHub",
+    "cta_email": "Email"
   },
   "about": {
     "label": "À propos",
-    "p1": "Je suis un Ingénieur R&D de 21 ans chez MST, basé à Dilijan, Arménie. Je me spécialise dans la création de systèmes d'automatisation de navigateur, d'extensions Chrome et d'applications full-stack.",
-    "p2": "Mon parcours dans l'ingénierie a été tout sauf linéaire. En commençant par un stage en développement de jeux vidéo chez Sinaptik, puis en plongeant dans les opérations de marketing digital — gérant plus de 100 comptes Google Ads dans plus de 20 pays — j'ai appris à penser à grande échelle et à tout automatiser. Cette expérience a naturellement évolué vers la construction des outils eux-mêmes.",
-    "p3": "Aujourd'hui, je travaille avec Node.js, React, Next.js, TypeScript et PostgreSQL côté frontend et backend, tout en intégrant des outils IA comme Claude API dans les flux de production. Je suis passionné par la résolution de problèmes complexes avec du code propre et maintenable."
+    "p1": "Ingénieur Full-Stack chez MST, spécialisé dans l'infrastructure d'automatisation fiable, les systèmes de détection de risques et les opérations data-driven à grande échelle. Basé à Dilijan, Arménie.",
+    "p2": "Mon parcours en ingénierie a commencé par le développement de jeux vidéo, est passé par la gestion de 100+ comptes Google Ads dans 20+ pays, et a évolué vers la construction des outils d'automatisation — réduisant une équipe opérationnelle de 8 à 1 personne grâce à une infrastructure sur mesure.",
+    "p3": "Aujourd'hui, je travaille avec TypeScript, React, Node.js et PostgreSQL, construisant des systèmes qui mettent l'accent sur l'auditabilité, la tolérance aux pannes et le monitoring en temps réel — intégrant l'IA là où elle apporte une valeur mesurable."
   },
   "experience": {
     "label": "Expérience",
@@ -27,22 +29,39 @@
         "title": "Ingénieur R&D",
         "company": "MST",
         "period": "Nov 2025 — Présent",
-        "description": "Transféré du département marketing vers la R&D. Développement de systèmes d'automatisation de navigateur, d'extensions Chrome MV3 et de tableaux de bord de monitoring full-stack. Travail avec Node.js, React, PostgreSQL et intégrations IA (Claude API).",
-        "highlights": ["Architecture d'automatisation navigateur", "Développement d'extensions Chrome", "Pipelines d'analyse alimentés par l'IA", "Systèmes de tableaux de bord full-stack"]
+        "description": "Node.js · TypeScript · React · PostgreSQL · Redis · BullMQ · Puppeteer · Chrome Extensions · Claude API",
+        "highlights": [
+          "Construit plateforme d'automatisation navigateur — équipe réduite de 8 à 1",
+          "Développé extension Chrome MV3 de détection de risques avec scoring IA multi-modèle",
+          "Conçu système de campagnes à 7 agents avec BullMQ, Redis et Claude API",
+          "Implémenté tableaux de bord de monitoring WebSocket en temps réel",
+          "Intégré APIs IA avec audit logging et pipelines fault-tolerant"
+        ]
       },
       {
         "title": "Opérations Marketing Digital",
         "company": "MST",
         "period": "Mar 2025 — Nov 2025",
         "description": "Gestion de plus de 100 comptes Google Ads dans plus de 20 pays. Création d'outils d'automatisation internes menant au transfert vers le département R&D.",
-        "highlights": ["100+ comptes Google Ads gérés", "Opérations dans 20+ pays", "Création d'outils d'automatisation internes", "Optimisation des processus à grande échelle"]
+        "highlights": [
+          "Géré 100+ comptes dans 20+ pays",
+          "Créé outils d'automatisation menant au transfert en R&D",
+          "Permis la réduction d'équipe 8→1 via l'automatisation des workflows"
+        ]
       },
       {
         "title": "Stagiaire Développeur de Jeux",
         "company": "Sinaptik, Kirov",
         "period": "2024 — 2025",
         "description": "Stage de production axé sur le développement de jeux vidéo avec le moteur Godot. Expérience pratique en architecture de jeu, scripting et systèmes interactifs.",
-        "highlights": ["Moteur Godot", "Architecture de jeu", "Stage de production", "Systèmes interactifs"]
+        "highlights": ["Moteur Godot", "Architecture de jeu", "Systèmes interactifs"]
+      },
+      {
+        "title": "Systèmes d'Information",
+        "company": "Collège Universitaire d'État de Viatka",
+        "period": "2021 — 2024",
+        "description": "Études en systèmes d'information avec focus sur la programmation, les bases de données et l'administration système.",
+        "highlights": ["Programmation", "Bases de données", "Administration système"]
       }
     ]
   },
@@ -52,68 +71,67 @@
     "personal_label": "Personnel",
     "items": [
       {
-        "title": "Plateforme d'Automatisation de Navigateur",
-        "description": "Monorepo fullstack avec déploiement cloud, agents Windows VPS, passerelle WebSocket et intégration AdsPower.",
+        "title": "Plateforme d'Automatisation Navigateur",
+        "description": "Plateforme distribuée pour la gestion de sessions navigateur à grande échelle. Monorepo fullstack de niveau production avec agents VPS, passerelle WebSocket et tableau de bord de monitoring en temps réel.",
         "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway"],
         "category": "work"
       },
       {
-        "title": "Système d'Analyse Anti-Fraude",
-        "description": "Extension Chrome MV3 + backend + tableau de bord pour prédire les suspensions de comptes Google Ads. Pipeline d'analyse multi-IA.",
-        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL"],
+        "title": "Système de Détection de Risques",
+        "description": "Extension Chrome MV3 + backend + tableau de bord React pour la détection d'anomalies dans le comportement des comptes. Pipeline d'analyse IA multi-modèle avec scoring prédictif.",
+        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "Claude API"],
         "category": "work"
       },
       {
         "title": "Gestionnaire Multi-Agent de Campagnes",
-        "description": "Système à 7 agents automatisant la gestion des campagnes avec files BullMQ et intégration LLM.",
+        "description": "Système d'orchestration à 7 agents automatisant les workflows de gestion de campagnes. Construit sur les files BullMQ avec intégration LLM et couche d'exécution d'automatisation navigateur.",
         "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API"],
         "category": "work"
       },
       {
         "title": "RepoRoast",
-        "description": "Outil de roasting de code par IA. 559+ visiteurs uniques la première semaine. Lancement de la marque TruerDev.",
+        "description": "Outil de revue de code alimenté par l'IA qui analyse les dépôts et fournit un feedback détaillé. 559+ visiteurs uniques la première semaine après le lancement.",
         "tags": ["React", "Claude API", "Vercel"],
-        "category": "personal"
+        "category": "personal",
+        "live": "https://truer-repo-roast.vercel.app/"
       },
       {
         "title": "FinTrack",
-        "description": "Gestionnaire de finances personnelles en production. Google OAuth, Drizzle ORM, Vercel Cron, i18n (EN+RU), sécurité RLS.",
-        "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle", "Zod", "Recharts", "Vercel"],
-        "category": "personal"
+        "description": "Gestionnaire de finances personnelles prêt pour la production. Support multi-devises, suivi de budget, transactions récurrentes, tableau de bord analytique, Google OAuth, i18n (EN/RU).",
+        "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle ORM", "Zod", "Recharts"],
+        "category": "personal",
+        "live": "https://fintrack-amber-one.vercel.app/"
       },
       {
         "title": "SnatchVid",
-        "description": "Téléchargeur vidéo Windows pour 1000+ plateformes. GitHub Actions CI, scan VirusTotal, checksums SHA-256.",
-        "tags": ["Python", "Flask", "yt-dlp", "PyInstaller"],
-        "category": "personal"
+        "description": "Application de bureau Windows pour télécharger des vidéos depuis 1000+ plateformes. CI/CD automatisé avec GitHub Actions, scan VirusTotal et vérification SHA-256.",
+        "tags": ["Python", "Flask", "yt-dlp", "PyInstaller", "GitHub Actions"],
+        "category": "personal",
+        "live": "https://github.com/TruerDev/SnatchVid/releases"
       },
       {
         "title": "HistoryPrint",
-        "description": "Carte du monde historique interactive.",
+        "description": "Carte du monde historique interactive. Explorez comment les frontières, les civilisations et les empires ont évolué au fil des siècles.",
         "tags": ["TypeScript", "React"],
-        "category": "personal"
-      },
-      {
-        "title": "T-Report",
-        "description": "Outil d'analyse d'investissement avec screener de marché, backtesting de stratégies, signaux ML et comparaison de benchmarks. 126 commits sur plusieurs branches.",
-        "tags": ["Python", "ML", "Data Analytics", "Web Dashboard"],
-        "category": "personal"
+        "category": "personal",
+        "live": "https://truer-history-print.vercel.app/"
       }
     ]
   },
   "skills": {
     "label": "Compétences",
     "categories": {
-      "languages": "Langages",
-      "frontend": "Frontend",
+      "core": "Core",
       "backend": "Backend",
-      "tools": "Outils & Plateformes",
-      "ai": "IA & ML"
+      "frontend": "Frontend",
+      "tools": "Outils & Infra",
+      "ai": "IA & Automatisation"
     }
   },
   "contact": {
     "label": "Me contacter",
     "description": "Vous avez un projet en tête ou vous souhaitez simplement vous connecter ? N'hésitez pas à me contacter.",
+    "relocation": "Ouvert à la relocalisation — UE",
     "form": {
       "name": "Nom",
       "email": "Email",
@@ -129,9 +147,9 @@
     "rights": "Tous droits réservés."
   },
   "stats": {
-    "accounts": "Comptes gérés à grande échelle",
+    "team_reduction": "Équipe réduite via l'automatisation",
+    "accounts": "Comptes gérés",
     "countries": "Pays opérés",
-    "platforms": "Plateformes supportées",
     "agents": "Agents IA en production"
   }
 }

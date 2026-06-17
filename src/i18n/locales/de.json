@@ -7,18 +7,20 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "greeting": "Hallo, ich bin",
     "name": "Klim Sarakeev",
-    "title": "F&E-Ingenieur",
-    "subtitle": "Ich entwickle Browser-Automatisierungssysteme, Anti-Betrugs-Tools und KI-gestützte Anwendungen bei MST.",
+    "title": "Full-Stack-Ingenieur",
+    "subtitle": "Ich baue zuverlässige, skalierbare Systeme — von Automatisierungsinfrastruktur und Risikoerkennung bis hin zu KI-gestützten Analysen im Produktionseinsatz.",
+    "status_location": "Dilijan, Armenien · Offen für Umzug in die EU",
+    "status_available": "Verfügbar für Arbeit",
     "cta_cv": "Lebenslauf herunterladen",
-    "cta_contact": "Kontakt aufnehmen"
+    "cta_github": "GitHub",
+    "cta_email": "E-Mail"
   },
   "about": {
     "label": "Über mich",
-    "p1": "Ich bin ein 21-jähriger F&E-Ingenieur bei MST, wohnhaft in Dilijan, Armenien. Ich spezialisiere mich auf Browser-Automatisierungssysteme, Chrome-Erweiterungen und Full-Stack-Anwendungen.",
-    "p2": "Mein Weg in die Technik war alles andere als geradlinig. Angefangen mit einem Praktikum in der Spieleentwicklung bei Sinaptik, dann ein Einstieg ins Digital Marketing — die Verwaltung von über 100 Google Ads-Konten in mehr als 20 Ländern lehrte mich, in großem Maßstab zu denken und alles zu automatisieren. Diese Erfahrung führte mich natürlich dazu, die Tools selbst zu entwickeln.",
-    "p3": "Heute arbeite ich mit Node.js, React, Next.js, TypeScript und PostgreSQL im Frontend und Backend und integriere KI-Tools wie Claude API in Produktions-Workflows. Ich löse leidenschaftlich gern komplexe Probleme mit sauberem, wartbarem Code."
+    "p1": "Full-Stack-Ingenieur bei MST, spezialisiert auf zuverlässige Automatisierungsinfrastruktur, Risikoerkennungssysteme und datengesteuerte Operationen im großen Maßstab. Wohnhaft in Dilijan, Armenien.",
+    "p2": "Mein Weg in die Technik begann mit Spieleentwicklung, führte über die Verwaltung von 100+ Google Ads-Konten in 20+ Ländern und mündete im Bau der Automatisierungstools selbst — eine Reduzierung des Operations-Teams von 8 auf 1 Person durch eigene Infrastruktur.",
+    "p3": "Heute arbeite ich mit TypeScript, React, Node.js und PostgreSQL und baue Systeme, die Auditierbarkeit, Fehlertoleranz und Echtzeit-Monitoring betonen — mit KI-Integration dort, wo sie messbaren Mehrwert bringt."
   },
   "experience": {
     "label": "Erfahrung",
@@ -27,22 +29,39 @@
         "title": "F&E-Ingenieur",
         "company": "MST",
         "period": "Nov 2025 — Heute",
-        "description": "Versetzung von der Marketingabteilung in die F&E. Entwicklung von Browser-Automatisierungssystemen, Chrome-MV3-Erweiterungen und Full-Stack-Monitoring-Dashboards. Arbeit mit Node.js, React, PostgreSQL und KI-Integrationen (Claude API).",
-        "highlights": ["Browser-Automatisierungsarchitektur", "Chrome-Erweiterungsentwicklung", "KI-gestützte Analyse-Pipelines", "Full-Stack-Dashboard-Systeme"]
+        "description": "Node.js · TypeScript · React · PostgreSQL · Redis · BullMQ · Puppeteer · Chrome Extensions · Claude API",
+        "highlights": [
+          "Browser-Automatisierungsplattform gebaut — Operations-Team von 8 auf 1 reduziert",
+          "Chrome-MV3-Risikoerkennungserweiterung mit Multi-Modell-KI-Scoring entwickelt",
+          "7-Agenten-Kampagnensystem mit BullMQ, Redis und Claude API entworfen",
+          "Echtzeit-WebSocket-Monitoring-Dashboards implementiert",
+          "KI-APIs mit Audit-Logging und fehlertoleranten Pipelines integriert"
+        ]
       },
       {
         "title": "Digital Marketing Operations",
         "company": "MST",
         "period": "Mär 2025 — Nov 2025",
-        "description": "Verwaltung von über 100 Google Ads-Konten in mehr als 20 Ländern. Erstellung interner Automatisierungstools, die zum Übergang in die F&E-Abteilung führten.",
-        "highlights": ["100+ Google Ads-Konten verwaltet", "20+ Länder-Operationen", "Interne Automatisierungstools erstellt", "Prozessoptimierung im großen Maßstab"]
+        "description": "Verwaltung von über 100 Google Ads-Konten in mehr als 20 Ländern. Erstellung interner Automatisierungstools, die zur Versetzung in die F&E-Abteilung führten.",
+        "highlights": [
+          "100+ Konten in 20+ Ländern verwaltet",
+          "Automatisierungstools gebaut, die zur F&E-Versetzung führten",
+          "Team-Reduktion von 8→1 durch Workflow-Automatisierung ermöglicht"
+        ]
       },
       {
         "title": "Spieleentwickler-Praktikant",
         "company": "Sinaptik, Kirow",
         "period": "2024 — 2025",
         "description": "Produktionspraktikum mit Schwerpunkt Spieleentwicklung mit der Godot-Engine. Praktische Erfahrung mit Spielarchitektur, Scripting und interaktiven Systemen.",
-        "highlights": ["Godot-Engine", "Spielarchitektur", "Produktionspraktikum", "Interaktive Systeme"]
+        "highlights": ["Godot-Engine", "Spielarchitektur", "Interaktive Systeme"]
+      },
+      {
+        "title": "Computer-Informationssysteme",
+        "company": "Staatliche Hochschule Wjatka",
+        "period": "2021 — 2024",
+        "description": "Studium der Computer-Informationssysteme mit Schwerpunkt auf Programmierung, Datenbanken und Systemadministration.",
+        "highlights": ["Programmierung", "Datenbanken", "Systemadministration"]
       }
     ]
   },
@@ -53,67 +72,66 @@
     "items": [
       {
         "title": "Browser-Automatisierungsplattform",
-        "description": "Fullstack-Monorepo mit Cloud-Deployment, Windows-VPS-Agenten, WebSocket-Gateway und AdsPower-Integration.",
+        "description": "Verteilte Plattform für die Verwaltung von Browser-Sitzungen im großen Maßstab. Produktionsreifes Fullstack-Monorepo mit VPS-Agenten, WebSocket-Gateway und Echtzeit-Monitoring-Dashboard.",
         "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway"],
         "category": "work"
       },
       {
-        "title": "Anti-Betrugs-Analysesystem",
-        "description": "Chrome-MV3-Erweiterung + Backend + Dashboard zur Vorhersage von Google Ads-Kontosperrungen. Multi-KI-Analyse-Pipeline.",
-        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL"],
+        "title": "Risikoerkennungssystem",
+        "description": "Chrome-MV3-Erweiterung + Backend + React-Dashboard zur Anomalieerkennung im Kontoverhalten. Multi-Modell-KI-Analyse-Pipeline mit prädiktiver Bewertung.",
+        "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "Claude API"],
         "category": "work"
       },
       {
         "title": "Multi-Agenten-Kampagnenmanager",
-        "description": "7-Agenten-System zur Automatisierung des Kampagnenmanagements mit BullMQ-Job-Queues und LLM-Integration.",
+        "description": "7-Agenten-Orchestrierungssystem zur Automatisierung von Kampagnenmanagement-Workflows. Aufgebaut auf BullMQ-Job-Queues mit LLM-Integration und Browser-Automatisierungsschicht.",
         "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API"],
         "category": "work"
       },
       {
         "title": "RepoRoast",
-        "description": "KI-Code-Roasting-Tool. 559+ einzigartige Besucher in der ersten Woche. TruerDev-Markenstart.",
+        "description": "KI-gestütztes Code-Review-Tool, das Repositories analysiert und detailliertes Feedback gibt. 559+ einzigartige Besucher in der ersten Woche nach dem Start.",
         "tags": ["React", "Claude API", "Vercel"],
-        "category": "personal"
+        "category": "personal",
+        "live": "https://truer-repo-roast.vercel.app/"
       },
       {
         "title": "FinTrack",
-        "description": "Produktionsreifer persönlicher Finanzmanager. Google OAuth, Drizzle ORM, Vercel Cron, i18n (EN+RU), RLS-Sicherheit.",
-        "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle", "Zod", "Recharts", "Vercel"],
-        "category": "personal"
+        "description": "Produktionsreifer persönlicher Finanzmanager. Multi-Währungs-Unterstützung, Budget-Tracking, wiederkehrende Transaktionen, Analytics-Dashboard, Google OAuth, i18n (EN/RU).",
+        "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle ORM", "Zod", "Recharts"],
+        "category": "personal",
+        "live": "https://fintrack-amber-one.vercel.app/"
       },
       {
         "title": "SnatchVid",
-        "description": "Windows-Video-Downloader für 1000+ Plattformen. GitHub Actions CI, VirusTotal-Scanning, SHA-256-Prüfsummen.",
-        "tags": ["Python", "Flask", "yt-dlp", "PyInstaller"],
-        "category": "personal"
+        "description": "Windows-Desktop-App zum Herunterladen von Videos von 1000+ Plattformen. Automatisiertes CI/CD mit GitHub Actions, VirusTotal-Scanning und SHA-256-Prüfsummenverifizierung.",
+        "tags": ["Python", "Flask", "yt-dlp", "PyInstaller", "GitHub Actions"],
+        "category": "personal",
+        "live": "https://github.com/TruerDev/SnatchVid/releases"
       },
       {
         "title": "HistoryPrint",
-        "description": "Interaktive historische Weltkarte.",
+        "description": "Interaktive historische Weltkarte. Entdecken Sie, wie sich Ländergrenzen, Zivilisationen und Imperien über Jahrhunderte verändert haben.",
         "tags": ["TypeScript", "React"],
-        "category": "personal"
-      },
-      {
-        "title": "T-Report",
-        "description": "Investment-Analysetool mit Markt-Screener, Strategie-Backtesting, ML-Signalen und Benchmark-Vergleich. 126 Commits über mehrere Branches.",
-        "tags": ["Python", "ML", "Data Analytics", "Web Dashboard"],
-        "category": "personal"
+        "category": "personal",
+        "live": "https://truer-history-print.vercel.app/"
       }
     ]
   },
   "skills": {
     "label": "Fähigkeiten",
     "categories": {
-      "languages": "Sprachen",
-      "frontend": "Frontend",
+      "core": "Kern",
       "backend": "Backend",
-      "tools": "Tools & Plattformen",
-      "ai": "KI & ML"
+      "frontend": "Frontend",
+      "tools": "Tools & Infra",
+      "ai": "KI & Automatisierung"
     }
   },
   "contact": {
     "label": "Kontakt aufnehmen",
     "description": "Haben Sie ein Projekt im Sinn oder möchten Sie sich einfach vernetzen? Schreiben Sie mir gerne.",
+    "relocation": "Offen für Umzug — EU",
     "form": {
       "name": "Name",
       "email": "E-Mail",
@@ -129,9 +147,9 @@
     "rights": "Alle Rechte vorbehalten."
   },
   "stats": {
-    "accounts": "Konten im großen Maßstab verwaltet",
+    "team_reduction": "Team reduziert durch Automatisierung",
+    "accounts": "Konten verwaltet",
     "countries": "Länder betreut",
-    "platforms": "Unterstützte Plattformen",
     "agents": "KI-Agenten in Produktion"
   }
 }
