@@ -8,22 +8,19 @@
   },
   "hero": {
     "name": "Klim Sarakeev",
-    "title": "Ingegnere Full-Stack · Automazione Browser & Sistemi IA",
-    "subtitle": "Costruisco infrastrutture di automazione scalabili e strumenti basati su IA utilizzati in ambienti di produzione.",
+    "title": "Ingegnere Full-Stack",
+    "subtitle": "Costruisco sistemi affidabili e scalabili — dall'infrastruttura di automazione e pipeline di rilevamento rischi all'analisi basata su IA in produzione.",
     "status_location": "Dilijan, Armenia · Aperto al trasferimento UE",
     "status_available": "Disponibile per lavoro",
+    "cta_cv": "Scarica CV",
     "cta_github": "GitHub",
     "cta_email": "Email"
   },
   "about": {
-    "label": "Highlights",
-    "intro": "Ho iniziato nello sviluppo di videogiochi, poi sono passato al digital marketing gestendo oltre 100 account Google Ads in 20+ paesi, e infine ho costruito gli strumenti di automazione. Oggi mi specializzo in sistemi scalabili, automazione browser e integrazione IA.",
-    "bullets": [
-      "Costruita piattaforma distribuita di automazione browser utilizzata in produzione in più ambienti con monitoraggio WebSocket in tempo reale",
-      "Lanciato RepoRoast — strumento per sviluppatori basato su IA, 559+ visitatori unici nella prima settimana",
-      "Sviluppato sistema di rilevamento rischi per il comportamento degli account con pipeline di analisi IA multi-modello",
-      "Progettato sistema di gestione campagne a 7 agenti con BullMQ, Redis e Claude API"
-    ]
+    "label": "Chi sono",
+    "p1": "Ingegnere Full-Stack presso MST, specializzato in infrastrutture di automazione affidabili, sistemi di rilevamento rischi e operazioni data-driven su larga scala. Con sede a Dilijan, Armenia.",
+    "p2": "Il mio percorso nell'ingegneria è iniziato con lo sviluppo di videogiochi, è passato per la gestione di 100+ account Google Ads in 20+ paesi, e si è evoluto nella costruzione degli strumenti di automazione — riducendo un team operativo di 8 persone a 1 attraverso infrastruttura personalizzata.",
+    "p3": "Oggi lavoro con TypeScript, React, Node.js e PostgreSQL, costruendo sistemi che enfatizzano auditabilità, tolleranza ai guasti e monitoraggio in tempo reale — integrando l'IA dove aggiunge valore misurabile."
   },
   "experience": {
     "label": "Esperienza",
@@ -34,11 +31,11 @@
         "period": "Nov 2025 — Presente",
         "description": "Node.js · TypeScript · React · PostgreSQL · Redis · BullMQ · Puppeteer · Chrome Extensions · Claude API",
         "highlights": [
-          "Costruita piattaforma distribuita di automazione browser con agenti VPS, gateway WebSocket e gestione sessioni in tempo reale",
-          "Sviluppata estensione Chrome MV3 per il rilevamento rischi e l'analisi di anomalie nei pattern di comportamento degli account",
-          "Progettato sistema di gestione campagne a 7 agenti con BullMQ, Redis e integrazione LLM (Claude API)",
-          "Integrate API IA in pipeline di analisi di produzione con orchestrazione multi-modello",
-          "Implementate dashboard di monitoraggio in tempo reale con WebSocket e React"
+          "Costruita piattaforma di automazione browser — team operativo ridotto da 8 a 1",
+          "Sviluppata estensione Chrome MV3 per il rilevamento rischi con scoring IA multi-modello",
+          "Progettato sistema di campagne a 7 agenti con BullMQ, Redis e Claude API",
+          "Implementate dashboard di monitoraggio WebSocket in tempo reale",
+          "Integrate API IA con audit logging e pipeline fault-tolerant"
         ]
       },
       {
@@ -47,9 +44,9 @@
         "period": "Mar 2025 — Nov 2025",
         "description": "Gestione di oltre 100 account Google Ads in più di 20 paesi. Creazione di strumenti di automazione interni che hanno portato al trasferimento nel reparto R&S.",
         "highlights": [
-          "Gestiti 100+ account Google Ads in 20+ paesi",
-          "Creati strumenti di automazione interni che hanno portato al trasferimento in R&S",
-          "Ottimizzati i flussi operativi pubblicitari su larga scala"
+          "Gestiti 100+ account in 20+ paesi",
+          "Costruiti strumenti di automazione che hanno portato al trasferimento in R&S",
+          "Abilitata riduzione team 8→1 tramite automazione dei workflow"
         ]
       },
       {
@@ -57,7 +54,14 @@
         "company": "Sinaptik, Kirov",
         "period": "2024 — 2025",
         "description": "Stage produttivo focalizzato sullo sviluppo di videogiochi con il motore Godot. Esperienza pratica con architettura di gioco, scripting e sistemi interattivi.",
-        "highlights": ["Motore Godot", "Architettura di gioco", "Stage produttivo", "Sistemi interattivi"]
+        "highlights": ["Motore Godot", "Architettura di gioco", "Sistemi interattivi"]
+      },
+      {
+        "title": "Sistemi Informatici",
+        "company": "Collegio Universitario Statale di Vjatka",
+        "period": "2021 — 2024",
+        "description": "Studio di sistemi informatici con focus su programmazione, database e amministrazione di sistema.",
+        "highlights": ["Programmazione", "Database", "Amministrazione di sistema"]
       }
     ]
   },
@@ -69,7 +73,7 @@
       {
         "title": "Piattaforma di Automazione Browser",
         "description": "Piattaforma distribuita per la gestione di sessioni browser su larga scala. Monorepo fullstack di livello produttivo con agenti VPS, gateway WebSocket e dashboard di monitoraggio in tempo reale.",
-        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway", "JWT"],
+        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway"],
         "category": "work"
       },
       {
@@ -81,12 +85,12 @@
       {
         "title": "Gestore Multi-Agente di Campagne",
         "description": "Sistema di orchestrazione a 7 agenti per automatizzare i flussi di gestione campagne. Costruito su code BullMQ con integrazione LLM e livello di esecuzione automazione browser.",
-        "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API", "Puppeteer"],
+        "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API"],
         "category": "work"
       },
       {
         "title": "RepoRoast",
-        "description": "Strumento per sviluppatori basato su IA che critica il tuo codice con personalità. 559+ visitatori unici nella prima settimana dal lancio.",
+        "description": "Strumento di code review basato su IA che analizza repository e fornisce feedback dettagliato. 559+ visitatori unici nella prima settimana dal lancio.",
         "tags": ["React", "Claude API", "Vercel"],
         "category": "personal",
         "live": "https://truer-repo-roast.vercel.app/"
@@ -100,7 +104,7 @@
       },
       {
         "title": "SnatchVid",
-        "description": "App desktop Windows per scaricare video da 1000+ piattaforme. CI/CD automatizzato con GitHub Actions, scansione VirusTotal e verifica checksum SHA-256 ad ogni release.",
+        "description": "App desktop Windows per scaricare video da 1000+ piattaforme. CI/CD automatizzato con GitHub Actions, scansione VirusTotal e verifica checksum SHA-256.",
         "tags": ["Python", "Flask", "yt-dlp", "PyInstaller", "GitHub Actions"],
         "category": "personal",
         "live": "https://github.com/TruerDev/SnatchVid/releases"
@@ -143,9 +147,9 @@
     "rights": "Tutti i diritti riservati."
   },
   "stats": {
-    "accounts": "Account Google Ads",
+    "team_reduction": "Team ridotto tramite automazione",
+    "accounts": "Account gestiti",
     "countries": "Paesi operati",
-    "visitors": "Utenti settimana 1 (RepoRoast)",
-    "pet_projects": "Progetti personali pubblicati"
+    "agents": "Agenti IA in produzione"
   }
 }

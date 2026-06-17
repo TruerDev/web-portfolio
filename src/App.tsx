@@ -1,10 +1,7 @@
 import { lazy, Suspense } from 'react'
 import { Navbar } from '@/components/layout/Navbar'
 import { Hero } from '@/components/sections/Hero'
-import { Scanline } from '@/components/effects/Scanline'
-import { GridBg } from '@/components/effects/GridBg'
 import { FloatingOrbs } from '@/components/effects/FloatingOrbs'
-import { CustomCursor } from '@/components/effects/CustomCursor'
 
 const About = lazy(() => import('@/components/sections/About').then(m => ({ default: m.About })))
 const Experience = lazy(() => import('@/components/sections/Experience').then(m => ({ default: m.Experience })))
@@ -17,10 +14,7 @@ const Footer = lazy(() => import('@/components/layout/Footer').then(m => ({ defa
 export default function App() {
   return (
     <div className="relative min-h-screen">
-      <Scanline />
-      <GridBg />
       <FloatingOrbs />
-      <CustomCursor />
 
       <a
         href="#main-content"

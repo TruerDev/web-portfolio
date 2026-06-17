@@ -55,8 +55,8 @@ export function Contact() {
                 <p className="mb-4 font-mono text-[12px] text-white/30">
                   <span className="text-accent">$</span> {t('contact.description')}
                 </p>
-                <p className="mb-6 font-mono text-[11px] text-emerald-400/60">
-                  {'\u{1F4CD}'} {t('contact.relocation')}
+                <p className="mb-6 font-mono text-[11px] text-white/30">
+                  {t('contact.relocation')}
                 </p>
 
                 <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit} className="flex flex-col gap-4">

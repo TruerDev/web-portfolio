@@ -13,12 +13,9 @@ interface Project {
 }
 
 const workColors = ['#8b5cf6', '#06b6d4', '#f59e0b']
-const workIcons = ['\u{2699}\u{FE0F}', '\u{1F6E1}\u{FE0F}', '\u{1F916}']
+const personalColors = ['#ec4899', '#10b981', '#f59e0b', '#06b6d4']
 
-const personalColors = ['#ec4899', '#10b981', '#f59e0b', '#06b6d4', '#8b5cf6', '#ec4899']
-const personalIcons = ['\u{1F525}', '\u{1F4B0}', '\u{2B07}\u{FE0F}', '\u{1F5FA}\u{FE0F}', '\u{26A1}', '\u{1F4CA}']
-
-function ProjectCard({ project, index, colors, icons }: { project: Project; index: number; colors: string[]; icons: string[] }) {
+function ProjectCard({ project, index, colors }: { project: Project; index: number; colors: string[] }) {
   const color = colors[index % colors.length]
 
   return (
@@ -31,7 +28,6 @@ function ProjectCard({ project, index, colors, icons }: { project: Project; inde
         }}
       >
         <div className="mb-3 flex items-center gap-3">
-          <span style={{ fontSize: 18 }}>{icons[index % icons.length]}</span>
           <span className="font-mono text-[13px] font-bold text-white">{project.title}</span>
           <div className="ml-auto flex gap-2">
             {project.github && (
@@ -70,7 +66,6 @@ export function Projects() {
       <div className="mx-auto max-w-3xl">
         <SectionHeading number="03">{t('projects.label').toUpperCase()}</SectionHeading>
 
-        {/* Work */}
         <div className="mb-12">
           <div className="mb-6 flex items-center gap-3">
             <span className="font-mono text-[10px] font-bold uppercase tracking-[3px] text-accent">
@@ -80,12 +75,11 @@ export function Projects() {
           </div>
           <div className="flex flex-col gap-5">
             {work.map((project, i) => (
-              <ProjectCard key={project.title} project={project} index={i} colors={workColors} icons={workIcons} />
+              <ProjectCard key={project.title} project={project} index={i} colors={workColors} />
             ))}
           </div>
         </div>
 
-        {/* Personal */}
         <div>
           <div className="mb-6 flex items-center gap-3">
             <span className="font-mono text-[10px] font-bold uppercase tracking-[3px] text-accent">
@@ -95,7 +89,7 @@ export function Projects() {
           </div>
           <div className="flex flex-col gap-5">
             {personal.map((project, i) => (
-              <ProjectCard key={project.title} project={project} index={i} colors={personalColors} icons={personalIcons} />
+              <ProjectCard key={project.title} project={project} index={i} colors={personalColors} />
             ))}
           </div>
         </div>

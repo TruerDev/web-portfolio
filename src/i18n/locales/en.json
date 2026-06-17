@@ -8,22 +8,19 @@
   },
   "hero": {
     "name": "Klim Sarakeev",
-    "title": "Full-Stack Engineer · Browser Automation & AI Systems",
-    "subtitle": "I build scalable automation infrastructure and AI-powered tools used in production environments.",
+    "title": "Full-Stack Engineer",
+    "subtitle": "I build reliable, scalable systems — from automation infrastructure and risk detection pipelines to AI-powered analytics used in production.",
     "status_location": "Dilijan, Armenia · Open to relocation EU",
     "status_available": "Available for work",
+    "cta_cv": "Download CV",
     "cta_github": "GitHub",
     "cta_email": "Email"
   },
   "about": {
-    "label": "Highlights",
-    "intro": "I started in game development, moved through digital marketing managing 100+ Google Ads accounts across 20+ countries, then built the automation tools myself. Today I specialize in scalable systems, browser automation, and AI integration.",
-    "bullets": [
-      "Built distributed browser automation platform used in production across multiple environments with real-time WebSocket monitoring",
-      "Launched RepoRoast — AI-powered developer tool, 559+ unique visitors in the first week",
-      "Developed risk detection system for ad account behavior with multi-model AI analysis pipeline",
-      "Designed 7-agent campaign management system using BullMQ, Redis, and Claude API"
-    ]
+    "label": "About Me",
+    "p1": "Full-Stack Engineer at MST specializing in reliable automation infrastructure, risk detection systems, and data-driven operations at scale. Based in Dilijan, Armenia.",
+    "p2": "My path to engineering started with game development, moved through managing 100+ Google Ads accounts across 20+ countries, and evolved into building the automation tools myself — reducing an 8-person operations team to 1 through custom infrastructure.",
+    "p3": "Today I work with TypeScript, React, Node.js, and PostgreSQL, building systems that emphasize auditability, fault tolerance, and real-time monitoring — integrating AI where it adds measurable value."
   },
   "experience": {
     "label": "Experience",
@@ -34,11 +31,11 @@
         "period": "Nov 2025 — Present",
         "description": "Node.js · TypeScript · React · PostgreSQL · Redis · BullMQ · Puppeteer · Chrome Extensions · Claude API",
         "highlights": [
-          "Built distributed browser automation platform with VPS agents, WebSocket gateway, and real-time session management",
-          "Developed Chrome MV3 extension for risk detection and anomaly analysis of account behavior patterns",
-          "Designed 7-agent campaign management system with BullMQ, Redis, and LLM integration (Claude API)",
-          "Integrated AI APIs into production analytics pipelines with multi-model orchestration",
-          "Implemented real-time monitoring dashboards with WebSocket and React"
+          "Built browser automation platform — reduced operations team from 8 to 1",
+          "Developed Chrome MV3 risk detection extension with multi-model AI scoring",
+          "Designed 7-agent campaign system with BullMQ, Redis, and Claude API",
+          "Implemented real-time WebSocket monitoring dashboards",
+          "Integrated AI APIs with audit logging and fault-tolerant pipelines"
         ]
       },
       {
@@ -47,9 +44,9 @@
         "period": "Mar 2025 — Nov 2025",
         "description": "Managed 100+ Google Ads accounts across 20+ countries. Built internal automation tools that led to transfer into the R&D engineering department.",
         "highlights": [
-          "Managed 100+ Google Ads accounts across 20+ countries",
-          "Built internal automation tools that led to transfer into R&D",
-          "Optimized ad operations workflows at scale"
+          "Managed 100+ accounts across 20+ countries",
+          "Built automation tools that led to R&D department transfer",
+          "Enabled 8→1 team reduction through workflow automation"
         ]
       },
       {
@@ -57,7 +54,14 @@
         "company": "Sinaptik, Kirov",
         "period": "2024 — 2025",
         "description": "Production internship focused on game development using the Godot engine. Gained hands-on experience with game architecture, scripting, and interactive systems.",
-        "highlights": ["Godot engine", "Game architecture", "Production internship", "Interactive systems"]
+        "highlights": ["Godot engine", "Game architecture", "Interactive systems"]
+      },
+      {
+        "title": "Computer Information Systems",
+        "company": "Vyatka State University College",
+        "period": "2021 — 2024",
+        "description": "Studied computer information systems with focus on programming, databases, and system administration.",
+        "highlights": ["Programming", "Databases", "System Administration"]
       }
     ]
   },
@@ -69,7 +73,7 @@
       {
         "title": "Browser Automation Platform",
         "description": "Distributed platform for large-scale browser session management. Production-grade fullstack monorepo with VPS agents, WebSocket gateway, and real-time monitoring dashboard.",
-        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway", "JWT"],
+        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway"],
         "category": "work"
       },
       {
@@ -81,12 +85,12 @@
       {
         "title": "Multi-Agent Campaign Manager",
         "description": "7-agent orchestration system automating campaign management workflows. Built on BullMQ job queues with LLM integration and browser automation execution layer.",
-        "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API", "Puppeteer"],
+        "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API"],
         "category": "work"
       },
       {
         "title": "RepoRoast",
-        "description": "AI-powered developer tool that roasts your code with personality. 559+ unique visitors in the first week after launch.",
+        "description": "AI-powered code review tool that analyzes repositories and provides detailed feedback. 559+ unique visitors in the first week after launch.",
         "tags": ["React", "Claude API", "Vercel"],
         "category": "personal",
         "live": "https://truer-repo-roast.vercel.app/"
@@ -100,7 +104,7 @@
       },
       {
         "title": "SnatchVid",
-        "description": "Windows desktop app for downloading video from 1000+ platforms. Automated CI/CD with GitHub Actions, VirusTotal scanning, and SHA-256 checksum verification on every release.",
+        "description": "Windows desktop app for downloading video from 1000+ platforms. Automated CI/CD with GitHub Actions, VirusTotal scanning, and SHA-256 checksum verification.",
         "tags": ["Python", "Flask", "yt-dlp", "PyInstaller", "GitHub Actions"],
         "category": "personal",
         "live": "https://github.com/TruerDev/SnatchVid/releases"
@@ -143,9 +147,9 @@
     "rights": "All rights reserved."
   },
   "stats": {
-    "accounts": "Google Ads Accounts",
+    "team_reduction": "Team Reduced via Automation",
+    "accounts": "Accounts Managed",
     "countries": "Countries Operated",
-    "visitors": "Week-1 Users (RepoRoast)",
-    "pet_projects": "Pet Projects Shipped"
+    "agents": "AI Agents in Production"
   }
 }
