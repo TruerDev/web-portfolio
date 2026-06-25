@@ -8,60 +8,53 @@
   },
   "hero": {
     "name": "Klim Sarakeev",
-    "title": "Full-Stack-Ingenieur",
-    "subtitle": "Ich baue zuverlässige, skalierbare Systeme — von Automatisierungsinfrastruktur und Risikoerkennung bis hin zu KI-gestützten Analysen im Produktionseinsatz.",
+    "title": "Automatisierungsingenieur",
+    "subtitle": "Ich baue und teste LLM-gestützte Systeme, Browser-Automatisierung und Datenpipelines — spezialisiert auf QA für KI- und datenintensive Produkte.",
     "status_location": "Dilijan, Armenien · Offen für Umzug in die EU",
     "status_available": "Verfügbar für Arbeit",
-    "cta_cv": "Lebenslauf herunterladen",
+    "cta_cv": "CV ansehen",
     "cta_github": "GitHub",
     "cta_email": "E-Mail"
   },
   "about": {
     "label": "Über mich",
-    "p1": "Full-Stack-Ingenieur bei MST, spezialisiert auf zuverlässige Automatisierungsinfrastruktur, Risikoerkennungssysteme und datengesteuerte Operationen im großen Maßstab. Wohnhaft in Dilijan, Armenien.",
-    "p2": "Mein Weg in die Technik begann mit Spieleentwicklung, führte über die Verwaltung von 100+ Google Ads-Konten in 20+ Ländern und mündete im Bau der Automatisierungstools selbst — eine Reduzierung des Operations-Teams von 8 auf 1 Person durch eigene Infrastruktur.",
-    "p3": "Heute arbeite ich mit TypeScript, React, Node.js und PostgreSQL und baue Systeme, die Auditierbarkeit, Fehlertoleranz und Echtzeit-Monitoring betonen — mit KI-Integration dort, wo sie messbaren Mehrwert bringt."
+    "p1": "Automatisierungsingenieur bei MST, der Testframeworks entwirft, API- und Streaming-Datenflüsse validiert und den schwierigen Teil moderner QA bewältigt: das Testen nicht-deterministischer LLM-Ausgaben mittels Eval-Sets, LLM-as-Judge und Answer-Quality-Regression.",
+    "p2": "Angefangen mit Spieleentwicklung, dann Verwaltung von 100+ Google Ads-Konten in 20+ Ländern, dann Bau der Automatisierungstools selbst — Reduktion eines 8-Personen-Teams auf 1, abgesichert durch eine 93-Test-Suite. KI als Multiplikator nutzen und die Sprache für die Aufgabe wählen, nicht die Gewohnheit.",
+    "p3": "Heute arbeite ich mit Python, TypeScript, PostgreSQL und Redis — und baue Systeme, die Testbarkeit, strukturiertes Audit-Logging, Datenintegrität und Echtzeit-Observability betonen."
   },
   "experience": {
     "label": "Erfahrung",
     "roles": [
       {
         "title": "F&E-Ingenieur",
-        "company": "MST",
+        "company": "MST · Remote",
         "period": "Nov 2025 — Heute",
-        "description": "Node.js · TypeScript · React · PostgreSQL · Redis · BullMQ · Puppeteer · Chrome Extensions · Claude API",
+        "description": "Python · TypeScript · Pytest · PostgreSQL · Redis · BullMQ · Puppeteer · Claude API · OpenAI API",
         "highlights": [
-          "Browser-Automatisierungsplattform gebaut — Operations-Team von 8 auf 1 reduziert",
-          "Chrome-MV3-Risikoerkennungserweiterung mit Multi-Modell-KI-Scoring entwickelt",
-          "7-Agenten-Kampagnensystem mit BullMQ, Redis und Claude API entworfen",
-          "Echtzeit-WebSocket-Monitoring-Dashboards implementiert",
-          "KI-APIs mit Audit-Logging und fehlertoleranten Pipelines integriert"
+          "7-Agenten-LLM-Orchestrierungssystem gebaut — Schritte testbar, beobachtbar und reproduzierbar gestaltet",
+          "LLM-Eval-Pipeline entworfen — Golden-Answer-Datensätze, LLM-as-Judge-Scoring, Halluzinations-Regression",
+          "Datenpipelines für Anomalieerkennung mit strukturiertem Audit-Logging und Streaming-Validierung gebaut",
+          "Browser-Automatisierungsplattform geliefert — Team von 8 auf 1 reduziert, abgesichert durch 93-Test-Suite",
+          "Junior-Ingenieur betreut mit Dokumentation und strukturierter Aufgabenaufteilung"
         ]
       },
       {
         "title": "Digital Marketing Operations",
-        "company": "MST",
+        "company": "MST · Remote",
         "period": "Mär 2025 — Nov 2025",
-        "description": "Verwaltung von über 100 Google Ads-Konten in mehr als 20 Ländern. Erstellung interner Automatisierungstools, die zur Versetzung in die F&E-Abteilung führten.",
+        "description": "Hochvolumige Operationen über 100+ Konten in 20+ Ländern; Automatisierungslücken identifiziert und Plattform vorgeschlagen — 8 Monate später als F&E-Ingenieur geliefert.",
         "highlights": [
           "100+ Konten in 20+ Ländern verwaltet",
-          "Automatisierungstools gebaut, die zur F&E-Versetzung führten",
-          "Team-Reduktion von 8→1 durch Workflow-Automatisierung ermöglicht"
+          "Automatisierungslücken identifiziert, Plattform vorgeschlagen und geliefert",
+          "Team-Reduktion 8→1 durch Workflow-Automatisierung ermöglicht"
         ]
       },
       {
-        "title": "Spieleentwickler-Praktikant",
-        "company": "Sinaptik, Kirow",
-        "period": "2024 — 2025",
-        "description": "Produktionspraktikum mit Schwerpunkt Spieleentwicklung mit der Godot-Engine. Praktische Erfahrung mit Spielarchitektur, Scripting und interaktiven Systemen.",
-        "highlights": ["Godot-Engine", "Spielarchitektur", "Interaktive Systeme"]
-      },
-      {
         "title": "Computer-Informationssysteme",
-        "company": "Staatliche Hochschule Wjatka",
+        "company": "Staatliche Hochschule Wjatka, Kirow",
         "period": "2021 — 2024",
-        "description": "Studium der Computer-Informationssysteme mit Schwerpunkt auf Programmierung, Datenbanken und Systemadministration.",
-        "highlights": ["Programmierung", "Datenbanken", "Systemadministration"]
+        "description": "Studium Programmierung, Datenbanken und Systemadministration. Wettbewerbsprogrammierung — ICPC-Team \"Vyatskie Sovy\", Platzierung gegen Studierende führender Universitäten.",
+        "highlights": ["Wettbewerbsprogrammierung (ICPC)", "Datenbanken", "Systemadministration"]
       }
     ]
   },
@@ -71,36 +64,42 @@
     "personal_label": "Persönlich",
     "items": [
       {
-        "title": "Browser-Automatisierungsplattform",
-        "description": "Verteilte Plattform für die Verwaltung von Browser-Sitzungen im großen Maßstab. Produktionsreifes Fullstack-Monorepo mit VPS-Agenten, WebSocket-Gateway und Echtzeit-Monitoring-Dashboard.",
-        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway"],
+        "title": "Multi-Agenten-Kampagnenmanager",
+        "description": "7-Agenten-LLM-Orchestrierungssystem (OpenAI + Anthropic) mit WebSocket-Streaming und Schritt-Ausführungs-Handlern. Agenten-Schritte testbar, beobachtbar und reproduzierbar trotz nicht-deterministischer Modellausgabe.",
+        "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API", "OpenAI API"],
         "category": "work"
       },
       {
         "title": "Risikoerkennungssystem",
-        "description": "Chrome-MV3-Erweiterung + Backend + React-Dashboard zur Anomalieerkennung im Kontoverhalten. Multi-Modell-KI-Analyse-Pipeline mit prädiktiver Bewertung.",
+        "description": "Automatisierte Datenpipelines und Anomalieerkennung mit strukturiertem Audit-Logging. Validiert Streaming- und Zeitreihendaten durch Deduplizierung, Zeitzonen-Normalisierung und Lückenbehandlung.",
         "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "Claude API"],
         "category": "work"
       },
       {
-        "title": "Multi-Agenten-Kampagnenmanager",
-        "description": "7-Agenten-Orchestrierungssystem zur Automatisierung von Kampagnenmanagement-Workflows. Aufgebaut auf BullMQ-Job-Queues mit LLM-Integration und Browser-Automatisierungsschicht.",
-        "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API"],
+        "title": "Browser-Automatisierungsplattform",
+        "description": "Interne Plattform für den gesamten Konto-Lebenszyklus mit Echtzeit-Monitoring. Reduzierte die operative Personalstärke von 8 auf 1, abgesichert durch eine 93-Test-Unit-&-Integrations-Suite.",
+        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Puppeteer", "Railway"],
         "category": "work"
       },
       {
         "title": "RepoRoast",
-        "description": "KI-gestütztes Code-Review-Tool, das Repositories analysiert und detailliertes Feedback gibt. 559+ einzigartige Besucher in der ersten Woche nach dem Start.",
+        "description": "KI-gestütztes Code-Review-Tool, das Repositories analysiert und detailliertes Feedback gibt. 559+ einzigartige Besucher in der ersten Woche.",
         "tags": ["React", "Claude API", "Vercel"],
         "category": "personal",
         "live": "https://truer-repo-roast.vercel.app/"
       },
       {
         "title": "FinTrack",
-        "description": "Produktionsreifer persönlicher Finanzmanager. Multi-Währungs-Unterstützung, Budget-Tracking, wiederkehrende Transaktionen, Analytics-Dashboard, Google OAuth, i18n (EN/RU).",
+        "description": "Multi-Währungs-Finanztracker mit Fokus auf Datenintegrität — Schema-Validierung (Zod), Row-Level-Security und Analytics-Dashboards. Als PWA deployed.",
         "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle ORM", "Zod", "Recharts"],
         "category": "personal",
         "live": "https://fintrack-amber-one.vercel.app/"
+      },
+      {
+        "title": "t_report",
+        "description": "Erfasst Live-Marktdaten nach Zeitplan für Risikozerlegung, Backtesting und LLM-gestützte Empfehlungen — konzipiert für reproduzierbare Analyse über Live-Zeitreihendaten.",
+        "tags": ["Python", "FastAPI", "SQLite", "T-Bank Invest API"],
+        "category": "personal"
       },
       {
         "title": "SnatchVid",
@@ -121,35 +120,19 @@
   "skills": {
     "label": "Fähigkeiten",
     "categories": {
-      "core": "Kern",
-      "backend": "Backend",
-      "frontend": "Frontend",
-      "tools": "Tools & Infra",
-      "ai": "KI & Automatisierung"
+      "test_automation": "Testautomatisierung",
+      "ai_testing": "KI / LLM Testing",
+      "languages": "Sprachen",
+      "data_backend": "Daten & Backend",
+      "tooling": "Tooling"
     }
   },
   "contact": {
     "label": "Kontakt aufnehmen",
     "description": "Haben Sie ein Projekt im Sinn oder möchten Sie sich einfach vernetzen? Schreiben Sie mir gerne.",
     "relocation": "Offen für Umzug — EU",
-    "form": {
-      "name": "Name",
-      "email": "E-Mail",
-      "message": "Nachricht",
-      "send": "Nachricht senden",
-      "sending": "Wird gesendet...",
-      "success": "Nachricht gesendet! Ich melde mich bald bei Ihnen.",
-      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
-    }
+    "form": { "name": "Name", "email": "E-Mail", "message": "Nachricht", "send": "Nachricht senden", "sending": "Wird gesendet...", "success": "Nachricht gesendet! Ich melde mich bald bei Ihnen.", "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut." }
   },
-  "footer": {
-    "designed": "Entworfen & entwickelt von Klim Sarakeev",
-    "rights": "Alle Rechte vorbehalten."
-  },
-  "stats": {
-    "team_reduction": "Team reduziert durch Automatisierung",
-    "accounts": "Konten verwaltet",
-    "countries": "Länder betreut",
-    "agents": "KI-Agenten in Produktion"
-  }
+  "footer": { "designed": "Entworfen & entwickelt von Klim Sarakeev", "rights": "Alle Rechte vorbehalten." },
+  "stats": { "team_reduction": "Team reduziert durch Automatisierung", "test_suite": "Tests in der Kernsuite", "countries": "Länder betreut", "agents": "KI-Agenten in Produktion" }
 }

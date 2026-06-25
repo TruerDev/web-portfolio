@@ -8,60 +8,53 @@
   },
   "hero": {
     "name": "Klim Sarakeev",
-    "title": "Full-Stack Engineer",
-    "subtitle": "I build reliable, scalable systems — from automation infrastructure and risk detection pipelines to AI-powered analytics used in production.",
+    "title": "Automation Engineer",
+    "subtitle": "I build and test LLM-powered systems, browser automation, and data pipelines — specializing in QA for AI- and data-heavy products.",
     "status_location": "Dilijan, Armenia · Open to relocation EU",
     "status_available": "Available for work",
-    "cta_cv": "Download CV",
+    "cta_cv": "View CV",
     "cta_github": "GitHub",
     "cta_email": "Email"
   },
   "about": {
     "label": "About Me",
-    "p1": "Full-Stack Engineer at MST specializing in reliable automation infrastructure, risk detection systems, and data-driven operations at scale. Based in Dilijan, Armenia.",
-    "p2": "My path to engineering started with game development, moved through managing 100+ Google Ads accounts across 20+ countries, and evolved into building the automation tools myself — reducing an 8-person operations team to 1 through custom infrastructure.",
-    "p3": "Today I work with TypeScript, React, Node.js, and PostgreSQL, building systems that emphasize auditability, fault tolerance, and real-time monitoring — integrating AI where it adds measurable value."
+    "p1": "Automation engineer at MST who designs test frameworks, validates API and streaming data flows, and handles the hard part of modern QA: testing non-deterministic LLM output via eval sets, LLM-as-judge, and answer-quality regression.",
+    "p2": "Started in game development, moved through managing 100+ Google Ads accounts across 20+ countries, then built the automation tools myself — reducing an 8-person operations team to 1, backed by a 93-test suite. Treat AI as a force multiplier and pick the language for the task, not the habit.",
+    "p3": "Today I work with Python, TypeScript, PostgreSQL, and Redis — building systems that emphasize testability, structured audit logging, data integrity, and real-time observability."
   },
   "experience": {
     "label": "Experience",
     "roles": [
       {
         "title": "R&D Engineer",
-        "company": "MST",
+        "company": "MST · Remote",
         "period": "Nov 2025 — Present",
-        "description": "Node.js · TypeScript · React · PostgreSQL · Redis · BullMQ · Puppeteer · Chrome Extensions · Claude API",
+        "description": "Python · TypeScript · Pytest · PostgreSQL · Redis · BullMQ · Puppeteer · Claude API · OpenAI API",
         "highlights": [
-          "Built browser automation platform — reduced operations team from 8 to 1",
-          "Developed Chrome MV3 risk detection extension with multi-model AI scoring",
-          "Designed 7-agent campaign system with BullMQ, Redis, and Claude API",
-          "Implemented real-time WebSocket monitoring dashboards",
-          "Integrated AI APIs with audit logging and fault-tolerant pipelines"
+          "Built 7-agent LLM orchestration system — designed steps to be testable, observable, and reproducible",
+          "Designed LLM eval pipeline — golden-answer datasets, LLM-as-judge scoring, hallucination regression",
+          "Built data pipelines for anomaly detection with structured audit logging and streaming validation",
+          "Delivered browser-automation platform — reduced team from 8 to 1, backed by 93-test suite",
+          "Mentored junior engineer with documentation and structured task breakdown"
         ]
       },
       {
         "title": "Digital Marketing Operations",
-        "company": "MST",
+        "company": "MST · Remote",
         "period": "Mar 2025 — Nov 2025",
-        "description": "Managed 100+ Google Ads accounts across 20+ countries. Built internal automation tools that led to transfer into the R&D engineering department.",
+        "description": "Ran high-volume ops across 100+ accounts in 20+ countries; identified automation gaps and proposed the platform — shipped it as R&D Engineer 8 months later.",
         "highlights": [
           "Managed 100+ accounts across 20+ countries",
-          "Built automation tools that led to R&D department transfer",
+          "Identified automation gaps, proposed and shipped the platform",
           "Enabled 8→1 team reduction through workflow automation"
         ]
       },
       {
-        "title": "Game Developer Intern",
-        "company": "Sinaptik, Kirov",
-        "period": "2024 — 2025",
-        "description": "Production internship focused on game development using the Godot engine. Gained hands-on experience with game architecture, scripting, and interactive systems.",
-        "highlights": ["Godot engine", "Game architecture", "Interactive systems"]
-      },
-      {
         "title": "Computer Information Systems",
-        "company": "Vyatka State University College",
+        "company": "Vyatka State University College, Kirov",
         "period": "2021 — 2024",
-        "description": "Studied computer information systems with focus on programming, databases, and system administration.",
-        "highlights": ["Programming", "Databases", "System Administration"]
+        "description": "Studied programming, databases, and system administration. Competitive programming — ICPC-style team \"Vyatskie Sovy\", placing against students from leading universities.",
+        "highlights": ["Competitive programming (ICPC)", "Databases", "System Administration"]
       }
     ]
   },
@@ -71,21 +64,21 @@
     "personal_label": "Personal",
     "items": [
       {
-        "title": "Browser Automation Platform",
-        "description": "Distributed platform for large-scale browser session management. Production-grade fullstack monorepo with VPS agents, WebSocket gateway, and real-time monitoring dashboard.",
-        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Railway"],
+        "title": "Multi-Agent Campaign Manager",
+        "description": "7-agent LLM orchestration system (OpenAI + Anthropic) with WebSocket streaming and step-execution handlers. Agent steps designed to be testable, observable, and reproducible despite non-deterministic model output.",
+        "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API", "OpenAI API"],
         "category": "work"
       },
       {
         "title": "Risk Detection System",
-        "description": "Chrome MV3 extension + backend + React dashboard for anomaly detection in account behavior. Multi-model AI analysis pipeline with predictive scoring.",
+        "description": "Automated data pipelines and anomaly detection with structured audit logging. Validates streaming, time-series event data through deduplication, timezone normalization, and gap handling.",
         "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "Claude API"],
         "category": "work"
       },
       {
-        "title": "Multi-Agent Campaign Manager",
-        "description": "7-agent orchestration system automating campaign management workflows. Built on BullMQ job queues with LLM integration and browser automation execution layer.",
-        "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API"],
+        "title": "Browser Automation Platform",
+        "description": "Internal platform covering full account lifecycle with real-time monitoring. Reduced operational headcount from 8 to 1, backed by a 93-test unit & integration suite.",
+        "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Puppeteer", "Railway"],
         "category": "work"
       },
       {
@@ -97,10 +90,16 @@
       },
       {
         "title": "FinTrack",
-        "description": "Production-ready personal finance manager. Multi-currency support, budget tracking, recurring transactions, analytics dashboard, Google OAuth, i18n (EN/RU).",
+        "description": "Multi-currency finance tracker built around data integrity — schema validation (Zod), row-level security, and analytics dashboards. Deployed as a PWA.",
         "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle ORM", "Zod", "Recharts"],
         "category": "personal",
         "live": "https://fintrack-amber-one.vercel.app/"
+      },
+      {
+        "title": "t_report",
+        "description": "Ingests live market data on a schedule for risk decomposition, backtesting, and LLM-powered recommendations — engineered for reproducible analysis over live time-series data.",
+        "tags": ["Python", "FastAPI", "SQLite", "T-Bank Invest API"],
+        "category": "personal"
       },
       {
         "title": "SnatchVid",
@@ -121,11 +120,11 @@
   "skills": {
     "label": "Skills",
     "categories": {
-      "core": "Core",
-      "backend": "Backend",
-      "frontend": "Frontend",
-      "tools": "Tools & Infra",
-      "ai": "AI & Automation"
+      "test_automation": "Test Automation",
+      "ai_testing": "AI / LLM Testing",
+      "languages": "Languages",
+      "data_backend": "Data & Backend",
+      "tooling": "Tooling"
     }
   },
   "contact": {
@@ -148,7 +147,7 @@
   },
   "stats": {
     "team_reduction": "Team Reduced via Automation",
-    "accounts": "Accounts Managed",
+    "test_suite": "Tests in Core Suite",
     "countries": "Countries Operated",
     "agents": "AI Agents in Production"
   }

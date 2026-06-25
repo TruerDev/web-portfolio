@@ -4,11 +4,11 @@ import { ScrollReveal } from '@/components/effects/ScrollReveal'
 import { skillCategories } from '@/data/skills'
 
 const catColors: Record<string, string> = {
-  core: '#8b5cf6',
-  backend: '#10b981',
-  frontend: '#06b6d4',
-  tools: '#f59e0b',
-  ai: '#ec4899',
+  test_automation: '#8b5cf6',
+  ai_testing: '#ec4899',
+  languages: '#06b6d4',
+  data_backend: '#10b981',
+  tooling: '#f59e0b',
 }
 
 export function Skills() {

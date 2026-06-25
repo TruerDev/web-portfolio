@@ -4,7 +4,7 @@ import { ScrollReveal } from '@/components/effects/ScrollReveal'
 
 const stats = [
   { key: 'team_reduction', end: 8, suffix: '→1', color: '#8b5cf6' },
-  { key: 'accounts', end: 100, suffix: '+', color: '#06b6d4' },
+  { key: 'test_suite', end: 93, suffix: '', color: '#06b6d4' },
   { key: 'countries', end: 20, suffix: '+', color: '#f59e0b' },
   { key: 'agents', end: 7, suffix: '', color: '#ec4899' },
 ]

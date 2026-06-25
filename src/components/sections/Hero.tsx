@@ -64,8 +64,9 @@ export function Hero() {
           style={{ animation: 'fadeUp 0.6s 0.6s ease both', opacity: 0 }}
         >
           <a
-            href="/cv-klim-sarakeev.pdf"
-            download
+            href="/KlimSarakeevCV.html"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group relative inline-flex items-center gap-2 overflow-hidden rounded-lg px-7 py-4 font-mono text-[11px] font-bold uppercase tracking-[3px] text-white"
             style={{
               background: 'linear-gradient(135deg, var(--color-accent), var(--color-accent-dark))',

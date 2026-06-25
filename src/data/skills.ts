@@ -9,58 +9,55 @@ export interface SkillCategory {
 
 export const skillCategories: SkillCategory[] = [
   {
-    key: 'core',
+    key: 'test_automation',
     items: [
-      { name: 'TypeScript' },
-      { name: 'JavaScript' },
       { name: 'Python' },
+      { name: 'Pytest' },
+      { name: 'Allure / Report Portal' },
+      { name: 'API Testing' },
+      { name: 'Unit & Integration Tests' },
+      { name: 'Streaming Data Validation' },
+    ],
+  },
+  {
+    key: 'ai_testing',
+    items: [
+      { name: 'Eval Datasets' },
+      { name: 'LLM-as-Judge' },
+      { name: 'Answer-Quality Regression' },
+      { name: 'Hallucination Validation' },
+      { name: 'OpenAI & Anthropic APIs' },
+      { name: 'Multi-Agent Pipelines' },
+    ],
+  },
+  {
+    key: 'languages',
+    items: [
+      { name: 'Python' },
+      { name: 'TypeScript / JavaScript' },
       { name: 'SQL' },
     ],
   },
   {
-    key: 'backend',
+    key: 'data_backend',
     items: [
-      { name: 'Node.js' },
-      { name: 'Express' },
-      { name: 'Fastify' },
       { name: 'PostgreSQL' },
       { name: 'Redis' },
-      { name: 'BullMQ' },
-      { name: 'WebSocket' },
       { name: 'REST APIs' },
+      { name: 'Webhooks' },
+      { name: 'Data Pipelines' },
+      { name: 'Audit Logging' },
     ],
   },
   {
-    key: 'frontend',
+    key: 'tooling',
     items: [
-      { name: 'React' },
-      { name: 'Next.js' },
-      { name: 'Tailwind CSS' },
-      { name: 'Recharts' },
-      { name: 'shadcn/ui' },
-      { name: 'Chrome Extensions (MV3)' },
-    ],
-  },
-  {
-    key: 'tools',
-    items: [
-      { name: 'Docker' },
       { name: 'Git' },
-      { name: 'Linux' },
-      { name: 'Railway' },
-      { name: 'Vercel' },
       { name: 'GitHub Actions' },
-      { name: 'PyInstaller' },
-    ],
-  },
-  {
-    key: 'ai',
-    items: [
-      { name: 'Claude API' },
-      { name: 'GPT-4o' },
+      { name: 'Charles Proxy' },
       { name: 'Puppeteer' },
-      { name: 'Prompt Engineering' },
-      { name: 'BullMQ Orchestration' },
+      { name: 'Zod' },
+      { name: 'Pino' },
     ],
   },
 ]
