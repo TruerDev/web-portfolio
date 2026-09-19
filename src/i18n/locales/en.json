@@ -8,9 +8,9 @@
   },
   "hero": {
     "name": "Klim Sarakeev",
-    "title": "Automation Engineer",
-    "subtitle": "I build and test LLM-powered systems, browser automation, and data pipelines — specializing in QA for AI- and data-heavy products.",
-    "status_location": "Dilijan, Armenia · Open to relocation EU",
+    "title": "R&D / Backend Engineer",
+    "subtitle": "I turn manual operations into production systems — backend services, browser automation, data pipelines, and LLM integrations.",
+    "status_location": "Dilijan, Armenia · Open to relocation",
     "status_available": "Available for work",
     "cta_cv": "View CV",
     "cta_github": "GitHub",
@@ -18,9 +18,9 @@
   },
   "about": {
     "label": "About Me",
-    "p1": "Automation engineer at MST who designs test frameworks, validates API and streaming data flows, and handles the hard part of modern QA: testing non-deterministic LLM output via eval sets, LLM-as-judge, and answer-quality regression.",
+    "p1": "Backend-focused R&D engineer at MST who turns manual operations into production systems — a browser-automation platform, a fraud-detection system with an ML ban predictor, and a 7-agent LLM orchestration layer. I own problems end-to-end: schema design and APIs, background jobs, security hardening, CI/CD, and tests.",
     "p2": "Started in game development, moved through managing 100+ Google Ads accounts across 20+ countries, then built the automation tools myself — reducing an 8-person operations team to 1, backed by a 93-test suite. Treat AI as a force multiplier and pick the language for the task, not the habit.",
-    "p3": "Today I work with Python, TypeScript, PostgreSQL, and Redis — building systems that emphasize testability, structured audit logging, data integrity, and real-time observability."
+    "p3": "Day to day I work in TypeScript/Node.js with PostgreSQL, Redis, and BullMQ, and use Python for data-heavy work. Strong algorithmic foundation from competitive programming."
   },
   "experience": {
     "label": "Experience",
@@ -29,13 +29,13 @@
         "title": "R&D Engineer",
         "company": "MST · Remote",
         "period": "Nov 2025 — Present",
-        "description": "Python · TypeScript · Pytest · PostgreSQL · Redis · BullMQ · Puppeteer · Claude API · OpenAI API",
+        "description": "TypeScript · Node.js · Python · PostgreSQL · Redis · BullMQ · Fastify · Puppeteer · Claude API · OpenAI API",
         "highlights": [
-          "Built 7-agent LLM orchestration system — designed steps to be testable, observable, and reproducible",
-          "Designed LLM eval pipeline — golden-answer datasets, LLM-as-judge scoring, hallucination regression",
-          "Built data pipelines for anomaly detection with structured audit logging and streaming validation",
-          "Delivered browser-automation platform — reduced team from 8 to 1, backed by 93-test suite",
-          "Mentored junior engineer with documentation and structured task breakdown"
+          "Architected a 7-agent LLM orchestration system (OpenAI + Anthropic) with WebSocket streaming and step-execution handlers",
+          "Built a browser-automation platform — 3NF database, 15 critical vulnerabilities closed, bidirectional sync with AdsPower, Dolphin and Octo Browser; 93+ tests",
+          "Delivered an anti-fraud system in 6 sprints — MV3 Chrome extension, Fastify backend, React dashboard, logistic-regression ban predictor; 198 tests",
+          "Reduced the operations team from 8 to 1 through automation",
+          "Mentored a junior engineer — full project handoffs, written documentation, structured task breakdowns"
         ]
       },
       {
@@ -65,26 +65,33 @@
     "items": [
       {
         "title": "Multi-Agent Campaign Manager",
-        "description": "7-agent LLM orchestration system (OpenAI + Anthropic) with WebSocket streaming and step-execution handlers. Agent steps designed to be testable, observable, and reproducible despite non-deterministic model output.",
+        "description": "7-agent LLM orchestration system on OpenAI and Anthropic models, with WebSocket streaming, step-execution handlers, and full browser-context awareness.",
         "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API", "OpenAI API"],
         "category": "work"
       },
       {
-        "title": "Risk Detection System",
-        "description": "Automated data pipelines and anomaly detection with structured audit logging. Validates streaming, time-series event data through deduplication, timezone normalization, and gap handling.",
+        "title": "Anti-Fraud Analytics",
+        "description": "Google Ads fraud-detection system delivered in 6 sprints: MV3 Chrome extension, Fastify backend, React dashboard, logistic-regression ban predictor, and multi-model AI comparison (Claude, GPT, Gemini). Shipped with CI/CD and 198 tests.",
         "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "Claude API"],
         "category": "work"
       },
       {
         "title": "Browser Automation Platform",
-        "description": "Internal platform covering full account lifecycle with real-time monitoring. Reduced operational headcount from 8 to 1, backed by a 93-test unit & integration suite.",
+        "description": "Internal platform for ad-account management. Normalized the database to 3NF, closed 15 critical security vulnerabilities, extracted a repository layer, and shipped bidirectional sync with AdsPower, Dolphin, and Octo Browser. Cut the operations team from 8 to 1; 93+ unit & integration tests.",
         "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Puppeteer", "Railway"],
         "category": "work"
       },
       {
+        "title": "TrailPlanner",
+        "description": "Solo-built SaaS hiking-route planner with 3D terrain rendering, alternative-route generation, and hiking-time estimation (Tobler's function). Freemium pricing in progress.",
+        "tags": ["Next.js", "Mapbox", "Three.js", "BRouter", "Open-Meteo", "Vercel"],
+        "category": "personal",
+        "live": "https://trailplanner-hike.vercel.app/"
+      },
+      {
         "title": "RepoRoast",
-        "description": "AI-powered code review tool that analyzes repositories and provides detailed feedback. 559+ unique visitors in the first week after launch.",
-        "tags": ["React", "Claude API", "Vercel"],
+        "description": "AI code-review tool: analyzes a public GitHub repository — structure, commits, dependencies, code — and returns a scored, severity-rated review in 11 languages. 559+ unique visitors in the first week.",
+        "tags": ["Next.js", "Gemini API", "GitHub API", "Vercel"],
         "category": "personal",
         "live": "https://truer-repo-roast.vercel.app/"
       },
@@ -120,17 +127,18 @@
   "skills": {
     "label": "Skills",
     "categories": {
-      "test_automation": "Test Automation",
-      "ai_testing": "AI / LLM Testing",
       "languages": "Languages",
-      "data_backend": "Data & Backend",
-      "tooling": "Tooling"
+      "data_backend": "Backend & Data",
+      "ai_llm": "AI / LLM",
+      "automation": "Automation & Browser",
+      "frontend": "Frontend",
+      "tooling": "DevOps & Tooling"
     }
   },
   "contact": {
     "label": "Get in Touch",
     "description": "Have a project in mind or just want to connect? Feel free to reach out.",
-    "relocation": "Open to relocation — EU",
+    "relocation": "Open to relocation",
     "form": {
       "name": "Name",
       "email": "Email",

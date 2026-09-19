@@ -9,32 +9,10 @@ export interface SkillCategory {
 
 export const skillCategories: SkillCategory[] = [
   {
-    key: 'test_automation',
-    items: [
-      { name: 'Python' },
-      { name: 'Pytest' },
-      { name: 'Allure / Report Portal' },
-      { name: 'API Testing' },
-      { name: 'Unit & Integration Tests' },
-      { name: 'Streaming Data Validation' },
-    ],
-  },
-  {
-    key: 'ai_testing',
-    items: [
-      { name: 'Eval Datasets' },
-      { name: 'LLM-as-Judge' },
-      { name: 'Answer-Quality Regression' },
-      { name: 'Hallucination Validation' },
-      { name: 'OpenAI & Anthropic APIs' },
-      { name: 'Multi-Agent Pipelines' },
-    ],
-  },
-  {
     key: 'languages',
     items: [
+      { name: 'TypeScript / JavaScript (Node.js)' },
       { name: 'Python' },
-      { name: 'TypeScript / JavaScript' },
       { name: 'SQL' },
     ],
   },
@@ -43,10 +21,41 @@ export const skillCategories: SkillCategory[] = [
     items: [
       { name: 'PostgreSQL' },
       { name: 'Redis' },
+      { name: 'BullMQ' },
+      { name: 'Fastify' },
       { name: 'REST APIs' },
-      { name: 'Webhooks' },
-      { name: 'Data Pipelines' },
-      { name: 'Audit Logging' },
+      { name: 'WebSockets' },
+      { name: 'Zod' },
+      { name: 'Drizzle ORM' },
+      { name: 'Pino' },
+    ],
+  },
+  {
+    key: 'ai_llm',
+    items: [
+      { name: 'Claude & OpenAI APIs' },
+      { name: 'MCP' },
+      { name: 'Multi-Agent Orchestration' },
+      { name: 'Eval Pipelines' },
+      { name: 'LLM-as-Judge' },
+    ],
+  },
+  {
+    key: 'automation',
+    items: [
+      { name: 'Puppeteer' },
+      { name: 'Chrome Extensions (MV3)' },
+      { name: 'AdsPower / Dolphin / Octo' },
+    ],
+  },
+  {
+    key: 'frontend',
+    items: [
+      { name: 'React' },
+      { name: 'Next.js' },
+      { name: 'TailwindCSS' },
+      { name: 'Recharts' },
+      { name: 'Three.js' },
     ],
   },
   {
@@ -54,10 +63,9 @@ export const skillCategories: SkillCategory[] = [
     items: [
       { name: 'Git' },
       { name: 'GitHub Actions' },
-      { name: 'Charles Proxy' },
-      { name: 'Puppeteer' },
-      { name: 'Zod' },
-      { name: 'Pino' },
+      { name: 'Railway' },
+      { name: 'Vercel' },
+      { name: 'Unit & Integration Tests' },
     ],
   },
 ]

@@ -2,9 +2,9 @@
   "nav": { "about": "À propos", "experience": "Expérience", "projects": "Projets", "skills": "Compétences", "contact": "Contact" },
   "hero": {
     "name": "Klim Sarakeev",
-    "title": "Ingénieur Automatisation",
-    "subtitle": "Je construis et teste des systèmes LLM, l'automatisation navigateur et les pipelines de données — spécialisé en QA pour les produits IA et data-intensive.",
-    "status_location": "Dilijan, Arménie · Ouvert à la relocalisation UE",
+    "title": "Ingénieur R&D / Backend",
+    "subtitle": "Je transforme des opérations manuelles en systèmes de production — services backend, automatisation navigateur, pipelines de données et intégrations LLM.",
+    "status_location": "Dilijan, Arménie · Ouvert à la relocalisation",
     "status_available": "Disponible pour travailler",
     "cta_cv": "Voir CV",
     "cta_github": "GitHub",
@@ -12,9 +12,9 @@
   },
   "about": {
     "label": "À propos",
-    "p1": "Ingénieur automatisation chez MST qui conçoit des frameworks de test, valide les flux de données API et streaming, et gère la partie difficile de la QA moderne : tester les sorties LLM non déterministes via eval sets, LLM-as-judge et régression qualité.",
+    "p1": "Ingénieur R&D orienté backend chez MST, qui transforme des opérations manuelles en systèmes de production — une plateforme d'automatisation navigateur, un système anti-fraude avec prédicteur de bannissement ML et une orchestration LLM à 7 agents. Je prends en charge les problèmes de bout en bout : conception de schémas et APIs, jobs en arrière-plan, durcissement sécurité, CI/CD et tests.",
     "p2": "J'ai commencé par le développement de jeux, puis la gestion de 100+ comptes Google Ads dans 20+ pays, avant de construire les outils d'automatisation — réduisant une équipe de 8 à 1, couvert par une suite de 93 tests. L'IA comme multiplicateur de force.",
-    "p3": "Aujourd'hui je travaille avec Python, TypeScript, PostgreSQL et Redis — construisant des systèmes qui mettent l'accent sur la testabilité, l'audit logging structuré, l'intégrité des données et l'observabilité en temps réel."
+    "p3": "Au quotidien : TypeScript/Node.js avec PostgreSQL, Redis et BullMQ, et Python pour les tâches orientées données. Solide base algorithmique issue de la programmation compétitive."
   },
   "experience": {
     "label": "Expérience",
@@ -23,13 +23,13 @@
         "title": "Ingénieur R&D",
         "company": "MST · Distant",
         "period": "Nov 2025 — Présent",
-        "description": "Python · TypeScript · Pytest · PostgreSQL · Redis · BullMQ · Puppeteer · Claude API · OpenAI API",
+        "description": "TypeScript · Node.js · Python · PostgreSQL · Redis · BullMQ · Fastify · Puppeteer · Claude API · OpenAI API",
         "highlights": [
-          "Construit système d'orchestration LLM à 7 agents — étapes testables, observables et reproductibles",
-          "Conçu pipeline d'éval LLM — datasets golden-answer, scoring LLM-as-judge, régression hallucinations",
-          "Construit pipelines de données pour détection d'anomalies avec audit logging et validation streaming",
-          "Livré plateforme d'automatisation navigateur — équipe réduite de 8 à 1, couvert par 93 tests",
-          "Mentoré ingénieur junior avec documentation et décomposition structurée des tâches"
+          "Conçu un système d'orchestration LLM à 7 agents (OpenAI + Anthropic) avec WebSocket streaming et handlers d'exécution d'étapes",
+          "Construit une plateforme d'automatisation navigateur — base en 3NF, 15 vulnérabilités critiques corrigées, synchronisation bidirectionnelle avec AdsPower, Dolphin et Octo Browser ; 93+ tests",
+          "Livré un système anti-fraude en 6 sprints — extension Chrome MV3, backend Fastify, dashboard React, prédicteur de bannissement par régression logistique ; 198 tests",
+          "Équipe opérationnelle réduite de 8 à 1 grâce à l'automatisation",
+          "Mentoré un ingénieur junior — passations complètes, documentation écrite, décomposition structurée des tâches"
         ]
       },
       {
@@ -51,18 +51,19 @@
   "projects": {
     "label": "Projets", "work_label": "Travail", "personal_label": "Personnel",
     "items": [
-      { "title": "Multi-Agent Campaign Manager", "description": "Système d'orchestration LLM à 7 agents (OpenAI + Anthropic) avec WebSocket streaming. Étapes des agents conçues pour être testables, observables et reproductibles.", "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API", "OpenAI API"], "category": "work" },
-      { "title": "Système de Détection de Risques", "description": "Pipelines de données automatisés et détection d'anomalies avec audit logging structuré. Validation des données streaming et time-series par déduplication et normalisation timezone.", "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "Claude API"], "category": "work" },
-      { "title": "Plateforme d'Automatisation Navigateur", "description": "Plateforme interne couvrant le cycle de vie complet des comptes. Effectif réduit de 8 à 1, couvert par une suite de 93 tests unitaires et d'intégration.", "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Puppeteer", "Railway"], "category": "work" },
-      { "title": "RepoRoast", "description": "Outil de code review alimenté par l'IA. 559+ visiteurs uniques la première semaine.", "tags": ["React", "Claude API", "Vercel"], "category": "personal", "live": "https://truer-repo-roast.vercel.app/" },
+      { "title": "Multi-Agent Campaign Manager", "description": "Système d'orchestration LLM à 7 agents sur les modèles OpenAI et Anthropic, avec WebSocket streaming, handlers d'exécution d'étapes et contexte navigateur complet.", "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API", "OpenAI API"], "category": "work" },
+      { "title": "Analytique Anti-Fraude", "description": "Système de détection de fraude Google Ads livré en 6 sprints : extension Chrome MV3, backend Fastify, dashboard React, prédicteur de bannissement par régression logistique et comparaison multi-modèles (Claude, GPT, Gemini). Livré avec CI/CD et 198 tests.", "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "Claude API"], "category": "work" },
+      { "title": "Plateforme d'Automatisation Navigateur", "description": "Plateforme interne de gestion de comptes publicitaires. Base normalisée en 3NF, 15 vulnérabilités critiques corrigées, couche repository extraite et synchronisation bidirectionnelle avec AdsPower, Dolphin et Octo Browser. Équipe opérationnelle réduite de 8 à 1 ; 93+ tests unitaires et d'intégration.", "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Puppeteer", "Railway"], "category": "work" },
+      { "title": "TrailPlanner", "description": "Planificateur d'itinéraires de randonnée SaaS développé en solo : rendu 3D du terrain, génération d'itinéraires alternatifs et estimation du temps de marche (fonction de Tobler). Modèle freemium en cours.", "tags": ["Next.js", "Mapbox", "Three.js", "BRouter", "Open-Meteo", "Vercel"], "category": "personal", "live": "https://trailplanner-hike.vercel.app/" },
+      { "title": "RepoRoast", "description": "Outil de code review par IA : analyse un dépôt GitHub public — structure, commits, dépendances, code — et renvoie une revue notée, classée par sévérité, en 11 langues. 559+ visiteurs uniques la première semaine.", "tags": ["Next.js", "Gemini API", "GitHub API", "Vercel"], "category": "personal", "live": "https://truer-repo-roast.vercel.app/" },
       { "title": "FinTrack", "description": "Finance tracker multi-devises axé intégrité des données — validation de schéma (Zod), RLS et dashboards analytiques. Déployé en PWA.", "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle ORM", "Zod", "Recharts"], "category": "personal", "live": "https://fintrack-amber-one.vercel.app/" },
       { "title": "t_report", "description": "Ingestion de données de marché live pour décomposition des risques, backtesting et recommandations LLM — conçu pour l'analyse reproductible sur données time-series.", "tags": ["Python", "FastAPI", "SQLite", "T-Bank Invest API"], "category": "personal" },
       { "title": "SnatchVid", "description": "Application de bureau Windows pour télécharger des vidéos depuis 1000+ plateformes. CI/CD automatisé avec GitHub Actions et vérification SHA-256.", "tags": ["Python", "Flask", "yt-dlp", "PyInstaller", "GitHub Actions"], "category": "personal", "live": "https://github.com/TruerDev/SnatchVid/releases" },
       { "title": "HistoryPrint", "description": "Carte du monde historique interactive.", "tags": ["TypeScript", "React"], "category": "personal", "live": "https://truer-history-print.vercel.app/" }
     ]
   },
-  "skills": { "label": "Compétences", "categories": { "test_automation": "Automatisation de Tests", "ai_testing": "IA / LLM Testing", "languages": "Langages", "data_backend": "Données & Backend", "tooling": "Tooling" } },
-  "contact": { "label": "Me contacter", "description": "Vous avez un projet en tête ou vous souhaitez simplement vous connecter ? N'hésitez pas.", "relocation": "Ouvert à la relocalisation — UE", "form": { "name": "Nom", "email": "Email", "message": "Message", "send": "Envoyer", "sending": "Envoi en cours...", "success": "Message envoyé ! Je vous répondrai bientôt.", "error": "Quelque chose s'est mal passé. Veuillez réessayer." } },
+  "skills": { "label": "Compétences", "categories": { "languages": "Langages", "data_backend": "Backend & Données", "ai_llm": "IA / LLM", "automation": "Automatisation & Navigateur", "frontend": "Frontend", "tooling": "DevOps & Outils" } },
+  "contact": { "label": "Me contacter", "description": "Vous avez un projet en tête ou vous souhaitez simplement vous connecter ? N'hésitez pas.", "relocation": "Ouvert à la relocalisation", "form": { "name": "Nom", "email": "Email", "message": "Message", "send": "Envoyer", "sending": "Envoi en cours...", "success": "Message envoyé ! Je vous répondrai bientôt.", "error": "Quelque chose s'est mal passé. Veuillez réessayer." } },
   "footer": { "designed": "Conçu et développé par Klim Sarakeev", "rights": "Tous droits réservés." },
   "stats": { "team_reduction": "Équipe réduite via automatisation", "test_suite": "Tests dans la suite core", "countries": "Pays opérés", "agents": "Agents IA en production" }
 }

@@ -2,9 +2,9 @@
   "nav": { "about": "Chi sono", "experience": "Esperienza", "projects": "Progetti", "skills": "Competenze", "contact": "Contatto" },
   "hero": {
     "name": "Klim Sarakeev",
-    "title": "Ingegnere dell'Automazione",
-    "subtitle": "Costruisco e testo sistemi LLM, automazione browser e data pipeline — specializzato in QA per prodotti AI e data-intensive.",
-    "status_location": "Dilijan, Armenia · Aperto al trasferimento UE",
+    "title": "Ingegnere R&S / Backend",
+    "subtitle": "Trasformo operazioni manuali in sistemi di produzione — servizi backend, automazione browser, data pipeline e integrazioni LLM.",
+    "status_location": "Dilijan, Armenia · Aperto al trasferimento",
     "status_available": "Disponibile per lavoro",
     "cta_cv": "Vedi CV",
     "cta_github": "GitHub",
@@ -12,9 +12,9 @@
   },
   "about": {
     "label": "Chi sono",
-    "p1": "Ingegnere dell'automazione presso MST che progetta framework di test, valida flussi di dati API e streaming, e affronta la parte difficile della QA moderna: testare output LLM non deterministici tramite eval set, LLM-as-judge e regressione sulla qualità delle risposte.",
+    "p1": "Ingegnere R&S orientato al backend presso MST, che trasforma operazioni manuali in sistemi di produzione — una piattaforma di automazione browser, un sistema antifrode con predittore di ban ML e un'orchestrazione LLM a 7 agenti. Seguo i problemi end-to-end: progettazione di schemi e API, job in background, hardening della sicurezza, CI/CD e test.",
     "p2": "Ho iniziato con lo sviluppo di videogiochi, poi gestione di 100+ account Google Ads in 20+ paesi, e infine costruzione degli strumenti di automazione — riducendo un team di 8 a 1, con copertura di 93 test. L'IA come moltiplicatore di forza, scegliendo il linguaggio per il compito.",
-    "p3": "Oggi lavoro con Python, TypeScript, PostgreSQL e Redis — costruendo sistemi che enfatizzano testabilità, audit logging strutturato, integrità dei dati e osservabilità in tempo reale."
+    "p3": "Ogni giorno lavoro con TypeScript/Node.js, PostgreSQL, Redis e BullMQ, e con Python per il lavoro sui dati. Solide basi algoritmiche dalla programmazione competitiva."
   },
   "experience": {
     "label": "Esperienza",
@@ -23,13 +23,13 @@
         "title": "Ingegnere R&S",
         "company": "MST · Remoto",
         "period": "Nov 2025 — Presente",
-        "description": "Python · TypeScript · Pytest · PostgreSQL · Redis · BullMQ · Puppeteer · Claude API · OpenAI API",
+        "description": "TypeScript · Node.js · Python · PostgreSQL · Redis · BullMQ · Fastify · Puppeteer · Claude API · OpenAI API",
         "highlights": [
-          "Costruito sistema di orchestrazione LLM a 7 agenti — step testabili, osservabili e riproducibili",
-          "Progettata pipeline di eval LLM — dataset golden-answer, scoring LLM-as-judge, regressione allucinazioni",
-          "Costruite data pipeline per anomaly detection con audit logging strutturato e validazione streaming",
-          "Consegnata piattaforma di automazione browser — team ridotto da 8 a 1, con 93 test",
-          "Mentorship di ingegnere junior con documentazione e scomposizione strutturata dei task"
+          "Progettato un sistema di orchestrazione LLM a 7 agenti (OpenAI + Anthropic) con WebSocket streaming e handler di esecuzione degli step",
+          "Costruita una piattaforma di automazione browser — database in 3NF, 15 vulnerabilità critiche chiuse, sincronizzazione bidirezionale con AdsPower, Dolphin e Octo Browser; 93+ test",
+          "Consegnato un sistema antifrode in 6 sprint — estensione Chrome MV3, backend Fastify, dashboard React, predittore di ban a regressione logistica; 198 test",
+          "Team operativo ridotto da 8 a 1 grazie all'automazione",
+          "Mentorship di un ingegnere junior — passaggi di progetto completi, documentazione scritta, scomposizione strutturata dei task"
         ]
       },
       {
@@ -51,18 +51,19 @@
   "projects": {
     "label": "Progetti", "work_label": "Lavoro", "personal_label": "Personale",
     "items": [
-      { "title": "Multi-Agent Campaign Manager", "description": "Sistema di orchestrazione LLM a 7 agenti (OpenAI + Anthropic) con WebSocket streaming. Step degli agenti progettati per essere testabili, osservabili e riproducibili.", "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API", "OpenAI API"], "category": "work" },
-      { "title": "Sistema di Rilevamento Rischi", "description": "Data pipeline automatizzate e anomaly detection con audit logging strutturato. Validazione dati streaming e time-series tramite deduplicazione e normalizzazione timezone.", "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "Claude API"], "category": "work" },
-      { "title": "Piattaforma di Automazione Browser", "description": "Piattaforma interna per l'intero ciclo di vita degli account. Ridotto il personale operativo da 8 a 1, con suite di 93 test unitari e di integrazione.", "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Puppeteer", "Railway"], "category": "work" },
-      { "title": "RepoRoast", "description": "Strumento di code review basato su IA. 559+ visitatori unici nella prima settimana.", "tags": ["React", "Claude API", "Vercel"], "category": "personal", "live": "https://truer-repo-roast.vercel.app/" },
+      { "title": "Multi-Agent Campaign Manager", "description": "Sistema di orchestrazione LLM a 7 agenti su modelli OpenAI e Anthropic, con WebSocket streaming, handler di esecuzione degli step e pieno contesto del browser.", "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API", "OpenAI API"], "category": "work" },
+      { "title": "Analisi Antifrode", "description": "Sistema di rilevamento frodi per Google Ads consegnato in 6 sprint: estensione Chrome MV3, backend Fastify, dashboard React, predittore di ban a regressione logistica e confronto multi-modello (Claude, GPT, Gemini). Rilasciato con CI/CD e 198 test.", "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "Claude API"], "category": "work" },
+      { "title": "Piattaforma di Automazione Browser", "description": "Piattaforma interna per la gestione degli account pubblicitari. Database normalizzato in 3NF, 15 vulnerabilità critiche chiuse, layer repository estratto e sincronizzazione bidirezionale con AdsPower, Dolphin e Octo Browser. Team operativo ridotto da 8 a 1; 93+ test unitari e di integrazione.", "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Puppeteer", "Railway"], "category": "work" },
+      { "title": "TrailPlanner", "description": "Pianificatore SaaS di percorsi escursionistici sviluppato in solitaria: rendering 3D del terreno, generazione di percorsi alternativi e stima dei tempi di cammino (funzione di Tobler). Modello freemium in arrivo.", "tags": ["Next.js", "Mapbox", "Three.js", "BRouter", "Open-Meteo", "Vercel"], "category": "personal", "live": "https://trailplanner-hike.vercel.app/" },
+      { "title": "RepoRoast", "description": "Strumento di code review con IA: analizza un repository GitHub pubblico — struttura, commit, dipendenze, codice — e restituisce una review con punteggio e livelli di gravità in 11 lingue. 559+ visitatori unici nella prima settimana.", "tags": ["Next.js", "Gemini API", "GitHub API", "Vercel"], "category": "personal", "live": "https://truer-repo-roast.vercel.app/" },
       { "title": "FinTrack", "description": "Finance tracker multi-valuta con focus su integrità dati — validazione schema (Zod), RLS e dashboard analitiche. Deploy come PWA.", "tags": ["Next.js", "TypeScript", "Supabase", "Drizzle ORM", "Zod", "Recharts"], "category": "personal", "live": "https://fintrack-amber-one.vercel.app/" },
       { "title": "t_report", "description": "Acquisisce dati di mercato live per decomposizione del rischio, backtesting e raccomandazioni LLM — progettato per analisi riproducibili su dati time-series.", "tags": ["Python", "FastAPI", "SQLite", "T-Bank Invest API"], "category": "personal" },
       { "title": "SnatchVid", "description": "App desktop Windows per scaricare video da 1000+ piattaforme. CI/CD automatizzato con GitHub Actions e verifica SHA-256.", "tags": ["Python", "Flask", "yt-dlp", "PyInstaller", "GitHub Actions"], "category": "personal", "live": "https://github.com/TruerDev/SnatchVid/releases" },
       { "title": "HistoryPrint", "description": "Mappa mondiale storica interattiva.", "tags": ["TypeScript", "React"], "category": "personal", "live": "https://truer-history-print.vercel.app/" }
     ]
   },
-  "skills": { "label": "Competenze", "categories": { "test_automation": "Test Automation", "ai_testing": "IA / LLM Testing", "languages": "Linguaggi", "data_backend": "Dati & Backend", "tooling": "Tooling" } },
-  "contact": { "label": "Contattami", "description": "Hai un progetto in mente o vuoi semplicemente connetterti? Non esitare a contattarmi.", "relocation": "Aperto al trasferimento — UE", "form": { "name": "Nome", "email": "Email", "message": "Messaggio", "send": "Invia messaggio", "sending": "Invio in corso...", "success": "Messaggio inviato! Ti risponderò presto.", "error": "Qualcosa è andato storto. Riprova." } },
+  "skills": { "label": "Competenze", "categories": { "languages": "Linguaggi", "data_backend": "Backend & Dati", "ai_llm": "IA / LLM", "automation": "Automazione & Browser", "frontend": "Frontend", "tooling": "DevOps & Strumenti" } },
+  "contact": { "label": "Contattami", "description": "Hai un progetto in mente o vuoi semplicemente connetterti? Non esitare a contattarmi.", "relocation": "Aperto al trasferimento", "form": { "name": "Nome", "email": "Email", "message": "Messaggio", "send": "Invia messaggio", "sending": "Invio in corso...", "success": "Messaggio inviato! Ti risponderò presto.", "error": "Qualcosa è andato storto. Riprova." } },
   "footer": { "designed": "Progettato e sviluppato da Klim Sarakeev", "rights": "Tutti i diritti riservati." },
   "stats": { "team_reduction": "Team ridotto tramite automazione", "test_suite": "Test nella suite core", "countries": "Paesi operati", "agents": "Agenti IA in produzione" }
 }

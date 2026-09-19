@@ -8,9 +8,9 @@
   },
   "hero": {
     "name": "Klim Sarakeev",
-    "title": "Automatisierungsingenieur",
-    "subtitle": "Ich baue und teste LLM-gestützte Systeme, Browser-Automatisierung und Datenpipelines — spezialisiert auf QA für KI- und datenintensive Produkte.",
-    "status_location": "Dilijan, Armenien · Offen für Umzug in die EU",
+    "title": "R&D / Backend Engineer",
+    "subtitle": "Ich verwandle manuelle Abläufe in Produktionssysteme — Backend-Services, Browser-Automatisierung, Datenpipelines und LLM-Integrationen.",
+    "status_location": "Dilijan, Armenien · Offen für Umzug",
     "status_available": "Verfügbar für Arbeit",
     "cta_cv": "CV ansehen",
     "cta_github": "GitHub",
@@ -18,9 +18,9 @@
   },
   "about": {
     "label": "Über mich",
-    "p1": "Automatisierungsingenieur bei MST, der Testframeworks entwirft, API- und Streaming-Datenflüsse validiert und den schwierigen Teil moderner QA bewältigt: das Testen nicht-deterministischer LLM-Ausgaben mittels Eval-Sets, LLM-as-Judge und Answer-Quality-Regression.",
+    "p1": "Backend-orientierter F&E-Ingenieur bei MST, der manuelle Abläufe in Produktionssysteme verwandelt — eine Browser-Automatisierungsplattform, ein Betrugserkennungssystem mit ML-Sperrvorhersage und eine 7-Agenten-LLM-Orchestrierung. Ich verantworte Probleme von Anfang bis Ende: Schema-Design und APIs, Hintergrundjobs, Security-Härtung, CI/CD und Tests.",
     "p2": "Angefangen mit Spieleentwicklung, dann Verwaltung von 100+ Google Ads-Konten in 20+ Ländern, dann Bau der Automatisierungstools selbst — Reduktion eines 8-Personen-Teams auf 1, abgesichert durch eine 93-Test-Suite. KI als Multiplikator nutzen und die Sprache für die Aufgabe wählen, nicht die Gewohnheit.",
-    "p3": "Heute arbeite ich mit Python, TypeScript, PostgreSQL und Redis — und baue Systeme, die Testbarkeit, strukturiertes Audit-Logging, Datenintegrität und Echtzeit-Observability betonen."
+    "p3": "Im Alltag arbeite ich mit TypeScript/Node.js, PostgreSQL, Redis und BullMQ, für datenintensive Aufgaben mit Python. Solides algorithmisches Fundament aus dem Wettbewerbsprogrammieren."
   },
   "experience": {
     "label": "Erfahrung",
@@ -29,13 +29,13 @@
         "title": "F&E-Ingenieur",
         "company": "MST · Remote",
         "period": "Nov 2025 — Heute",
-        "description": "Python · TypeScript · Pytest · PostgreSQL · Redis · BullMQ · Puppeteer · Claude API · OpenAI API",
+        "description": "TypeScript · Node.js · Python · PostgreSQL · Redis · BullMQ · Fastify · Puppeteer · Claude API · OpenAI API",
         "highlights": [
-          "7-Agenten-LLM-Orchestrierungssystem gebaut — Schritte testbar, beobachtbar und reproduzierbar gestaltet",
-          "LLM-Eval-Pipeline entworfen — Golden-Answer-Datensätze, LLM-as-Judge-Scoring, Halluzinations-Regression",
-          "Datenpipelines für Anomalieerkennung mit strukturiertem Audit-Logging und Streaming-Validierung gebaut",
-          "Browser-Automatisierungsplattform geliefert — Team von 8 auf 1 reduziert, abgesichert durch 93-Test-Suite",
-          "Junior-Ingenieur betreut mit Dokumentation und strukturierter Aufgabenaufteilung"
+          "7-Agenten-LLM-Orchestrierungssystem (OpenAI + Anthropic) mit WebSocket-Streaming und Schritt-Ausführungs-Handlern entworfen",
+          "Browser-Automatisierungsplattform gebaut — Datenbank in 3NF, 15 kritische Sicherheitslücken geschlossen, bidirektionale Synchronisierung mit AdsPower, Dolphin und Octo Browser; 93+ Tests",
+          "Anti-Fraud-System in 6 Sprints geliefert — MV3-Chrome-Erweiterung, Fastify-Backend, React-Dashboard, Sperrvorhersage per logistischer Regression; 198 Tests",
+          "Operatives Team durch Automatisierung von 8 auf 1 reduziert",
+          "Junior-Ingenieur betreut — vollständige Projektübergaben, schriftliche Dokumentation, strukturierte Aufgabenaufteilung"
         ]
       },
       {
@@ -65,26 +65,33 @@
     "items": [
       {
         "title": "Multi-Agenten-Kampagnenmanager",
-        "description": "7-Agenten-LLM-Orchestrierungssystem (OpenAI + Anthropic) mit WebSocket-Streaming und Schritt-Ausführungs-Handlern. Agenten-Schritte testbar, beobachtbar und reproduzierbar trotz nicht-deterministischer Modellausgabe.",
+        "description": "7-Agenten-LLM-Orchestrierungssystem auf OpenAI- und Anthropic-Modellen mit WebSocket-Streaming, Schritt-Ausführungs-Handlern und vollem Browser-Kontext.",
         "tags": ["Node.js", "TypeScript", "BullMQ", "Redis", "Claude API", "OpenAI API"],
         "category": "work"
       },
       {
-        "title": "Risikoerkennungssystem",
-        "description": "Automatisierte Datenpipelines und Anomalieerkennung mit strukturiertem Audit-Logging. Validiert Streaming- und Zeitreihendaten durch Deduplizierung, Zeitzonen-Normalisierung und Lückenbehandlung.",
+        "title": "Anti-Fraud-Analytik",
+        "description": "Betrugserkennungssystem für Google Ads, geliefert in 6 Sprints: MV3-Chrome-Erweiterung, Fastify-Backend, React-Dashboard, Sperrvorhersage per logistischer Regression und Multi-Modell-KI-Vergleich (Claude, GPT, Gemini). Mit CI/CD und 198 Tests ausgeliefert.",
         "tags": ["Chrome Extension", "Fastify", "React", "PostgreSQL", "Claude API"],
         "category": "work"
       },
       {
         "title": "Browser-Automatisierungsplattform",
-        "description": "Interne Plattform für den gesamten Konto-Lebenszyklus mit Echtzeit-Monitoring. Reduzierte die operative Personalstärke von 8 auf 1, abgesichert durch eine 93-Test-Unit-&-Integrations-Suite.",
+        "description": "Interne Plattform zur Verwaltung von Werbekonten. Datenbank in 3NF normalisiert, 15 kritische Sicherheitslücken geschlossen, Repository-Schicht extrahiert und bidirektionale Synchronisierung mit AdsPower, Dolphin und Octo Browser umgesetzt. Operatives Team von 8 auf 1 reduziert; 93+ Unit- & Integrationstests.",
         "tags": ["React", "Express", "PostgreSQL", "WebSocket", "Puppeteer", "Railway"],
         "category": "work"
       },
       {
+        "title": "TrailPlanner",
+        "description": "Allein entwickelter SaaS-Wanderroutenplaner mit 3D-Geländedarstellung, Generierung alternativer Routen und Gehzeitschätzung (Tobler-Funktion). Freemium-Modell in Arbeit.",
+        "tags": ["Next.js", "Mapbox", "Three.js", "BRouter", "Open-Meteo", "Vercel"],
+        "category": "personal",
+        "live": "https://trailplanner-hike.vercel.app/"
+      },
+      {
         "title": "RepoRoast",
-        "description": "KI-gestütztes Code-Review-Tool, das Repositories analysiert und detailliertes Feedback gibt. 559+ einzigartige Besucher in der ersten Woche.",
-        "tags": ["React", "Claude API", "Vercel"],
+        "description": "KI-Code-Review-Tool: analysiert ein öffentliches GitHub-Repository — Struktur, Commits, Abhängigkeiten, Code — und liefert ein bewertetes Review mit Schweregraden in 11 Sprachen. 559+ einzigartige Besucher in der ersten Woche.",
+        "tags": ["Next.js", "Gemini API", "GitHub API", "Vercel"],
         "category": "personal",
         "live": "https://truer-repo-roast.vercel.app/"
       },
@@ -120,17 +127,18 @@
   "skills": {
     "label": "Fähigkeiten",
     "categories": {
-      "test_automation": "Testautomatisierung",
-      "ai_testing": "KI / LLM Testing",
       "languages": "Sprachen",
-      "data_backend": "Daten & Backend",
-      "tooling": "Tooling"
+      "data_backend": "Backend & Daten",
+      "ai_llm": "KI / LLM",
+      "automation": "Automatisierung & Browser",
+      "frontend": "Frontend",
+      "tooling": "DevOps & Tooling"
     }
   },
   "contact": {
     "label": "Kontakt aufnehmen",
     "description": "Haben Sie ein Projekt im Sinn oder möchten Sie sich einfach vernetzen? Schreiben Sie mir gerne.",
-    "relocation": "Offen für Umzug — EU",
+    "relocation": "Offen für Umzug",
     "form": { "name": "Name", "email": "E-Mail", "message": "Nachricht", "send": "Nachricht senden", "sending": "Wird gesendet...", "success": "Nachricht gesendet! Ich melde mich bald bei Ihnen.", "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut." }
   },
   "footer": { "designed": "Entworfen & entwickelt von Klim Sarakeev", "rights": "Alle Rechte vorbehalten." },
